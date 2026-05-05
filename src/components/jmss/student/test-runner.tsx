@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { PracticeTest, Question } from "@/types/test";
 import { buildLocalCoachFeedback } from "@/lib/feedback/local-coach";
+import { QuestionPalette } from "@/components/jmss/student/question-palette";
 
 interface TestRunnerProps {
   test: PracticeTest;
@@ -45,6 +46,11 @@ export function TestRunner({ test }: TestRunnerProps) {
   const [aiFeedback, setAiFeedback] = useState<Record<string, AIFeedback>>({});
   const [aiLoading, setAiLoading] = useState<Record<string, boolean>>({});
   const [aiError, setAiError] = useState<Record<string, string>>({});
+  const [flaggedQuestions, setFlaggedQuestions] = useState<Record<string, boolean>>({});
+
+  function toggleFlag(questionId: string) {
+    setFlaggedQuestions((prev) => ({ ...prev, [questionId]: !prev[questionId] }));
+  }
 
   useEffect(() => {
     async function loadRuntimeConfig() {
@@ -183,12 +189,26 @@ export function TestRunner({ test }: TestRunnerProps) {
       </div>
 
       {!submitted ? (
-        <div className="space-y-6">
+        <div className="grid gap-6 xl:grid-cols-[1fr_260px]">
+          <div className="space-y-6">
           <div className="rounded-3xl border border-white/70 bg-white/90 p-5 shadow-calm">
-            <div className="mb-4 flex flex-wrap items-center gap-2">
-              <span className="rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white">Question {questionIndex + 1}</span>
-              <span className="rounded-full bg-sky-100 px-3 py-1 text-xs text-sky-700">{question.section}</span>
-              <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-700">{question.topic}</span>
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="rounded-full bg-slate-900 px-3 py-1 text-xs font-medium text-white">Question {questionIndex + 1}</span>
+                <span className="rounded-full bg-sky-100 px-3 py-1 text-xs text-sky-700">{question.section}</span>
+                <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-700">{question.topic}</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => toggleFlag(question.id)}
+                className={`rounded-2xl border px-3 py-1.5 text-xs font-medium transition ${
+                  flaggedQuestions[question.id]
+                    ? "border-amber-300 bg-amber-50 text-amber-700"
+                    : "border-slate-200 bg-white text-slate-500 hover:border-amber-300 hover:text-amber-600"
+                }`}
+              >
+                {flaggedQuestions[question.id] ? "🚩 Flagged" : "🏳 Flag"}
+              </button>
             </div>
             <h2 className="text-lg font-semibold text-slate-900">{question.prompt}</h2>
 
@@ -369,12 +389,21 @@ export function TestRunner({ test }: TestRunnerProps) {
           </div>
 
           <div className="flex flex-wrap justify-between gap-3">
-            <button type="button" disabled={questionIndex === 0} onClick={() => setQuestionIndex((prev) => Math.max(0, prev - 1))} className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50">Previous Question</button>
+            <button type="button" disabled={questionIndex === 0} onClick={() => setQuestionIndex((prev) => Math.max(0, prev - 1))} className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50">← Previous</button>
             <div className="flex flex-wrap gap-3">
-              <button type="button" disabled={questionIndex >= test.questions.length - 1} onClick={() => setQuestionIndex((prev) => Math.min(test.questions.length - 1, prev + 1))} className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50">Next Question</button>
+              <button type="button" disabled={questionIndex >= test.questions.length - 1} onClick={() => setQuestionIndex((prev) => Math.min(test.questions.length - 1, prev + 1))} className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50">Next →</button>
               <button type="button" onClick={() => setSubmitted(true)} className="rounded-2xl bg-slate-900 px-5 py-3 font-medium text-white hover:bg-slate-800">Submit Test</button>
             </div>
           </div>
+          </div>
+          <QuestionPalette
+            questions={test.questions}
+            currentIndex={questionIndex}
+            answers={answers}
+            checkedAnswers={checkedAnswers}
+            flaggedQuestions={flaggedQuestions}
+            onJump={(index) => setQuestionIndex(index)}
+          />
         </div>
       ) : (
         <div className="card-shell p-6">
