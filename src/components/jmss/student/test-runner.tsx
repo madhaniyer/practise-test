@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import type { PracticeTest, Question } from "@/types/test";
+import { buildLocalCoachFeedback } from "@/lib/feedback/local-coach";
 
 interface TestRunnerProps {
   test: PracticeTest;
@@ -50,12 +51,19 @@ export function TestRunner({ test }: TestRunnerProps) {
 
   const checked = question ? !!checkedAnswers[question.id] : false;
   const answer = question ? answers[question.id] : undefined;
-
   const progress = Math.round(((questionIndex + 1) / test.questions.length) * 100);
 
   if (!question) {
     return <div className="card-shell p-6">No questions found.</div>;
   }
+
+  const localCoach = checked && question.type === "written"
+    ? buildLocalCoachFeedback({
+        answer: typeof answer === "string" ? answer : "",
+        modelAnswer: question.modelAnswer ?? "",
+        section: question.section,
+      })
+    : null;
 
   return (
     <div className="space-y-6">
@@ -116,7 +124,7 @@ export function TestRunner({ test }: TestRunnerProps) {
             ) : (
               <textarea
                 className="mt-4 w-full rounded-3xl border border-slate-200 bg-slate-50 p-4 text-sm leading-7 text-slate-700 outline-none transition focus:border-slate-400 focus:bg-white disabled:cursor-not-allowed disabled:opacity-90"
-                rows={8}
+                rows={10}
                 placeholder="Write your response here..."
                 disabled={checked}
                 value={typeof answer === "string" ? answer : ""}
@@ -157,74 +165,67 @@ export function TestRunner({ test }: TestRunnerProps) {
                   </div>
                 </div>
               ) : (
-                <div className="mt-4 grid gap-3 lg:grid-cols-2">
-                  <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                    <div className="mb-2 text-xs uppercase tracking-[0.18em] text-slate-500">Your response</div>
-                    <p className="text-sm leading-7 text-slate-700 whitespace-pre-wrap">{typeof answer === "string" ? answer : "No response"}</p>
+                <div className="mt-4 space-y-4">
+                  <div className="grid gap-3 lg:grid-cols-2">
+                    <div className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                      <div className="mb-2 text-xs uppercase tracking-[0.18em] text-slate-500">Your response</div>
+                      <p className="text-sm leading-7 text-slate-700 whitespace-pre-wrap">{typeof answer === "string" ? answer : "No response"}</p>
+                    </div>
+                    <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
+                      <div className="mb-2 text-sm font-semibold text-sky-700">Top-band model answer</div>
+                      <p className="text-sm leading-7 text-slate-700 whitespace-pre-wrap">{question.modelAnswer}</p>
+                      {question.rubric?.length ? (
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          {question.rubric.map((item) => (
+                            <span key={item} className="rounded-full bg-white px-3 py-1 text-xs text-slate-700">{item}</span>
+                          ))}
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
-                  <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
-                    <div className="mb-2 text-sm font-semibold text-sky-700">Model answer / guide</div>
-                    <p className="text-sm leading-7 text-slate-700 whitespace-pre-wrap">{question.modelAnswer}</p>
-                    {question.rubric?.length ? (
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        {question.rubric.map((item) => (
-                          <span key={item} className="rounded-full bg-white px-3 py-1 text-xs text-slate-700">{item}</span>
-                        ))}
+
+                  {localCoach ? (
+                    <div className="rounded-2xl border border-amber-100 bg-amber-50 p-4">
+                      <div className="mb-2 text-sm font-semibold text-amber-700">Local Coach Feedback (Phase 5 without persistence)</div>
+                      <p className="mb-3 text-sm text-slate-700">{localCoach.headline}</p>
+                      <div className="grid gap-4 md:grid-cols-2">
+                        <div>
+                          <div className="mb-2 text-sm font-semibold text-emerald-700">What is working</div>
+                          <ul className="space-y-2 text-sm text-slate-700">
+                            {localCoach.strengths.length ? localCoach.strengths.map((item) => <li key={item}>• {item}</li>) : <li>• Keep building your scientific detail and structure.</li>}
+                          </ul>
+                        </div>
+                        <div>
+                          <div className="mb-2 text-sm font-semibold text-rose-700">Next step to improve</div>
+                          <ul className="space-y-2 text-sm text-slate-700">
+                            {localCoach.improvements.length ? localCoach.improvements.map((item) => <li key={item}>• {item}</li>) : <li>• Refine wording and keep strengthening explanation quality.</li>}
+                          </ul>
+                        </div>
                       </div>
-                    ) : null}
-                  </div>
+                    </div>
+                  ) : null}
                 </div>
               )
             ) : null}
           </div>
 
           <div className="flex flex-wrap justify-between gap-3">
-            <button
-              type="button"
-              disabled={questionIndex === 0}
-              onClick={() => setQuestionIndex((prev) => Math.max(0, prev - 1))}
-              className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50"
-            >
-              Previous Question
-            </button>
+            <button type="button" disabled={questionIndex === 0} onClick={() => setQuestionIndex((prev) => Math.max(0, prev - 1))} className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50">Previous Question</button>
             <div className="flex flex-wrap gap-3">
-              <button
-                type="button"
-                disabled={questionIndex >= test.questions.length - 1}
-                onClick={() => setQuestionIndex((prev) => Math.min(test.questions.length - 1, prev + 1))}
-                className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50"
-              >
-                Next Question
-              </button>
-              <button
-                type="button"
-                onClick={() => setSubmitted(true)}
-                className="rounded-2xl bg-slate-900 px-5 py-3 font-medium text-white hover:bg-slate-800"
-              >
-                Submit Test
-              </button>
+              <button type="button" disabled={questionIndex >= test.questions.length - 1} onClick={() => setQuestionIndex((prev) => Math.min(test.questions.length - 1, prev + 1))} className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 disabled:cursor-not-allowed disabled:opacity-50">Next Question</button>
+              <button type="button" onClick={() => setSubmitted(true)} className="rounded-2xl bg-slate-900 px-5 py-3 font-medium text-white hover:bg-slate-800">Submit Test</button>
             </div>
           </div>
         </div>
       ) : (
         <div className="card-shell p-6">
           <h2 className="text-2xl font-semibold text-slate-900">Test Summary</h2>
-          <p className="mt-2 text-slate-600">You have completed the test. Use the information below to reflect before your next attempt.</p>
+          <p className="mt-2 text-slate-600">This is Phase 4 + 5 without persistence: stronger top-band answers and richer in-session coaching, but no database save yet.</p>
           <div className="mt-6 grid gap-4 md:grid-cols-4">
             <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">MCQ Score</div><div className="mt-2 text-3xl font-semibold text-slate-900">{score}%</div></div>
             <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">Correct MCQs</div><div className="mt-2 text-3xl font-semibold text-slate-900">{mcqCorrect}/{mcqQuestions.length}</div></div>
             <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">Written Questions</div><div className="mt-2 text-3xl font-semibold text-slate-900">{writtenQuestions.length}</div></div>
             <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">Time Used</div><div className="mt-2 text-3xl font-semibold text-slate-900">{formatClock(test.durationSec - timeLeft)}</div></div>
-          </div>
-          <div className="mt-6 grid gap-4 md:grid-cols-2">
-            <div className="rounded-2xl bg-emerald-50 p-4 text-sm text-emerald-800">
-              <div className="mb-2 font-semibold">What went well</div>
-              You completed a full-format practice set and reviewed answers in a disciplined way. The locked-answer workflow prevents second-guessing after feedback is revealed.
-            </div>
-            <div className="rounded-2xl bg-amber-50 p-4 text-sm text-amber-800">
-              <div className="mb-2 font-semibold">What to improve</div>
-              Use the checked-answer explanations and model responses to identify patterns in your reasoning, structure, and scientific language.
-            </div>
           </div>
         </div>
       )}
