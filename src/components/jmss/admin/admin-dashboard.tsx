@@ -5,7 +5,7 @@ import { HeaderShell } from "@/components/jmss/shared/header-shell";
 export function AdminDashboard() {
   return (
     <div className="space-y-6">
-      <HeaderShell badge="Admin Control Centre" title="JMSS Practice Suite Dashboard" subtitle="Release tests, monitor performance, and inspect granular student attempt detail." />
+      <HeaderShell badge="Admin Control Centre" title="JMSS Practice Suite Dashboard" subtitle="Release tests, monitor performance, and inspect granular student attempt detail." homeHref="/admin/dashboard" />
 
       <div className="grid gap-4 md:grid-cols-4">
         {[

@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { mockAttempts } from "@/lib/tests/mock-data";
 import { requireRole } from "@/lib/auth/guards";
+import { NavButtons } from "@/components/jmss/shared/nav-buttons";
 
 export default async function AdminAttemptsPage() {
   await requireRole("admin");
   return (
     <div className="card-shell p-6">
+      <div className="mb-4 flex justify-end"><NavButtons homeHref="/admin/dashboard" /></div>
       <h1 className="text-3xl font-semibold text-slate-900">Admin Attempt Inspector</h1>
       <p className="mt-2 text-slate-600">This page will host filters, section summaries, and question-level review for each attempt.</p>
       <div className="mt-6 space-y-3">

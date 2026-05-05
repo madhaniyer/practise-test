@@ -13,7 +13,10 @@ export default function JMSSPracticeSuite() {
           <Link href="/admin/dashboard" className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 hover:bg-slate-50">Admin preview</Link>
         </div>
       </section>
-      <section className="card-shell p-6"><h2 className="text-2xl font-semibold text-slate-900">Compatibility wrapper</h2><p className="mt-3 text-slate-700">Use the route-based app under <code>/student</code> and <code>/admin</code> for the real scaffold.</p></section>
+      <section className="card-shell p-6">
+        <h2 className="text-2xl font-semibold text-slate-900">Compatibility wrapper</h2>
+        <p className="mt-3 text-slate-700">Use the route-based app under <code>/student</code> and <code>/admin</code> for the real scaffold.</p>
+      </section>
     </div>
   );
 }

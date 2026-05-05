@@ -3,31 +3,85 @@ import { mockAttempts, mockTests } from "@/lib/tests/mock-data";
 import { HeaderShell } from "@/components/jmss/shared/header-shell";
 
 export function StudentDashboard() {
-  const released = mockTests.filter((test) => test.released);
+  const trialTests = mockTests.filter((test) => test.kind === "trial" && test.released);
+  const fullReleased = mockTests.filter((test) => test.kind === "full" && test.released);
+  const fullLocked = mockTests.filter((test) => test.kind === "full" && !test.released);
 
   return (
     <div className="space-y-6">
-      <HeaderShell badge="Student Mode" title="JMSS Student Dashboard" subtitle="Build confidence with timed practice, premium answer review, and intelligent next-step coaching." />
+      <HeaderShell
+        badge="Student Mode"
+        title="JMSS Student Dashboard"
+        subtitle="Start with two short sample tests, then move into full tests as they are released."
+        homeHref="/student/dashboard"
+      />
 
-      <div className="grid gap-6 xl:grid-cols-[1.15fr_0.85fr]">
-        <section className="card-shell p-6">
-          <h2 className="text-xl font-semibold text-slate-900">Released Practice Tests</h2>
-          <p className="mt-1 text-sm text-slate-600">Only tests released by the admin appear here.</p>
-          <div className="mt-5 grid gap-4 md:grid-cols-2">
-            {released.map((test) => (
-              <div key={test.id} className="rounded-[28px] border border-slate-100 bg-slate-50/80 p-5">
-                <div className="rounded-3xl bg-gradient-to-r from-sky-500 to-cyan-400 p-5 text-white">
-                  <div className="text-sm font-medium text-white/80">Ready</div>
-                  <h3 className="mt-2 text-xl font-semibold">{test.title}</h3>
-                  <p className="mt-1 text-sm text-white/90">{test.subtitle}</p>
+      <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
+        <section className="space-y-6">
+          <div className="card-shell p-6">
+            <h2 className="text-xl font-semibold text-slate-900">Trial / Sample Tests</h2>
+            <p className="mt-1 text-sm text-slate-600">These two sample tests are available immediately and are limited to 15 minutes each.</p>
+            <div className="mt-5 grid gap-4 md:grid-cols-2">
+              {trialTests.map((test) => (
+                <div key={test.id} className="rounded-[28px] border border-slate-100 bg-slate-50/80 p-5">
+                  <div className="rounded-3xl bg-gradient-to-r from-emerald-500 to-teal-400 p-5 text-white">
+                    <div className="text-sm font-medium text-white/80">Trial</div>
+                    <h3 className="mt-2 text-xl font-semibold">{test.title}</h3>
+                    <p className="mt-1 text-sm text-white/90">{test.subtitle}</p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between text-sm text-slate-600">
+                    <span>{test.questions.length} questions</span>
+                    <span>{Math.round(test.durationSec / 60)} min</span>
+                  </div>
+                  <Link href={`/student/tests/${test.id}`} className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-4 py-3 font-medium text-white hover:bg-slate-800">
+                    Start Trial Test
+                  </Link>
                 </div>
-                <div className="mt-4 flex items-center justify-between text-sm text-slate-600">
-                  <span>{test.questions.length} questions</span>
-                  <span>{Math.round(test.durationSec / 60)} min</span>
+              ))}
+            </div>
+          </div>
+
+          <div className="card-shell p-6">
+            <h2 className="text-xl font-semibold text-slate-900">Released Full Tests</h2>
+            <p className="mt-1 text-sm text-slate-600">These are the full practice tests currently released for the student.</p>
+            <div className="mt-5 grid gap-4 md:grid-cols-2">
+              {fullReleased.map((test) => (
+                <div key={test.id} className="rounded-[28px] border border-slate-100 bg-slate-50/80 p-5">
+                  <div className="rounded-3xl bg-gradient-to-r from-sky-500 to-cyan-400 p-5 text-white">
+                    <div className="text-sm font-medium text-white/80">Full Test</div>
+                    <h3 className="mt-2 text-xl font-semibold">{test.title}</h3>
+                    <p className="mt-1 text-sm text-white/90">{test.subtitle}</p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between text-sm text-slate-600">
+                    <span>{test.questions.length} questions</span>
+                    <span>{Math.round(test.durationSec / 60)} min</span>
+                  </div>
+                  <Link href={`/student/tests/${test.id}`} className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-4 py-3 font-medium text-white hover:bg-slate-800">
+                    Start Full Test
+                  </Link>
                 </div>
-                <Link href={`/student/tests/${test.id}`} className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-4 py-3 font-medium text-white hover:bg-slate-800">Start Test</Link>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          <div className="card-shell p-6">
+            <h2 className="text-xl font-semibold text-slate-900">Locked Full Tests</h2>
+            <p className="mt-1 text-sm text-slate-600">These full tests exist but are not yet released to the student.</p>
+            <div className="mt-5 grid gap-4 md:grid-cols-2">
+              {fullLocked.map((test) => (
+                <div key={test.id} className="rounded-[28px] border border-dashed border-slate-200 bg-slate-50/80 p-5 opacity-80">
+                  <div className="rounded-3xl bg-slate-200 p-5 text-slate-700">
+                    <div className="text-sm font-medium">Locked</div>
+                    <h3 className="mt-2 text-xl font-semibold">{test.title}</h3>
+                    <p className="mt-1 text-sm">{test.subtitle}</p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between text-sm text-slate-500">
+                    <span>{Math.round(test.durationSec / 60)} min</span>
+                    <span>Awaiting release</span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
@@ -35,8 +89,14 @@ export function StudentDashboard() {
           <div className="card-shell p-6">
             <h2 className="text-xl font-semibold text-slate-900">Progress Snapshot</h2>
             <div className="mt-4 grid grid-cols-2 gap-4">
-              <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">Attempts</div><div className="mt-2 text-3xl font-semibold text-slate-900">{mockAttempts.length}</div></div>
-              <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">Best Score</div><div className="mt-2 text-3xl font-semibold text-slate-900">72%</div></div>
+              <div className="rounded-2xl bg-slate-50 p-4">
+                <div className="text-sm text-slate-500">Attempts</div>
+                <div className="mt-2 text-3xl font-semibold text-slate-900">{mockAttempts.length}</div>
+              </div>
+              <div className="rounded-2xl bg-slate-50 p-4">
+                <div className="text-sm text-slate-500">Best Score</div>
+                <div className="mt-2 text-3xl font-semibold text-slate-900">72%</div>
+              </div>
             </div>
           </div>
 

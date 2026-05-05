@@ -28,7 +28,8 @@ export function LoginForm() {
       return;
     }
 
-    window.location.href = redirectTo;
+    router.push(redirectTo);
+    router.refresh();
   };
 
   return (
