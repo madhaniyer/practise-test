@@ -8,6 +8,27 @@ interface TestRunnerProps {
   test: PracticeTest;
 }
 
+interface RuntimeConfig {
+  feedbackMode: "ai" | "local";
+}
+
+interface AIFeedback {
+  headline: string;
+  estimatedBand: string;
+  jmssFocusAreas: string[];
+  criterionScores: {
+    scientificAccuracy: string;
+    reasoningAndLogic: string;
+    evidenceAndUseOfData: string;
+    structureAndOrganisation: string;
+    scientificExpression: string;
+  };
+  strengths: string[];
+  improvements: string[];
+  rewriteTip: string;
+  nextStepExercise: string;
+}
+
 function formatClock(totalSeconds: number) {
   const mins = Math.floor(Math.max(0, totalSeconds) / 60).toString().padStart(2, "0");
   const secs = Math.floor(Math.max(0, totalSeconds) % 60).toString().padStart(2, "0");
@@ -20,6 +41,26 @@ export function TestRunner({ test }: TestRunnerProps) {
   const [timeLeft, setTimeLeft] = useState(test.durationSec);
   const [submitted, setSubmitted] = useState(false);
   const [questionIndex, setQuestionIndex] = useState(0);
+  const [runtimeConfig, setRuntimeConfig] = useState<RuntimeConfig>({ feedbackMode: "local" });
+  const [aiFeedback, setAiFeedback] = useState<Record<string, AIFeedback>>({});
+  const [aiLoading, setAiLoading] = useState<Record<string, boolean>>({});
+  const [aiError, setAiError] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    async function loadRuntimeConfig() {
+      try {
+        const response = await fetch("/api/admin/runtime-config", { cache: "no-store" });
+        const payload = await response.json();
+        if (response.ok && payload?.feedbackMode) {
+          setRuntimeConfig(payload);
+        }
+      } catch {
+        // Leave the default local mode in place if config cannot be loaded.
+      }
+    }
+
+    loadRuntimeConfig();
+  }, []);
 
   useEffect(() => {
     if (submitted) return;
@@ -49,6 +90,52 @@ export function TestRunner({ test }: TestRunnerProps) {
     return typeof answer === "string" && answer.trim().length > 0;
   };
 
+  async function fetchAIFeedback(question: Question, studentAnswer: string) {
+    if (aiFeedback[question.id] || aiLoading[question.id]) return;
+
+    setAiLoading((prev) => ({ ...prev, [question.id]: true }));
+    setAiError((prev) => ({ ...prev, [question.id]: "" }));
+
+    try {
+      const response = await fetch("/api/ai/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          section: question.section,
+          rubric: question.rubric,
+          prompt: question.prompt,
+          studentAnswer,
+          modelAnswer: question.modelAnswer,
+        }),
+      });
+
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload?.detail || payload?.error || "AI feedback request failed");
+      }
+
+      setAiFeedback((prev) => ({ ...prev, [question.id]: payload.feedback }));
+    } catch (error) {
+      setAiError((prev) => ({
+        ...prev,
+        [question.id]: error instanceof Error ? error.message : "Unknown AI feedback error",
+      }));
+    } finally {
+      setAiLoading((prev) => ({ ...prev, [question.id]: false }));
+    }
+  }
+
+  const handleCheckAnswer = (question: Question) => {
+    setCheckedAnswers((prev) => ({ ...prev, [question.id]: true }));
+
+    if (question.type === "written" && runtimeConfig.feedbackMode === "ai") {
+      const studentAnswer = typeof answers[question.id] === "string" ? String(answers[question.id]) : "";
+      if (studentAnswer.trim()) {
+        fetchAIFeedback(question, studentAnswer);
+      }
+    }
+  };
+
   const checked = question ? !!checkedAnswers[question.id] : false;
   const answer = question ? answers[question.id] : undefined;
   const progress = Math.round(((questionIndex + 1) / test.questions.length) * 100);
@@ -65,6 +152,10 @@ export function TestRunner({ test }: TestRunnerProps) {
       })
     : null;
 
+  const shouldShowLocalCoach = question.type === "written" && checked && (
+    runtimeConfig.feedbackMode === "local" || !!aiError[question.id]
+  );
+
   return (
     <div className="space-y-6">
       <div className="card-shell p-6">
@@ -75,6 +166,9 @@ export function TestRunner({ test }: TestRunnerProps) {
                 {test.kind === "trial" ? "Trial Test" : "Full Test"}
               </span>
               <span className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-700">Question {questionIndex + 1} of {test.questions.length}</span>
+              <span className={`rounded-full px-3 py-1 text-xs font-medium ${runtimeConfig.feedbackMode === "ai" ? "bg-fuchsia-100 text-fuchsia-700" : "bg-amber-100 text-amber-700"}`}>
+                {runtimeConfig.feedbackMode === "ai" ? "AI Coach Enabled" : "Local Coach Enabled"}
+              </span>
             </div>
             <h1 className="text-3xl font-semibold text-slate-900">{test.title}</h1>
             <p className="mt-1 text-slate-600">{test.subtitle}</p>
@@ -136,7 +230,7 @@ export function TestRunner({ test }: TestRunnerProps) {
               <button
                 type="button"
                 disabled={!canCheck(question)}
-                onClick={() => setCheckedAnswers((prev) => ({ ...prev, [question.id]: true }))}
+                onClick={() => handleCheckAnswer(question)}
                 className="rounded-2xl bg-slate-900 px-4 py-2 text-sm font-medium text-white disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {checked ? "Answer Checked" : "Check Answer"}
@@ -184,9 +278,12 @@ export function TestRunner({ test }: TestRunnerProps) {
                     </div>
                   </div>
 
-                  {localCoach ? (
+                  {shouldShowLocalCoach && localCoach ? (
                     <div className="rounded-2xl border border-amber-100 bg-amber-50 p-4">
-                      <div className="mb-2 text-sm font-semibold text-amber-700">Local Coach Feedback (Phase 5 without persistence)</div>
+                      <div className="mb-2 text-sm font-semibold text-amber-700">
+                        {runtimeConfig.feedbackMode === "local" ? "Local Coach Feedback" : "Fallback Local Coach Feedback"}
+                      </div>
+                      {aiError[question.id] ? <p className="mb-3 text-sm text-rose-700">AI feedback failed, so local coach mode has surfaced automatically: {aiError[question.id]}</p> : null}
                       <p className="mb-3 text-sm text-slate-700">{localCoach.headline}</p>
                       <div className="grid gap-4 md:grid-cols-2">
                         <div>
@@ -202,6 +299,68 @@ export function TestRunner({ test }: TestRunnerProps) {
                           </ul>
                         </div>
                       </div>
+                    </div>
+                  ) : null}
+
+                  {runtimeConfig.feedbackMode === "ai" ? (
+                    <div className="rounded-2xl border border-fuchsia-100 bg-fuchsia-50 p-4">
+                      <div className="mb-2 text-sm font-semibold text-fuchsia-700">AI Coach Feedback (Phase 7 JMSS-specific)</div>
+                      {aiLoading[question.id] ? (
+                        <p className="text-sm text-slate-700">Generating personalised JMSS-specific AI feedback...</p>
+                      ) : aiError[question.id] ? (
+                        <p className="text-sm text-rose-700">AI feedback could not be shown. Local coach fallback is active instead.</p>
+                      ) : aiFeedback[question.id] ? (
+                        <div className="space-y-4 text-sm text-slate-700">
+                          <div>
+                            <div className="font-semibold text-slate-900">{aiFeedback[question.id].headline}</div>
+                            <div className="mt-1 inline-flex rounded-full bg-white px-3 py-1 text-xs text-fuchsia-700">Estimated band: {aiFeedback[question.id].estimatedBand}</div>
+                          </div>
+
+                          <div>
+                            <div className="mb-2 font-semibold text-slate-900">JMSS focus areas</div>
+                            <div className="flex flex-wrap gap-2">
+                              {aiFeedback[question.id].jmssFocusAreas.map((item) => (
+                                <span key={item} className="rounded-full bg-white px-3 py-1 text-xs text-slate-700">{item}</span>
+                              ))}
+                            </div>
+                          </div>
+
+                          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+                            {Object.entries(aiFeedback[question.id].criterionScores).map(([key, value]) => (
+                              <div key={key} className="rounded-2xl bg-white p-3">
+                                <div className="text-xs uppercase tracking-[0.18em] text-slate-500">{key}</div>
+                                <div className="mt-2 font-semibold text-slate-900">{value}</div>
+                              </div>
+                            ))}
+                          </div>
+
+                          <div className="grid gap-4 md:grid-cols-2">
+                            <div>
+                              <div className="mb-2 font-semibold text-emerald-700">Specific strengths</div>
+                              <ul className="space-y-2">
+                                {aiFeedback[question.id].strengths.map((item) => <li key={item}>• {item}</li>)}
+                              </ul>
+                            </div>
+                            <div>
+                              <div className="mb-2 font-semibold text-rose-700">Specific improvements</div>
+                              <ul className="space-y-2">
+                                {aiFeedback[question.id].improvements.map((item) => <li key={item}>• {item}</li>)}
+                              </ul>
+                            </div>
+                          </div>
+
+                          <div className="rounded-2xl bg-white p-4">
+                            <div className="mb-1 font-semibold text-slate-900">Rewrite tip</div>
+                            <p>{aiFeedback[question.id].rewriteTip}</p>
+                          </div>
+                          <div className="rounded-2xl bg-white p-4">
+                            <div className="mb-1 font-semibold text-slate-900">Next-step exercise</div>
+                            <p>{aiFeedback[question.id].nextStepExercise}</p>
+                          </div>
+                        </div>
+                      ) : (
+                        <p className="text-sm text-slate-700">AI feedback will appear here after the written answer has been checked.</p>
+                      )}
                     </div>
                   ) : null}
                 </div>
@@ -220,7 +379,7 @@ export function TestRunner({ test }: TestRunnerProps) {
       ) : (
         <div className="card-shell p-6">
           <h2 className="text-2xl font-semibold text-slate-900">Test Summary</h2>
-          <p className="mt-2 text-slate-600">This is Phase 4 + 5 without persistence: stronger top-band answers and richer in-session coaching, but no database save yet.</p>
+          <p className="mt-2 text-slate-600">This phase gives you admin-controlled feedback mode, true AI critique, and automatic local fallback — still without persistence.</p>
           <div className="mt-6 grid gap-4 md:grid-cols-4">
             <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">MCQ Score</div><div className="mt-2 text-3xl font-semibold text-slate-900">{score}%</div></div>
             <div className="rounded-2xl bg-slate-50 p-4"><div className="text-sm text-slate-500">Correct MCQs</div><div className="mt-2 text-3xl font-semibold text-slate-900">{mcqCorrect}/{mcqQuestions.length}</div></div>

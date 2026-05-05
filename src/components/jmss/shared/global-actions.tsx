@@ -1,8 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { ArrowLeft, Home, LogOut } from "lucide-react";
 
-export function GlobalActions() {
+export function GlobalActions({ homeHref = "/" }: { homeHref?: string }) {
   const router = useRouter();
 
   return (
@@ -10,24 +12,27 @@ export function GlobalActions() {
       <button
         type="button"
         onClick={() => router.back()}
-        className="rounded-2xl border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
+        className="inline-flex items-center gap-1.5 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-slate-300 hover:bg-slate-50"
       >
+        <ArrowLeft className="h-4 w-4" />
         Back
       </button>
-      <button
-        type="button"
-        onClick={() => router.push("/")}
-        className="rounded-2xl border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
+      <Link
+        href={homeHref}
+        className="inline-flex items-center gap-1.5 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-slate-300 hover:bg-slate-50"
       >
+        <Home className="h-4 w-4" />
         Home
-      </button>
-      <button
-        type="button"
-        onClick={() => router.push("/logout")}
-        className="rounded-2xl bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-slate-800"
-      >
-        Logout
-      </button>
+      </Link>
+      <form method="POST" action="/logout">
+        <button
+          type="submit"
+          className="inline-flex items-center gap-1.5 rounded-2xl border border-rose-200 bg-white px-4 py-2 text-sm font-medium text-rose-600 shadow-sm transition hover:bg-rose-50"
+        >
+          <LogOut className="h-4 w-4" />
+          Logout
+        </button>
+      </form>
     </div>
   );
 }

@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { mockAttempts, mockTests } from "@/lib/tests/mock-data";
 import { HeaderShell } from "@/components/jmss/shared/header-shell";
+import { FeedbackModeCard } from "@/components/jmss/admin/feedback-mode-card";
 
 export function AdminDashboard() {
   return (
     <div className="space-y-6">
-      <HeaderShell badge="Admin Control Centre" title="JMSS Practice Suite Dashboard" subtitle="Release tests, monitor performance, and inspect granular student attempt detail." />
+      <HeaderShell badge="Admin Control Centre" title="JMSS Practice Suite Dashboard" subtitle="Release tests, monitor performance, inspect granular student attempt detail, and control the written-feedback mode." />
+
+      <FeedbackModeCard />
 
       <div className="grid gap-4 md:grid-cols-4">
         {[
