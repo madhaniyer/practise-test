@@ -1,5 +1,5 @@
 import JMSSPracticeSuite from "@/components/JMSSPracticeSuite";
 
-export default function LandingPage() {
+export default function Page() {
   return <JMSSPracticeSuite />;
 }
