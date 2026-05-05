@@ -6,7 +6,7 @@ export default function JMSSPracticeSuite() {
       <section className="space-y-6">
         <span className="inline-flex rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-slate-700 shadow-sm">JMSS Practice Test Suite</span>
         <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 md:text-6xl">A calming, intelligent exam experience designed for high-performance practice.</h1>
-        <p className="max-w-2xl text-lg leading-8 text-slate-600">This legacy compatibility component exists because earlier prototypes referenced JMSSPracticeSuite.tsx directly.</p>
+        <p className="max-w-2xl text-lg leading-8 text-slate-600">This package includes real-format practice packs, trial tests, auth, and page actions on every screen.</p>
         <div className="flex flex-wrap gap-3">
           <Link href="/login" className="rounded-2xl bg-slate-900 px-5 py-3 font-medium text-white hover:bg-slate-800">Open login</Link>
           <Link href="/student/dashboard" className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 hover:bg-slate-50">Student preview</Link>
@@ -14,8 +14,14 @@ export default function JMSSPracticeSuite() {
         </div>
       </section>
       <section className="card-shell p-6">
-        <h2 className="text-2xl font-semibold text-slate-900">Compatibility wrapper</h2>
-        <p className="mt-3 text-slate-700">Use the route-based app under <code>/student</code> and <code>/admin</code> for the real scaffold.</p>
+        <h2 className="text-2xl font-semibold text-slate-900">What is in this build?</h2>
+        <ul className="mt-4 space-y-3 text-slate-700">
+          <li>• 2 trial tests</li>
+          <li>• 7 full-format practice tests</li>
+          <li>• global Back / Home / Logout buttons</li>
+          <li>• auth + role protection</li>
+          <li>• one-question-at-a-time runner for scale</li>
+        </ul>
       </section>
     </div>
   );

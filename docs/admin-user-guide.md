@@ -1,56 +1,71 @@
 # Admin User Guide
 
-## 1. Logging in
-1. Open the app at `http://localhost:3000`.
+## Global page actions
+Every page includes:
+- **Back**
+- **Home**
+- **Logout**
+
+## Logging in
+1. Open `http://localhost:3000`.
 2. Go to `/login`.
 3. Enter your Supabase email and password.
-4. Your Supabase profile row in `public.profiles` must have `role = 'admin'`.
-5. If the role is correct, you can open `/admin/dashboard`.
+4. Your row in `public.profiles` must have `role = 'admin'`.
+5. If your role is correct, you can use `/admin/*` routes.
 
-## 2. Admin dashboard overview
+## Admin dashboard overview
 The admin dashboard provides:
-- a top summary of released tests and attempt counts
-- quick access to **Test Management**
-- quick access to the **Attempt Inspector**
+- summary cards
+- test management overview
+- attempt inspector overview
 
-## 3. Test Management
-Go to `/admin/tests`.
-This page is currently the management placeholder for:
-- test catalogue
-- release state
-- future content editing workflows
+## Test catalogue in this package
+The package contains:
+- 2 trial tests
+- 7 full tests
 
-### Current release logic
-At the moment, release state is driven by the mock data layer:
-- `released: true` → student can start the full test
-- `released: false` → full test appears locked to the student
+### Release logic
+Current release state is driven by the mock data layer in:
+```text
+src/lib/tests/mock-data.ts
+```
 
-### Trial tests
-Trial tests are separate from full tests using:
-- `kind: "trial"`
+A test with:
+```ts
+released: true
+```
+can be started by students.
 
-In the current package:
-- the two trial tests are always available
-- the full tests can be released or locked in the mock data file
+A test with:
+```ts
+released: false
+```
+appears locked.
 
-## 4. Attempt Inspector
-Go to `/admin/attempts`.
-This page lists student attempts and lets you open attempt detail pages.
+## Admin tests page
+Route:
+```text
+/admin/tests
+```
 
-### Current scope
-The admin attempt pages are scaffolded and ready for the next persistence phase.
-They are intended to become the place where you will inspect:
-- section-level results
-- question-level answers
-- correct answers
-- written model answers
-- student trends over time
+This page shows:
+- test title
+- subtitle
+- kind (`trial` or `full`)
+- released / locked state
 
-## 5. Managing student/admin roles in Supabase
-The app uses the `public.profiles` table.
+## Admin attempts page
+Route:
+```text
+/admin/attempts
+```
+
+This page lists attempts and links to individual attempt detail pages.
+
+## Managing roles in Supabase
+The app uses `public.profiles`.
 
 ### Make a user admin
-Run in Supabase SQL Editor:
 ```sql
 update public.profiles
 set role = 'admin'
@@ -58,14 +73,13 @@ where email = 'your-admin-email@example.com';
 ```
 
 ### Make a user student
-Run:
 ```sql
 update public.profiles
 set role = 'student'
 where email = 'student-email@example.com';
 ```
 
-## 6. SQL bootstrap
+## SQL bootstrap
 Run the contents of:
 ```text
 supabase/profiles.sql
@@ -75,8 +89,3 @@ This creates:
 - RLS policies
 - trigger for new auth users
 - optional backfill for older users
-
-## 7. Important admin notes
-- The student experience currently uses mock test data.
-- Phase 3 introduces the working student test flow.
-- The next major step is real DB-backed persistence for tests and attempts.

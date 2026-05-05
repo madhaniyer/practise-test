@@ -1,73 +1,75 @@
 # Student User Guide
 
-## 1. Logging in
-1. Open the app at `http://localhost:3000`.
+## Global page actions
+Every page includes three actions in the top navigation:
+- **Back** → returns to the previous browser page
+- **Home** → returns to the landing page
+- **Logout** → signs out and returns to the login page
+
+## Logging in
+1. Open `http://localhost:3000`.
 2. Click **Open login** or go directly to `/login`.
 3. Enter your Supabase email and password.
-4. After login, you will be taken to the student dashboard if your profile role is `student`.
+4. After login, if your profile role is `student`, you can use the student pages.
 
-## 2. Dashboard overview
-The student dashboard shows three sections:
+## Dashboard overview
+The student dashboard shows:
 
 ### Trial / Sample Tests
-- These are short **15-minute** tests.
-- They are designed as a low-pressure trial experience.
-- In the current package there are **two trial tests**.
+- Two short **15-minute** tests.
+- These are available immediately.
+- They are intended as a low-pressure entry point.
 
 ### Released Full Tests
-- These are the full practice tests currently available.
-- Only released full tests can be started.
+- These are the full-length tests currently released to the student.
+- If a full test is released, the student can start it.
 
 ### Locked Full Tests
-- These tests exist but are not yet released by the admin.
-- They appear locked and cannot be opened.
+- These tests exist in the system but are not yet released.
+- They appear locked and cannot be started.
 
-## 3. Starting a test
+## Starting a test
 1. Click **Start Trial Test** or **Start Full Test**.
-2. The test page opens with a visible timer.
-3. Answer each question at your own pace.
+2. The test opens one question at a time.
+3. The top of the screen shows:
+   - timer
+   - current question number
+   - test type
 
-## 4. How answering works
-### Multiple choice questions
-- Click the option you want.
-- Your selected option will be highlighted.
+## Answering questions
+### Multiple choice
+- click an option to select it
 
-### Written questions
-- Type your response into the text area.
+### Written
+- type your answer into the response area
 
-## 5. Check Answer feature
-This is a key learning feature.
+## Check Answer feature
+### Rule
+You must answer the question before **Check Answer** becomes active.
 
-### Rules
-- You must answer the question first.
-- The **Check Answer** button stays disabled until you answer.
-- Once you click **Check Answer**:
-  - the answer becomes **locked**
-  - you **cannot change it anymore**
-  - feedback is shown immediately
+### After clicking Check Answer
+- the answer becomes **locked**
+- it cannot be changed anymore
+- immediate feedback appears
 
-### What you see after checking
-#### For MCQ
-- your chosen answer
-- the correct answer
-- the explanation
+### MCQ feedback
+- your answer
+- correct answer
+- explanation
 
-#### For written questions
+### Written feedback
 - your response
-- the model answer
+- model answer
 - rubric tags
 
-## 6. Submitting the test
-- Once you finish the test, click **Submit Test**.
-- If the timer runs out, the test also ends.
-- A summary panel appears showing:
-  - MCQ score
-  - correct MCQ count
-  - written-question count
-  - simple guidance on what went well and what to improve
+## Navigation inside the test
+- **Previous Question** → move backward through the test
+- **Next Question** → move forward through the test
+- **Submit Test** → ends the test and shows the summary
 
-## 7. Important student notes
-- After checking an answer, it is locked.
-- Locked answers cannot be edited.
-- Trial tests are ideal for short, focused practice.
-- Full tests are intended to simulate a longer exam experience.
+## End-of-test summary
+After submission, the test page shows:
+- MCQ score
+- correct MCQ count
+- number of written questions
+- simple guidance on what went well and what to improve

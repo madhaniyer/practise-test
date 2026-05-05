@@ -1,6 +1,5 @@
 import { requireRole } from "@/lib/auth/guards";
 import { mockAttempts } from "@/lib/tests/mock-data";
-import { NavButtons } from "@/components/jmss/shared/nav-buttons";
 
 interface Props {
   params: Promise<{ attemptId: string }>;
@@ -14,7 +13,6 @@ export default async function StudentAttemptReviewPage({ params }: Props) {
   return (
     <div className="space-y-6">
       <div className="card-shell p-6">
-        <div className="mb-4 flex justify-end"><NavButtons homeHref="/student/dashboard" /></div>
         <h1 className="text-3xl font-semibold text-slate-900">Student Attempt Review</h1>
         <p className="mt-2 text-slate-600">This page is the placeholder for the richer persisted attempt review flow.</p>
         {attempt ? (
