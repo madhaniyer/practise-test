@@ -18,7 +18,7 @@ export function GlobalActions({ homeHref = "/" }: { homeHref?: string }) {
         Back
       </button>
       <Link
-        href={homeHref}
+        href={homeHref as never}
         className="inline-flex items-center gap-1.5 rounded-2xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm transition hover:border-slate-300 hover:bg-slate-50"
       >
         <Home className="h-4 w-4" />

@@ -13,7 +13,7 @@ export async function GET(request: Request) {
 
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
       cookies: {
         getAll() {
@@ -22,7 +22,7 @@ export async function GET(request: Request) {
             return { name: kv.slice(0, idx), value: kv.slice(idx + 1) };
           });
         },
-        setAll(cookiesToSet) {
+        setAll(cookiesToSet: { name: string; value: string; options?: Record<string, unknown> }[]) {
           cookiesToSet.forEach(({ name, value, options }) => response.cookies.set(name, value, options));
         },
       },
