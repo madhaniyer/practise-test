@@ -22,7 +22,7 @@ export function LoginForm() {
 
     // Diagnostic — remove after confirming fix
     if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
-      setError("Supabase configuration is missing. Please contact the administrator.");
+      setError(`Supabase configuration is missing. URL: ${process.env.NEXT_PUBLIC_SUPABASE_URL ? 'present' : 'MISSING'}, KEY: ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ? 'present' : 'MISSING'}`);
       setLoading(false);
       return;
     }
@@ -30,7 +30,7 @@ export function LoginForm() {
     const { error } = await supabase.auth.signInWithPassword({ email, password });
 
     if (error) {
-      setError(error.message);
+      setError(`${error.message} (status: ${error.status ?? 'none'}, url: ${process.env.NEXT_PUBLIC_SUPABASE_URL?.slice(0, 30)})`);
       setLoading(false);
       return;
     }
