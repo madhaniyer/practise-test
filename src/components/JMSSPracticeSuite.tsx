@@ -5,7 +5,14 @@ export default function JMSSPracticeSuite() {
     <div className="grid min-h-[85vh] items-center gap-8 lg:grid-cols-[1.1fr_0.9fr]">
       <section className="space-y-6">
         <span className="inline-flex rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-slate-700 shadow-sm">JMSS Practice Test Suite</span>
-        <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 md:text-6xl">A calming, intelligent exam experience designed for my son Shaunak Madhan.</h1>
+        <div className="flex items-center gap-4">
+          <img
+            src="/shaunak.jpg"
+            alt="Shaunak Madhan"
+            className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-white"
+          />
+          <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 md:text-6xl">A calming, intelligent exam experience designed for my son Shaunak Madhan.</h1>
+        </div>
         <p className="max-w-2xl text-lg leading-8 text-slate-600">This package includes real-format practice packs, trial tests, auth, and page actions on every screen.</p>
         <div className="flex flex-wrap gap-3">
           <Link href="/login" className="rounded-2xl bg-slate-900 px-5 py-3 font-medium text-white hover:bg-slate-800">Open login</Link>
