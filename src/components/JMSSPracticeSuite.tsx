@@ -9,7 +9,7 @@ export default function JMSSPracticeSuite() {
           <img
             src="/shaunak.jpg"
             alt="Shaunak Madhan"
-            className="h-16 w-16 rounded-full object-cover shadow-md ring-2 ring-white"
+            className="h-24 w-24 flex-shrink-0 rounded-full object-cover shadow-md ring-2 ring-white md:h-32 md:w-32"
           />
           <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 md:text-6xl">A calming, intelligent exam experience designed for my son Shaunak Madhan.</h1>
         </div>
