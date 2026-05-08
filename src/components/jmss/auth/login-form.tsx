@@ -1,11 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/auth/browser";
 
 export function LoginForm() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const redirectTo = searchParams.get("redirectTo") ?? "/student/dashboard";
 
@@ -28,7 +27,9 @@ export function LoginForm() {
       return;
     }
 
-    window.location.href = redirectTo;
+    // Wait for the session cookie to be written before navigating
+    await supabase.auth.getSession();
+    window.location.replace(redirectTo);
   };
 
   return (
