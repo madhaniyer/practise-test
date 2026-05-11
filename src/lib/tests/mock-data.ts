@@ -72,7 +72,7 @@ export const mockTests: PracticeTest[] = [
   ...curatedTestPacks.map((pack) => ({
     id: pack.id,
     title: pack.title,
-    subtitle: `${pack.subtitle} (${pack.counts.mcq} MCQs, ${pack.counts.writing} writing, ${pack.counts.reporting} reporting)`,
+    subtitle: `${pack.subtitle} (${pack.mcqs.length} MCQs, ${pack.writingPrompts.length} writing, ${pack.reportingTasks.length} reporting)`,
     kind: "full" as const,
     released: pack.released,
     durationSec: pack.durationSec,
