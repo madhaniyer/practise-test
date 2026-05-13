@@ -4,15 +4,15 @@ import { HeaderShell } from "@/components/jmss/shared/header-shell";
 
 export function StudentDashboard() {
   const trialTests = mockTests.filter((test) => test.kind === "trial" && test.released);
-  const fullReleased = mockTests.filter((test) => test.kind === "full" && test.released);
-  const fullLocked = mockTests.filter((test) => test.kind === "full" && !test.released);
+  const shortTests = mockTests.filter((test) => test.kind === "short" && test.released);
+  const fullTests = mockTests.filter((test) => test.kind === "full" && test.released);
 
   return (
     <div className="space-y-6">
       <HeaderShell
         badge="Student Mode"
         title="JMSS Student Dashboard"
-        subtitle="Start with two short sample tests, then move into full tests as they are released."
+        subtitle="Practice with 7 short tests (45 min) and 7 full tests (150 min). All tests are now available."
       />
 
       <div className="grid gap-6 xl:grid-cols-[1.2fr_0.8fr]">
@@ -39,10 +39,31 @@ export function StudentDashboard() {
           </div>
 
           <div className="card-shell p-6">
-            <h2 className="text-xl font-semibold text-slate-900">Released Full Tests</h2>
-            <p className="mt-1 text-sm text-slate-600">These are the currently released full-length practice tests.</p>
+            <h2 className="text-xl font-semibold text-slate-900">Short Tests (45 minutes)</h2>
+            <p className="mt-1 text-sm text-slate-600">Quick focused practice sessions with 20 MCQs + 2 written questions each.</p>
             <div className="mt-5 grid gap-4 md:grid-cols-2">
-              {fullReleased.map((test) => (
+              {shortTests.map((test) => (
+                <div key={test.id} className="rounded-[28px] border border-slate-100 bg-slate-50/80 p-5">
+                  <div className="rounded-3xl bg-gradient-to-r from-emerald-500 to-teal-400 p-5 text-white">
+                    <div className="text-sm font-medium text-white/80">Short Test</div>
+                    <h3 className="mt-2 text-xl font-semibold">{test.title}</h3>
+                    <p className="mt-1 text-sm text-white/90">{test.subtitle}</p>
+                  </div>
+                  <div className="mt-4 flex items-center justify-between text-sm text-slate-600">
+                    <span>{test.questions.length} questions</span>
+                    <span>{Math.round(test.durationSec / 60)} min</span>
+                  </div>
+                  <Link href={`/student/tests/${test.id}`} className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-4 py-3 font-medium text-white hover:bg-slate-800">Start Short Test</Link>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="card-shell p-6">
+            <h2 className="text-xl font-semibold text-slate-900">Full Tests (150 minutes)</h2>
+            <p className="mt-1 text-sm text-slate-600">Complete JMSS format practice with 140 MCQs + 30 written questions each.</p>
+            <div className="mt-5 grid gap-4 md:grid-cols-2">
+              {fullTests.map((test) => (
                 <div key={test.id} className="rounded-[28px] border border-slate-100 bg-slate-50/80 p-5">
                   <div className="rounded-3xl bg-gradient-to-r from-sky-500 to-cyan-400 p-5 text-white">
                     <div className="text-sm font-medium text-white/80">Full Test</div>
@@ -54,26 +75,6 @@ export function StudentDashboard() {
                     <span>{Math.round(test.durationSec / 60)} min</span>
                   </div>
                   <Link href={`/student/tests/${test.id}`} className="mt-4 inline-flex w-full items-center justify-center rounded-2xl bg-slate-900 px-4 py-3 font-medium text-white hover:bg-slate-800">Start Full Test</Link>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="card-shell p-6">
-            <h2 className="text-xl font-semibold text-slate-900">Locked Full Tests</h2>
-            <p className="mt-1 text-sm text-slate-600">These full tests exist but are not yet released.</p>
-            <div className="mt-5 grid gap-4 md:grid-cols-2">
-              {fullLocked.map((test) => (
-                <div key={test.id} className="rounded-[28px] border border-dashed border-slate-200 bg-slate-50/80 p-5 opacity-80">
-                  <div className="rounded-3xl bg-slate-200 p-5 text-slate-700">
-                    <div className="text-sm font-medium">Locked</div>
-                    <h3 className="mt-2 text-xl font-semibold">{test.title}</h3>
-                    <p className="mt-1 text-sm">{test.subtitle}</p>
-                  </div>
-                  <div className="mt-4 flex items-center justify-between text-sm text-slate-500">
-                    <span>{Math.round(test.durationSec / 60)} min</span>
-                    <span>Awaiting release</span>
-                  </div>
                 </div>
               ))}
             </div>

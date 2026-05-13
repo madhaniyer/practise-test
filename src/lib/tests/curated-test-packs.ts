@@ -193,7 +193,7 @@ export const curatedTestPacks = [
       title: `Full Test ${i + 1}`,
       subtitle: `Complete JMSS practice (${FULL_TEST_MCQS} MCQs + 30 written)`,
       kind: "full" as const,
-      released: i === 0, // Only first full test released initially
+      released: true, // All tests released
       durationSec: 150 * 60, // 2.5 hours
       questions: [
         ...mcqSlice.map(toMcqQuestion),

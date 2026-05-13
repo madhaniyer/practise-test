@@ -13,7 +13,7 @@ export default function JMSSPracticeSuite() {
           />
           <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-slate-900 md:text-6xl">A calming, intelligent exam experience designed for my son Shaunak Madhan.</h1>
         </div>
-        <p className="max-w-2xl text-lg leading-8 text-slate-600">This package includes real-format practice packs, trial tests, auth, and page actions on every screen.</p>
+        <p className="max-w-2xl text-lg leading-8 text-slate-600">Complete practice suite with 7 short tests (45 min) and 7 full tests (150 min), featuring 1400+ unique questions with zero duplicates.</p>
         <div className="flex flex-wrap gap-3">
           <Link href="/login" className="rounded-2xl bg-slate-900 px-5 py-3 font-medium text-white hover:bg-slate-800">Open login</Link>
           <Link href="/student/dashboard" className="rounded-2xl border border-slate-300 bg-white px-5 py-3 font-medium text-slate-700 hover:bg-slate-50">Student preview</Link>
@@ -23,11 +23,12 @@ export default function JMSSPracticeSuite() {
       <section className="card-shell p-6">
         <h2 className="text-2xl font-semibold text-slate-900">What is in this build?</h2>
         <ul className="mt-4 space-y-3 text-slate-700">
-          <li>• 2 trial tests</li>
-          <li>• 7 full-format practice tests</li>
-          <li>• global Back / Home / Logout buttons</li>
-          <li>• auth + role protection</li>
-          <li>• one-question-at-a-time runner for scale</li>
+          <li>• 2 trial tests (15 min each)</li>
+          <li>• 7 short tests (45 min each)</li>
+          <li>• 7 full tests (150 min each)</li>
+          <li>• 1400+ unique questions with zero duplicates</li>
+          <li>• AI-powered feedback and coaching</li>
+          <li>• Complete auth + role protection</li>
         </ul>
       </section>
     </div>
