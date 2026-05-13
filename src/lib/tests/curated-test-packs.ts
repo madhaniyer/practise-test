@@ -1,7 +1,7 @@
-import { mcqBank1200 } from "./jmss-master-bank";
+import { mcqBank1400 } from "./jmss-master-bank";
 
 // Deduplicate by question text so no question appears twice across any test
-function dedupeByQuestion(questions: typeof mcqBank1200) {
+function dedupeByQuestion(questions: typeof mcqBank1400) {
   const seen = new Set<string>();
   return questions.filter((q) => {
     const key = q.question.trim().toLowerCase();
@@ -11,11 +11,62 @@ function dedupeByQuestion(questions: typeof mcqBank1200) {
   });
 }
 
-const uniqueMCQs = dedupeByQuestion(mcqBank1200);
+const uniqueMCQs = dedupeByQuestion(mcqBank1400);
 
-// Slice into non-overlapping chunks of 20 MCQs per test (realistic exam size)
-const MCQ_PER_TEST = 20;
-const totalTests = Math.floor(uniqueMCQs.length / MCQ_PER_TEST);
+// Test configuration
+const SHORT_TEST_MCQS = 20; // 45-minute tests
+const FULL_TEST_MCQS = 140; // Full JMSS format
+const NUM_SHORT_TESTS = 7;
+const NUM_FULL_TESTS = 7;
+
+// Calculate required questions
+const totalRequired = (NUM_SHORT_TESTS * SHORT_TEST_MCQS) + (NUM_FULL_TESTS * FULL_TEST_MCQS);
+console.log(`Need ${totalRequired} unique MCQs, have ${uniqueMCQs.length}`);
+
+// Distribute questions ensuring no overlap between any tests
+function distributeQuestions(startIdx: number, count: number) {
+  return uniqueMCQs.slice(startIdx, startIdx + count);
+}
+
+function toMcqQuestion(item: any) {
+  return {
+    id: item.id,
+    section: "Science Reasoning",
+    topic: item.topic,
+    difficulty: item.difficulty,
+    type: "mcq" as const,
+    prompt: item.question,
+    options: item.options,
+    correctIndex: item.answerIndex,
+    explanation: item.explanation,
+  };
+}
+
+function toWritingQuestion(item: any) {
+  return {
+    id: item.id,
+    section: "Science Interest & Communication",
+    topic: item.category,
+    difficulty: item.difficulty,
+    type: "written" as const,
+    prompt: item.prompt,
+    rubric: item.rubric,
+    modelAnswer: item.modelAnswerGuide,
+  };
+}
+
+function toReportingQuestion(item: any) {
+  return {
+    id: item.id,
+    section: "Science Analysis & Reporting",
+    topic: item.category,
+    difficulty: item.difficulty,
+    type: "written" as const,
+    prompt: item.task,
+    rubric: item.rubric,
+    modelAnswer: item.modelAnswerGuide,
+  };
+}
 
 const WRITING_PROMPTS = [
   {
@@ -52,7 +103,7 @@ const WRITING_PROMPTS = [
     id: "WRITE-A6", category: "Scientific Explanation", difficulty: "Advanced", wordRange: "120-180 words",
     prompt: "Explain how the human immune system responds to a bacterial infection.",
     rubric: ["Scientific accuracy", "Clarity and structure", "Use of examples", "Quality of expression"],
-    modelAnswerGuide: "When bacteria enter the body, the immune system responds in two stages. The innate immune response acts immediately: phagocytes such as neutrophils and macrophages engulf and destroy bacteria, while inflammation signals recruit more immune cells to the site of infection. If the innate response is insufficient, the adaptive immune response activates. B lymphocytes produce antibodies specific to the bacterial antigens, neutralising the pathogen and marking it for destruction. T lymphocytes coordinate the response and destroy infected cells. Memory cells formed during this process allow the immune system to respond faster and more effectively if the same bacterium is encountered again, which is the scientific basis of vaccination.",
+    modelAnswerGuide: "When bacteria enter the body, the immune system responds in two stages. The innate immune response acts immediately: phagocytes such as neutrons and macrophages engulf and destroy bacteria, while inflammation signals recruit more immune cells to the site of infection. If the innate response is insufficient, the adaptive immune response activates. B lymphocytes produce antibodies specific to the bacterial antigens, neutralising the pathogen and marking it for destruction. T lymphocytes coordinate the response and destroy infected cells. Memory cells formed during this process allow the immune system to respond faster and more effectively if the same bacterium is encountered again, which is the scientific basis of vaccination.",
   },
   {
     id: "WRITE-A7", category: "Argumentative Science Writing", difficulty: "Medium", wordRange: "120-180 words",
@@ -67,81 +118,99 @@ const REPORTING_TASKS = [
     id: "REPORT-A1", category: "Scientific Analysis & Reporting", difficulty: "Medium",
     task: "A student investigation shows that enzyme activity increases with temperature until an optimum is reached, then falls sharply. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate the effect of temperature on enzyme activity.\nObservation: Enzyme activity increased steadily as temperature rose, reaching a peak at the optimum temperature, after which activity declined sharply.\nExplanation: Rising temperature increases the kinetic energy of enzyme and substrate molecules, raising collision frequency and reaction rate. Above the optimum, the enzyme's active site denatures — its shape changes permanently — so substrate molecules can no longer bind effectively, causing the sharp decline.\nConclusion: Temperature affects enzyme activity in a predictable, non-linear way. Activity peaks at an optimum temperature and falls rapidly above it due to denaturation.",
+    modelAnswerGuide: "Aim: To investigate the effect of temperature on enzyme activity.\\nObservation: Enzyme activity increased steadily as temperature rose, reaching a peak at the optimum temperature, after which activity declined sharply.\\nExplanation: Rising temperature increases the kinetic energy of enzyme and substrate molecules, raising collision frequency and reaction rate. Above the optimum, the enzyme's active site denatures — its shape changes permanently — so substrate molecules can no longer bind effectively, causing the sharp decline.\\nConclusion: Temperature affects enzyme activity in a predictable, non-linear way. Activity peaks at an optimum temperature and falls rapidly above it due to denaturation.",
   },
   {
     id: "REPORT-A2", category: "Scientific Analysis & Reporting", difficulty: "Advanced",
     task: "A student investigation shows that plant growth increases with light intensity before reaching a plateau. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate the effect of light intensity on plant growth rate.\nObservation: Plant growth increased as light intensity increased, but the rate of growth levelled off beyond a certain point, forming a plateau.\nExplanation: At low light intensity, light is the limiting factor for photosynthesis. As intensity increases, more light energy is available for glucose production, supporting faster growth. Once light is no longer limiting, another factor — such as carbon dioxide concentration, water availability or temperature — restricts further increase in the photosynthesis rate.\nConclusion: Light intensity promotes plant growth only up to the point where another factor becomes limiting. Beyond that threshold, additional light produces no further increase in growth rate.",
+    modelAnswerGuide: "Aim: To investigate the effect of light intensity on plant growth rate.\\nObservation: Plant growth increased as light intensity increased, but the rate of growth levelled off beyond a certain point, forming a plateau.\\nExplanation: At low light intensity, light is the limiting factor for photosynthesis. As intensity increases, more light energy is available for glucose production, supporting faster growth. Once light is no longer limiting, another factor — such as carbon dioxide concentration, water availability or temperature — restricts further increase in the photosynthesis rate.\\nConclusion: Light intensity promotes plant growth only up to the point where another factor becomes limiting. Beyond that threshold, additional light produces no further increase in growth rate.",
   },
   {
     id: "REPORT-A3", category: "Scientific Analysis & Reporting", difficulty: "Medium",
     task: "A student investigation shows that reaction rate increases as reactant concentration increases. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate the effect of reactant concentration on reaction rate.\nObservation: As concentration increased, the reaction rate increased consistently across all trials.\nExplanation: Higher concentration means more reactant particles are present in the same volume. This increases the frequency of collisions between reacting particles and raises the probability of successful collisions, so the reaction proceeds more quickly.\nConclusion: Reactant concentration has a direct positive effect on reaction rate. This is consistent with collision theory, which predicts that more particles in a given volume will collide more often.",
+    modelAnswerGuide: "Aim: To investigate the effect of reactant concentration on reaction rate.\\nObservation: As concentration increased, the reaction rate increased consistently across all trials.\\nExplanation: Higher concentration means more reactant particles are present in the same volume. This increases the frequency of collisions between reacting particles and raises the probability of successful collisions, so the reaction proceeds more quickly.\\nConclusion: Reactant concentration has a direct positive effect on reaction rate. This is consistent with collision theory, which predicts that more particles in a given volume will collide more often.",
   },
   {
     id: "REPORT-A4", category: "Scientific Analysis & Reporting", difficulty: "Advanced",
     task: "A student investigation shows that dissolved oxygen in water decreases as water temperature rises. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate the relationship between water temperature and dissolved oxygen concentration.\nObservation: As water temperature increased, the concentration of dissolved oxygen decreased in a consistent pattern.\nExplanation: At higher temperatures, water molecules move faster and gas molecules gain enough kinetic energy to escape from solution into the atmosphere. This reduces the amount of oxygen that remains dissolved. Warmer water therefore holds less dissolved oxygen, which has significant implications for aquatic organisms that depend on it for respiration.\nConclusion: Water temperature and dissolved oxygen concentration are inversely related. This finding is ecologically important because rising water temperatures due to climate change may reduce oxygen availability for aquatic life.",
+    modelAnswerGuide: "Aim: To investigate the relationship between water temperature and dissolved oxygen concentration.\\nObservation: As water temperature increased, the concentration of dissolved oxygen decreased in a consistent pattern.\\nExplanation: At higher temperatures, water molecules move faster and gas molecules gain enough kinetic energy to escape from solution into the atmosphere. This reduces the amount of oxygen that remains dissolved. Warmer water therefore holds less dissolved oxygen, which has significant implications for aquatic organisms that depend on it for respiration.\\nConclusion: Water temperature and dissolved oxygen concentration are inversely related. This finding is ecologically important because rising water temperatures due to climate change may reduce oxygen availability for aquatic life.",
   },
   {
     id: "REPORT-A5", category: "Scientific Analysis & Reporting", difficulty: "Medium",
     task: "A student investigation shows that a bulb becomes dimmer as more bulbs are added in series. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate the effect of adding bulbs in series on the brightness of individual bulbs.\nObservation: Each bulb became progressively dimmer as additional bulbs were added to the series circuit.\nExplanation: In a series circuit, all components share the same current. Adding more bulbs increases the total resistance of the circuit. By Ohm's law, increased resistance reduces the current for a fixed voltage. With less current flowing, each bulb receives less power and therefore produces less light.\nConclusion: Adding bulbs in series reduces the brightness of each bulb because total resistance increases and current decreases. This demonstrates the relationship between resistance, current and power in series circuits.",
+    modelAnswerGuide: "Aim: To investigate the effect of adding bulbs in series on the brightness of individual bulbs.\\nObservation: Each bulb became progressively dimmer as additional bulbs were added to the series circuit.\\nExplanation: In a series circuit, all components share the same current. Adding more bulbs increases the total resistance of the circuit. By Ohm's law, increased resistance reduces the current for a fixed voltage. With less current flowing, each bulb receives less power and therefore produces less light.\\nConclusion: Adding bulbs in series reduces the brightness of each bulb because total resistance increases and current decreases. This demonstrates the relationship between resistance, current and power in series circuits.",
   },
   {
     id: "REPORT-A6", category: "Scientific Analysis & Reporting", difficulty: "Advanced",
     task: "A student investigation shows that sound intensity decreases as distance from the source increases. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate how sound intensity changes with distance from the source.\nObservation: Sound intensity decreased as the measuring device was moved further from the source, with the decrease becoming less steep at greater distances.\nExplanation: Sound energy spreads outward in all directions from its source. As distance increases, the same amount of energy is distributed over a larger surface area. This means less energy reaches any given point, so the measured intensity falls. The relationship follows an inverse square law — doubling the distance reduces intensity to approximately one quarter.\nConclusion: Sound intensity decreases with distance from the source because energy spreads over an increasing area. This principle applies to all wave phenomena that radiate from a point source.",
+    modelAnswerGuide: "Aim: To investigate how sound intensity changes with distance from the source.\\nObservation: Sound intensity decreased as the measuring device was moved further from the source, with the decrease becoming less steep at greater distances.\\nExplanation: Sound energy spreads outward in all directions from its source. As distance increases, the same amount of energy is distributed over a larger surface area. This means less energy reaches any given point, so the measured intensity falls. The relationship follows an inverse square law — doubling the distance reduces intensity to approximately one quarter.\\nConclusion: Sound intensity decreases with distance from the source because energy spreads over an increasing area. This principle applies to all wave phenomena that radiate from a point source.",
   },
   {
     id: "REPORT-A7", category: "Scientific Analysis & Reporting", difficulty: "Medium",
     task: "A student investigation shows that seed germination rate is highest at a moderate temperature and lower at both extremes. Write a short scientific report including Aim, Observation, Explanation and Conclusion.",
     rubric: ["Interpretation of evidence", "Scientific reasoning", "Structure", "Use of scientific terminology"],
-    modelAnswerGuide: "Aim: To investigate the effect of temperature on seed germination rate.\nObservation: Germination rate was highest at a moderate temperature, with lower rates observed at both low and high temperature extremes.\nExplanation: Germination depends on enzyme-controlled biochemical reactions. At low temperatures, enzyme activity is reduced because molecules have less kinetic energy and collide less frequently. At high temperatures, enzymes may denature, disrupting the reactions needed for germination. At the optimum temperature, enzyme activity is maximised, supporting the fastest germination rate.\nConclusion: Seed germination rate is temperature-dependent, with a clear optimum. Temperatures above or below this optimum reduce germination rate, consistent with the effect of temperature on enzyme-controlled reactions.",
+    modelAnswerGuide: "Aim: To investigate the effect of temperature on seed germination rate.\\nObservation: Germination rate was highest at a moderate temperature, with lower rates observed at both low and high temperature extremes.\\nExplanation: Germination depends on enzyme-controlled biochemical reactions. At low temperatures, enzyme activity is reduced because molecules have less kinetic energy and collide less frequently. At high temperatures, enzymes may denature, disrupting the reactions needed for germination. At the optimum temperature, enzyme activity is maximised, supporting the fastest germination rate.\\nConclusion: Seed germination rate is temperature-dependent, with a clear optimum. Temperatures above or below this optimum reduce germination rate, consistent with the effect of temperature on enzyme-controlled reactions.",
   },
 ];
 
-export const curatedTestPacks = Array.from({ length: Math.min(totalTests, 7) }, (_, i) => {
-  const mcqSlice = uniqueMCQs.slice(i * MCQ_PER_TEST, (i + 1) * MCQ_PER_TEST);
-  const writing = WRITING_PROMPTS[i % WRITING_PROMPTS.length];
-  const reporting = REPORTING_TASKS[i % REPORTING_TASKS.length];
+export const curatedTestPacks = [
+  // 7 Short Tests (45 minutes, 20 MCQs each)
+  ...Array.from({ length: NUM_SHORT_TESTS }, (_, i) => {
+    const startIdx = i * SHORT_TEST_MCQS;
+    const mcqSlice = distributeQuestions(startIdx, SHORT_TEST_MCQS);
+    const writing = WRITING_PROMPTS[i % WRITING_PROMPTS.length];
+    const reporting = REPORTING_TASKS[i % REPORTING_TASKS.length];
 
-  const accents = [
-    "from-sky-500 to-cyan-400",
-    "from-violet-500 to-fuchsia-400",
-    "from-emerald-500 to-teal-400",
-    "from-amber-500 to-orange-400",
-    "from-rose-500 to-pink-400",
-    "from-indigo-500 to-blue-400",
-    "from-lime-500 to-green-400",
-  ];
+    return {
+      id: `short-${i + 1}`,
+      title: `Short Test ${i + 1}`,
+      subtitle: `45-minute focused practice (${SHORT_TEST_MCQS} MCQs + 2 written)`,
+      kind: "short" as const,
+      released: true,
+      durationSec: 45 * 60, // 45 minutes
+      questions: [
+        ...mcqSlice.map(toMcqQuestion),
+        toWritingQuestion({ ...writing, id: `${writing.id}-S${i + 1}` }),
+        toReportingQuestion({ ...reporting, id: `${reporting.id}-S${i + 1}` }),
+      ],
+    };
+  }),
 
-  const subtitles = [
-    "Foundations & Confidence Builder",
-    "Reasoning Under Pressure",
-    "Deep Analysis Sprint",
-    "Data & Evidence Focus",
-    "Scientific Communication",
-    "Advanced Concepts Challenge",
-    "Full Exam Simulation",
-  ];
+  // 7 Full Tests (150 minutes, 140 MCQs each)
+  ...Array.from({ length: NUM_FULL_TESTS }, (_, i) => {
+    const startIdx = (NUM_SHORT_TESTS * SHORT_TEST_MCQS) + (i * FULL_TEST_MCQS);
+    const mcqSlice = distributeQuestions(startIdx, FULL_TEST_MCQS);
+    const writing = WRITING_PROMPTS[(i + NUM_SHORT_TESTS) % WRITING_PROMPTS.length];
+    const reporting = REPORTING_TASKS[(i + NUM_SHORT_TESTS) % REPORTING_TASKS.length];
 
-  return {
-    id: `batch-${i + 1}`,
-    title: `Practice Test ${i + 1}`,
-    subtitle: subtitles[i] ?? `Practice Test ${i + 1}`,
-    kind: "full",
-    released: true,
-    accent: accents[i] ?? accents[0],
-    durationSec: 2700,
-    mcqs: mcqSlice,
-    writingPrompts: [writing],
-    reportingTasks: [reporting],
-  };
-});
+    return {
+      id: `full-${i + 1}`,
+      title: `Full Test ${i + 1}`,
+      subtitle: `Complete JMSS practice (${FULL_TEST_MCQS} MCQs + 30 written)`,
+      kind: "full" as const,
+      released: i === 0, // Only first full test released initially
+      durationSec: 150 * 60, // 2.5 hours
+      questions: [
+        ...mcqSlice.map(toMcqQuestion),
+        // Add multiple writing and reporting questions for full tests
+        ...Array.from({ length: 15 }, (_, j) => 
+          toWritingQuestion({ 
+            ...WRITING_PROMPTS[(i + j) % WRITING_PROMPTS.length], 
+            id: `WRITE-F${i + 1}-${j + 1}` 
+          })
+        ),
+        ...Array.from({ length: 15 }, (_, j) => 
+          toReportingQuestion({ 
+            ...REPORTING_TASKS[(i + j) % REPORTING_TASKS.length], 
+            id: `REPORT-F${i + 1}-${j + 1}` 
+          })
+        ),
+      ],
+    };
+  }),
+];

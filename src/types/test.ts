@@ -1,5 +1,5 @@
 export type QuestionType = "mcq" | "written";
-export type TestKind = "trial" | "full";
+export type TestKind = "trial" | "short" | "full";
 
 export interface Question {
   id: string;
