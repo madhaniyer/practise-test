@@ -341,7 +341,7 @@ export const shortTest4: PracticeTest = {
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Antibiotic resistance develops through natural selection: bacteria with resistance mutations survive treatment and reproduce. Overuse and incomplete courses accelerate this. Slowing resistance requires completing prescribed courses, reducing agricultural antibiotic use, and investing in new antibiotic development."
+      "modelAnswer": "See marking guide."
     },
     {
       "id": "IC-11-S4",
@@ -352,26 +352,26 @@ export const shortTest4: PracticeTest = {
       "prompt": "Write about the role of stem cells in medicine and the ethical considerations involved.",
       "rubric": [
         "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
+        "Clarity and structure",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Stem cells can differentiate into specialised cells, offering treatments for conditions like Parkinson's and diabetes. Embryonic stem cells raise ethical concerns about embryo destruction. Adult and induced pluripotent stem cells offer alternatives, though with different limitations in potency and availability."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-10-S4",
+      "id": "AR-4-S4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An experiment shows that adding fertiliser increases crop yield up to a point, after which yield declines. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Dissolved oxygen in water decreases as water temperature rises. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of fertiliser concentration on crop yield. Observation: Yield increased to a maximum then declined at high concentrations. Explanation: Moderate fertiliser supplies limiting nutrients; excess causes osmotic stress, drawing water out of roots. Conclusion: Optimal fertiliser concentration exists beyond which yield is reduced."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

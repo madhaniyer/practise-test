@@ -341,7 +341,7 @@ export const shortTest6: PracticeTest = {
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "A hypothesis is a testable prediction. A theory is a well-tested explanation supported by substantial evidence, such as the theory of evolution. A scientific law describes what happens under certain conditions, such as the law of conservation of mass, without necessarily explaining why."
+      "modelAnswer": "See marking guide."
     },
     {
       "id": "IC-17-S6",
@@ -353,25 +353,25 @@ export const shortTest6: PracticeTest = {
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
-        "Use of terminology",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "The nervous system provides rapid electrical responses via neurons, while the endocrine system uses hormones for slower, longer-lasting regulation. Together they maintain homeostasis: for example, blood glucose is regulated by insulin and glucagon from the pancreas, triggered by nervous and hormonal signals."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-16-S6",
+      "id": "AR-6-S6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An investigation shows that white light passing through a prism produces a spectrum. Analyse this observation and explain the physics involved.",
+      "prompt": "Sound intensity decreases as distance from the source increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "White light is composed of all visible wavelengths. When entering the prism, each wavelength refracts by a different amount due to its different speed in glass (dispersion). Violet light refracts most, red least, separating the colours into a continuous spectrum from red to violet."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

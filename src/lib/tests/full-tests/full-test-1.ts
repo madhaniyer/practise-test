@@ -969,289 +969,184 @@ export const fullTest1: PracticeTest = {
       "explanation": "Correct answer: at any temperature from surface"
     },
     {
-      "id": "IC-01-F1",
+      "id": "IC-22-F1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain why renewable energy is essential for future generations. Use scientific reasoning and examples.",
+      "prompt": "Explain how vaccines are developed and tested before being approved for public use.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Renewable energy provides a sustainable alternative to fossil fuels, which are finite and release greenhouse gases. Solar, wind and hydroelectric power generate electricity with far fewer emissions, reducing climate change. Investment in renewables drives innovation and creates jobs, ensuring future generations inherit a cleaner planet."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-02-F1",
+      "id": "IC-23-F1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write for a general audience explaining how biodiversity supports human life.",
+      "prompt": "Write about the role of enzymes in digestion and how temperature affects their function.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Biodiversity underpins human survival through pollination, clean water, soil fertility and natural pest control. Over 75% of food crops rely on wild pollinators. Greater biodiversity improves ecosystem resilience, meaning natural systems recover more effectively from drought or disease."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-03-F1",
+      "id": "IC-24-F1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Discuss whether genetic engineering of crops should be a scientific priority.",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Genetic engineering offers solutions to food insecurity and climate adaptation via CRISPR-enabled drought tolerance. However, ecological risks including gene flow to wild species and reduced genetic diversity must be weighed carefully through rigorous safety testing and transparent regulation."
-    },
-    {
-      "id": "IC-04-F1",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Describe how a student scientist could explain the importance of vaccination to a sceptical audience.",
-      "rubric": [
-        "Scientific accuracy",
-        "Communication strategy",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Vaccines introduce harmless antigens that train the immune system before serious illness develops. Historical evidence is compelling: smallpox was eradicated entirely through vaccination. Herd immunity frames vaccination as a community responsibility, protecting those who cannot be vaccinated."
-    },
-    {
-      "id": "IC-05-F1",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Evaluate the statement: 'Space exploration benefits life on Earth more than it costs.'",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Space exploration has produced GPS, weather forecasting and materials science advances. The financial cost is significant but the return in knowledge and technology is difficult to overstate. Long-term scientific dividends suggest the investment is justified when evaluated across decades."
-    },
-    {
-      "id": "IC-06-F1",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how the human immune system responds to a bacterial infection.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of terminology",
-        "Quality of expression"
-      ],
-      "modelAnswer": "The innate immune response acts immediately: phagocytes engulf bacteria while inflammation recruits more immune cells. The adaptive response then activates: B lymphocytes produce specific antibodies and T lymphocytes coordinate the response. Memory cells allow faster response on re-exposure."
-    },
-    {
-      "id": "IC-07-F1",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Write for a general audience about why reducing plastic waste is a scientific and social priority.",
+      "prompt": "Describe how the greenhouse effect works and distinguish it from global warming.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Plastics persist for hundreds of years, breaking into microplastics that enter food chains and contaminate water. Marine ecosystems are severely affected. Solutions require both individual behaviour change and systemic approaches including biodegradable alternatives and extended producer responsibility."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-08-F1",
+      "id": "IC-25-F1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain the scientific basis of climate change and why the evidence is considered reliable.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Greenhouse gases trap infrared radiation, raising global temperatures. Evidence comes from ice cores, satellite data, ocean temperature records and atmospheric CO2 measurements. The convergence of multiple independent data sources makes the scientific consensus on human-caused climate change extremely robust."
-    },
-    {
-      "id": "IC-09-F1",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Describe what makes a good scientific experiment and why controls are important.",
+      "prompt": "Explain what is meant by a food web and why removing one species can affect the whole ecosystem.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "A good experiment tests one variable at a time, uses controls to isolate the effect of the independent variable, and repeats trials to improve reliability. Controls ensure any observed change is caused by the independent variable rather than confounding factors."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-10-F1",
+      "id": "IC-26-F1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain how antibiotic resistance develops and what can be done to slow it.",
+      "prompt": "Write about how scientists use the fossil record to understand evolution.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Antibiotic resistance develops through natural selection: bacteria with resistance mutations survive treatment and reproduce. Overuse and incomplete courses accelerate this. Slowing resistance requires completing prescribed courses, reducing agricultural antibiotic use, and investing in new antibiotic development."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-01-F1",
+      "id": "IC-27-F1",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain the difference between mitosis and meiosis and when each is used.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-28-F1",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe how the kidney maintains water balance in the human body.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-29-F1",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Write about the ethical issues surrounding animal testing in scientific research.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-30-F1",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain how sound waves travel and why they cannot travel through a vacuum.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-31-F1",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe the structure of DNA and explain how it stores genetic information.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-8-F1",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Enzyme activity increases with temperature until an optimum, then falls sharply. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student measures pH of solutions A (pH 3), B (pH 7) and C (pH 11). Interpret these results and explain what they indicate about each solution.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on enzyme activity. Observation: Activity increased to an optimum then fell sharply. Explanation: Rising temperature increases collision frequency; above optimum the active site denatures permanently. Conclusion: Enzyme activity peaks at optimum temperature and falls due to denaturation."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-02-F1",
+      "id": "AR-9-F1",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Plant growth increases with light intensity before reaching a plateau. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A graph shows predator and prey populations oscillating over time with predator peaks following prey peaks. Analyse this data and explain the relationship.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of light intensity on plant growth. Observation: Growth increased then plateaued. Explanation: At low intensity light limits photosynthesis; at the plateau another factor such as CO2 becomes limiting. Conclusion: Light promotes growth only until another factor becomes limiting."
-    },
-    {
-      "id": "AR-03-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Reaction rate increases as reactant concentration increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "Aim: Investigate effect of concentration on reaction rate. Observation: Rate increased consistently with concentration. Explanation: Higher concentration increases collision frequency and probability of successful collisions. Conclusion: Concentration has a direct positive effect on reaction rate, consistent with collision theory."
-    },
-    {
-      "id": "AR-04-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Dissolved oxygen in water decreases as water temperature rises. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "Aim: Investigate relationship between water temperature and dissolved oxygen. Observation: Dissolved oxygen decreased as temperature increased. Explanation: Higher temperature gives gas molecules energy to escape solution. Conclusion: Temperature and dissolved oxygen are inversely related, with ecological implications for aquatic life."
-    },
-    {
-      "id": "AR-05-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "A bulb becomes dimmer as more bulbs are added in series. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "Aim: Investigate effect of series bulbs on brightness. Observation: Each bulb became progressively dimmer. Explanation: Series circuits share current; more bulbs increase resistance, reducing current by Ohm's law. Conclusion: Adding series bulbs reduces brightness as resistance increases and current decreases."
-    },
-    {
-      "id": "AR-06-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Sound intensity decreases as distance from the source increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "Aim: Investigate how sound intensity changes with distance. Observation: Intensity decreased with distance, less steeply at greater distances. Explanation: Sound energy spreads over increasing area following inverse square law. Conclusion: Sound intensity decreases with distance as energy spreads over larger area."
-    },
-    {
-      "id": "AR-07-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Seed germination rate is highest at moderate temperature and lower at extremes. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "Aim: Investigate effect of temperature on germination rate. Observation: Highest rate at moderate temperature, lower at extremes. Explanation: Germination requires enzyme-controlled reactions; extremes reduce activity or cause denaturation. Conclusion: Germination is temperature-dependent with a clear optimum."
-    },
-    {
-      "id": "AR-08-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "A student measures the pH of solutions A, B and C and finds values of 3, 7 and 11. Interpret these results and explain what they indicate about each solution.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "Solution A (pH 3) is acidic, containing excess H+ ions. Solution B (pH 7) is neutral, with equal H+ and OH- concentrations. Solution C (pH 11) is alkaline, containing excess OH- ions. The pH scale is logarithmic, so each unit represents a tenfold change in H+ concentration."
-    },
-    {
-      "id": "AR-09-F1",
-      "section": "Science Analysis & Reporting",
-      "topic": "Scientific Analysis",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "A graph shows population of predators and prey oscillating over time, with predator peaks following prey peaks. Analyse this data and explain the relationship.",
-      "rubric": [
-        "Interpretation of evidence",
-        "Scientific reasoning",
-        "Structure",
-        "Scientific terminology"
-      ],
-      "modelAnswer": "The data shows classic predator-prey oscillation. When prey is abundant, predator population grows. Increased predation reduces prey numbers, which then causes predator decline due to food shortage. Reduced predation allows prey recovery, restarting the cycle. This demonstrates interdependence in ecosystems."
+      "modelAnswer": "See marking guide."
     },
     {
       "id": "AR-10-F1",
@@ -1259,14 +1154,119 @@ export const fullTest1: PracticeTest = {
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An experiment shows that adding fertiliser increases crop yield up to a point, after which yield declines. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Adding fertiliser increases crop yield up to a point, after which yield declines. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of fertiliser concentration on crop yield. Observation: Yield increased to a maximum then declined at high concentrations. Explanation: Moderate fertiliser supplies limiting nutrients; excess causes osmotic stress, drawing water out of roots. Conclusion: Optimal fertiliser concentration exists beyond which yield is reduced."
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-11-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Countries with higher vaccination rates have lower rates of the target disease. Analyse this data and discuss what conclusions can be drawn.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-12-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "A student investigates how pendulum mass affects its period. Results show no significant change. Analyse and explain.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-13-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Increasing salt concentration in soil reduces plant growth. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-14-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "A cooling curve shows a substance cooling from liquid to solid with a flat section at 45°C. Interpret this graph and explain the flat section.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-15-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Areas with higher deforestation rates have higher atmospheric CO2 levels. Analyse this relationship and discuss implications.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-16-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "White light passing through a prism produces a spectrum. Analyse this observation and explain the physics involved.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-17-F1",
+      "section": "Science Analysis & Reporting",
+      "topic": "Scientific Analysis",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "A metal rod expands measurably when heated. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "rubric": [
+        "Interpretation of evidence",
+        "Scientific reasoning",
+        "Structure",
+        "Scientific terminology"
+      ],
+      "modelAnswer": "See marking guide."
     }
   ]
 };

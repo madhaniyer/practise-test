@@ -969,304 +969,304 @@ export const fullTest6: PracticeTest = {
       "explanation": "Correct answer: T"
     },
     {
-      "id": "IC-09-F6",
+      "id": "IC-72-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Describe what makes a good scientific experiment and why controls are important.",
+      "prompt": "Explain how the rock cycle works and give an example of each rock type.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "A good experiment tests one variable at a time, uses controls to isolate the effect of the independent variable, and repeats trials to improve reliability. Controls ensure any observed change is caused by the independent variable rather than confounding factors."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-10-F6",
+      "id": "IC-73-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain how antibiotic resistance develops and what can be done to slow it.",
+      "prompt": "Describe what happens during fertilisation in humans.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Antibiotic resistance develops through natural selection: bacteria with resistance mutations survive treatment and reproduce. Overuse and incomplete courses accelerate this. Slowing resistance requires completing prescribed courses, reducing agricultural antibiotic use, and investing in new antibiotic development."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-11-F6",
+      "id": "IC-74-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write about the role of stem cells in medicine and the ethical considerations involved.",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Stem cells can differentiate into specialised cells, offering treatments for conditions like Parkinson's and diabetes. Embryonic stem cells raise ethical concerns about embryo destruction. Adult and induced pluripotent stem cells offer alternatives, though with different limitations in potency and availability."
-    },
-    {
-      "id": "IC-12-F6",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how DNA fingerprinting works and give two applications.",
+      "prompt": "Write about the role of bacteria in both causing disease and supporting life.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "DNA fingerprinting analyses variable number tandem repeats (VNTRs) unique to each individual. Gel electrophoresis separates DNA fragments by size, creating a unique banding pattern. Applications include forensic crime scene analysis and paternity testing."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-13-F6",
+      "id": "IC-75-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Describe the water cycle and explain how human activity is affecting it.",
+      "prompt": "Explain how the Doppler effect is used in medicine and astronomy.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "The water cycle involves evaporation, condensation, precipitation and transpiration. Human activities including deforestation, urbanisation and climate change are altering precipitation patterns, increasing flood and drought frequency, and reducing groundwater recharge rates."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-14-F6",
+      "id": "IC-76-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain why scientists use models and what their limitations are.",
+      "prompt": "Describe the process of protein synthesis from DNA to functional protein.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Models simplify complex systems to make predictions and test hypotheses. Climate models, atomic models and food web diagrams are examples. Limitations include oversimplification, reliance on assumptions, and inability to capture all variables — meaning models must be continually refined as new data emerges."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-15-F6",
+      "id": "IC-77-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write about the importance of biodiversity in maintaining ecosystem stability.",
+      "prompt": "Write about how climate change is affecting polar ecosystems.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Biodiversity increases ecosystem resilience by providing functional redundancy — if one species is lost, others can fulfil similar roles. Diverse ecosystems are more resistant to disease, climate fluctuation and invasive species. Loss of biodiversity reduces this resilience and can trigger cascade extinctions."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-16-F6",
+      "id": "IC-78-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain the difference between a hypothesis, a theory and a scientific law.",
+      "prompt": "Explain what is meant by half-life and give a practical application of radioactive decay.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "A hypothesis is a testable prediction. A theory is a well-tested explanation supported by substantial evidence, such as the theory of evolution. A scientific law describes what happens under certain conditions, such as the law of conservation of mass, without necessarily explaining why."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-17-F6",
+      "id": "IC-79-F6",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Describe how the nervous system and endocrine system work together to maintain homeostasis.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of terminology",
-        "Quality of expression"
-      ],
-      "modelAnswer": "The nervous system provides rapid electrical responses via neurons, while the endocrine system uses hormones for slower, longer-lasting regulation. Together they maintain homeostasis: for example, blood glucose is regulated by insulin and glucagon from the pancreas, triggered by nervous and hormonal signals."
-    },
-    {
-      "id": "IC-18-F6",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how natural selection leads to evolution over time.",
+      "prompt": "Describe how the digestive system breaks down and absorbs nutrients.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Natural selection acts on heritable variation within populations. Individuals with traits better suited to their environment survive and reproduce more successfully, passing advantageous alleles to offspring. Over generations, allele frequencies shift, leading to adaptation and eventually speciation."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-09-F6",
+      "id": "IC-80-F6",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Write about the scientific basis for recommending a balanced diet.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-81-F6",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain how convection currents in the mantle drive plate tectonics.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-58-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A graph shows population of predators and prey oscillating over time, with predator peaks following prey peaks. Analyse this data and explain the relationship.",
+      "prompt": "Results show that the rate of transpiration is higher in windy conditions than in still air. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The data shows classic predator-prey oscillation. When prey is abundant, predator population grows. Increased predation reduces prey numbers, which then causes predator decline due to food shortage. Reduced predation allows prey recovery, restarting the cycle. This demonstrates interdependence in ecosystems."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-10-F6",
+      "id": "AR-59-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An experiment shows that adding fertiliser increases crop yield up to a point, after which yield declines. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student measures the voltage across components in a parallel circuit and finds it is the same across each branch. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of fertiliser concentration on crop yield. Observation: Yield increased to a maximum then declined at high concentrations. Explanation: Moderate fertiliser supplies limiting nutrients; excess causes osmotic stress, drawing water out of roots. Conclusion: Optimal fertiliser concentration exists beyond which yield is reduced."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-11-F6",
+      "id": "AR-60-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data shows that countries with higher vaccination rates have lower rates of the target disease. Analyse this data and discuss what conclusions can be drawn.",
+      "prompt": "Data shows that the diversity of bird species is positively correlated with the diversity of tree species in a forest. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The negative correlation between vaccination rate and disease incidence supports vaccine effectiveness. High vaccination rates create herd immunity, protecting unvaccinated individuals. However, correlation does not prove causation; confounding factors such as healthcare quality must be considered. The pattern is consistent across multiple independent datasets."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-12-F6",
+      "id": "AR-61-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student investigates how the mass of a pendulum affects its period. Results show no significant change in period with mass. Analyse and explain.",
+      "prompt": "A student investigates the effect of temperature on the rate of fermentation by yeast. Results show maximum rate at 37°C. Write a scientific report.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of pendulum mass on period. Observation: Period remained constant regardless of mass. Explanation: Pendulum period depends on length and gravitational acceleration (T=2π√(L/g)), not mass. Conclusion: Mass does not affect pendulum period, consistent with theoretical prediction."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-13-F6",
+      "id": "AR-62-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Experimental data shows that increasing salt concentration in soil reduces plant growth. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Results show that the acceleration of an object increases as the net force applied increases, for constant mass. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of soil salt concentration on plant growth. Observation: Growth decreased as salt concentration increased. Explanation: High salt concentration lowers soil water potential below that of root cells, reversing osmosis and causing water loss from roots. Conclusion: Excess soil salinity inhibits plant growth through osmotic stress."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-14-F6",
+      "id": "AR-63-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A cooling curve shows a substance cooling from liquid to solid with a flat section at 45°C. Interpret this graph and explain the flat section.",
+      "prompt": "A student measures the absorption of light by chlorophyll at different wavelengths. Results show peaks in red and blue regions. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The flat section at 45°C represents the freezing point of the substance. During this phase change, the substance releases latent heat of fusion at a constant temperature as liquid converts to solid. Temperature only continues to fall once all liquid has solidified."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-15-F6",
+      "id": "AR-64-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data shows that areas with higher deforestation rates have higher atmospheric CO2 levels. Analyse this relationship and discuss implications.",
+      "prompt": "Data shows that the incidence of skin cancer is higher in populations living closer to the equator. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Deforestation increases atmospheric CO2 by removing trees that absorb CO2 through photosynthesis and by releasing stored carbon when trees decompose or burn. The positive correlation in the data is consistent with this mechanism. Implications include accelerated climate change and reduced biodiversity in deforested regions."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-16-F6",
+      "id": "AR-65-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An investigation shows that white light passing through a prism produces a spectrum. Analyse this observation and explain the physics involved.",
+      "prompt": "A student investigates how the concentration of hydrochloric acid affects the rate of reaction with marble chips. Results show faster reaction at higher concentrations. Write a scientific report.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "White light is composed of all visible wavelengths. When entering the prism, each wavelength refracts by a different amount due to its different speed in glass (dispersion). Violet light refracts most, red least, separating the colours into a continuous spectrum from red to violet."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-17-F6",
+      "id": "AR-66-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Results show that a metal rod expands measurably when heated. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Results show that the gravitational potential energy of an object increases linearly with height. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate thermal expansion of a metal rod. Observation: Rod length increased measurably with temperature. Explanation: Heating increases kinetic energy of metal atoms, causing them to vibrate more and occupy more space. Conclusion: Metals expand when heated due to increased atomic vibration, consistent with thermal expansion theory."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-18-F6",
+      "id": "AR-67-F6",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student tests five unknown substances with litmus and universal indicator. Interpret the results to classify each substance.",
+      "prompt": "A student measures the effect of adding salt to water on its boiling point. Results show boiling point increases with salt concentration. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Litmus turns red in acid and blue in alkali; universal indicator gives a colour corresponding to pH. Substances turning litmus red and universal indicator orange/red are acidic. Blue litmus and green/blue universal indicator indicates neutral to alkaline. Combining both results allows classification as strongly acidic, weakly acidic, neutral, weakly alkaline or strongly alkaline."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

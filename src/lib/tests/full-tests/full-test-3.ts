@@ -969,304 +969,304 @@ export const fullTest3: PracticeTest = {
       "explanation": "Correct answer: some heat to work"
     },
     {
-      "id": "IC-21-F3",
+      "id": "IC-42-F3",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Describe the evidence that supports the theory of plate tectonics.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Evidence includes matching coastlines of continents, identical fossil species on separated landmasses, mid-ocean ridges with symmetric magnetic striping, and the distribution of earthquakes and volcanoes along plate boundaries. Seafloor spreading measurements directly confirm plate movement."
-    },
-    {
-      "id": "IC-01-F3",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain why renewable energy is essential for future generations. Use scientific reasoning and examples.",
+      "prompt": "Explain how Newton's three laws of motion apply to everyday situations.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Renewable energy provides a sustainable alternative to fossil fuels, which are finite and release greenhouse gases. Solar, wind and hydroelectric power generate electricity with far fewer emissions, reducing climate change. Investment in renewables drives innovation and creates jobs, ensuring future generations inherit a cleaner planet."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-02-F3",
+      "id": "IC-43-F3",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write for a general audience explaining how biodiversity supports human life.",
+      "prompt": "Describe the process of natural selection using a specific example.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Biodiversity underpins human survival through pollination, clean water, soil fertility and natural pest control. Over 75% of food crops rely on wild pollinators. Greater biodiversity improves ecosystem resilience, meaning natural systems recover more effectively from drought or disease."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-03-F3",
+      "id": "IC-44-F3",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Discuss whether genetic engineering of crops should be a scientific priority.",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Genetic engineering offers solutions to food insecurity and climate adaptation via CRISPR-enabled drought tolerance. However, ecological risks including gene flow to wild species and reduced genetic diversity must be weighed carefully through rigorous safety testing and transparent regulation."
-    },
-    {
-      "id": "IC-04-F3",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Describe how a student scientist could explain the importance of vaccination to a sceptical audience.",
-      "rubric": [
-        "Scientific accuracy",
-        "Communication strategy",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Vaccines introduce harmless antigens that train the immune system before serious illness develops. Historical evidence is compelling: smallpox was eradicated entirely through vaccination. Herd immunity frames vaccination as a community responsibility, protecting those who cannot be vaccinated."
-    },
-    {
-      "id": "IC-05-F3",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Evaluate the statement: 'Space exploration benefits life on Earth more than it costs.'",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Space exploration has produced GPS, weather forecasting and materials science advances. The financial cost is significant but the return in knowledge and technology is difficult to overstate. Long-term scientific dividends suggest the investment is justified when evaluated across decades."
-    },
-    {
-      "id": "IC-06-F3",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how the human immune system responds to a bacterial infection.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of terminology",
-        "Quality of expression"
-      ],
-      "modelAnswer": "The innate immune response acts immediately: phagocytes engulf bacteria while inflammation recruits more immune cells. The adaptive response then activates: B lymphocytes produce specific antibodies and T lymphocytes coordinate the response. Memory cells allow faster response on re-exposure."
-    },
-    {
-      "id": "IC-07-F3",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Write for a general audience about why reducing plastic waste is a scientific and social priority.",
+      "prompt": "Write about how the human body responds to exercise.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Plastics persist for hundreds of years, breaking into microplastics that enter food chains and contaminate water. Marine ecosystems are severely affected. Solutions require both individual behaviour change and systemic approaches including biodegradable alternatives and extended producer responsibility."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-08-F3",
+      "id": "IC-45-F3",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain the scientific basis of climate change and why the evidence is considered reliable.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Greenhouse gases trap infrared radiation, raising global temperatures. Evidence comes from ice cores, satellite data, ocean temperature records and atmospheric CO2 measurements. The convergence of multiple independent data sources makes the scientific consensus on human-caused climate change extremely robust."
-    },
-    {
-      "id": "IC-09-F3",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Describe what makes a good scientific experiment and why controls are important.",
+      "prompt": "Explain what is meant by pH and why it is important in biological systems.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "A good experiment tests one variable at a time, uses controls to isolate the effect of the independent variable, and repeats trials to improve reliability. Controls ensure any observed change is caused by the independent variable rather than confounding factors."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-21-F3",
+      "id": "IC-46-F3",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe how stars form and what determines their life cycle.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-47-F3",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Write about the importance of the ozone layer and the threats it faces.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-48-F3",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain how electricity is generated in a coal-fired power station and the environmental impact.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-49-F3",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe the role of hormones in regulating blood glucose levels.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-50-F3",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Write about how scientists use spectroscopy to identify elements in distant stars.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-51-F3",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain what causes seasons on Earth.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-28-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student drops objects of different masses from the same height and measures fall time. Results show all objects fall in approximately the same time. Analyse and explain.",
+      "prompt": "Data shows that populations of a prey species fluctuate inversely with a predator species over a 10-year period. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of mass on free-fall time. Observation: All objects fell in approximately equal time regardless of mass. Explanation: In free fall, gravitational acceleration g acts equally on all masses (9.8 m/s²). Air resistance differences for similar-shaped objects are negligible. Conclusion: Mass does not affect free-fall time, consistent with Galileo's principle."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-01-F3",
+      "id": "AR-29-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Enzyme activity increases with temperature until an optimum, then falls sharply. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student measures the electrical resistance of a wire at different lengths. Results show resistance increases linearly with length. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on enzyme activity. Observation: Activity increased to an optimum then fell sharply. Explanation: Rising temperature increases collision frequency; above optimum the active site denatures permanently. Conclusion: Enzyme activity peaks at optimum temperature and falls due to denaturation."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-02-F3",
+      "id": "AR-30-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Plant growth increases with light intensity before reaching a plateau. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Results show that adding a catalyst to a reaction reduces the time taken to completion. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of light intensity on plant growth. Observation: Growth increased then plateaued. Explanation: At low intensity light limits photosynthesis; at the plateau another factor such as CO2 becomes limiting. Conclusion: Light promotes growth only until another factor becomes limiting."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-03-F3",
+      "id": "AR-31-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Reaction rate increases as reactant concentration increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student investigates the effect of pH on enzyme activity. Results show maximum activity at pH 7. Write a scientific report.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of concentration on reaction rate. Observation: Rate increased consistently with concentration. Explanation: Higher concentration increases collision frequency and probability of successful collisions. Conclusion: Concentration has a direct positive effect on reaction rate, consistent with collision theory."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-04-F3",
+      "id": "AR-32-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Dissolved oxygen in water decreases as water temperature rises. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Data shows that the half-life of a radioactive sample is 5 years. Calculate how much remains after 15 years and explain your reasoning.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate relationship between water temperature and dissolved oxygen. Observation: Dissolved oxygen decreased as temperature increased. Explanation: Higher temperature gives gas molecules energy to escape solution. Conclusion: Temperature and dissolved oxygen are inversely related, with ecological implications for aquatic life."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-05-F3",
+      "id": "AR-33-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A bulb becomes dimmer as more bulbs are added in series. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student measures the boiling point of water at different altitudes and finds it decreases with altitude. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of series bulbs on brightness. Observation: Each bulb became progressively dimmer. Explanation: Series circuits share current; more bulbs increase resistance, reducing current by Ohm's law. Conclusion: Adding series bulbs reduces brightness as resistance increases and current decreases."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-06-F3",
+      "id": "AR-34-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Sound intensity decreases as distance from the source increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Results show that plants grown in red light grow taller than those in blue light. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate how sound intensity changes with distance. Observation: Intensity decreased with distance, less steeply at greater distances. Explanation: Sound energy spreads over increasing area following inverse square law. Conclusion: Sound intensity decreases with distance as energy spreads over larger area."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-07-F3",
+      "id": "AR-35-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Seed germination rate is highest at moderate temperature and lower at extremes. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student investigates how the concentration of sugar solution affects osmosis in potato chips. Results show chips lose mass in concentrated solutions. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on germination rate. Observation: Highest rate at moderate temperature, lower at extremes. Explanation: Germination requires enzyme-controlled reactions; extremes reduce activity or cause denaturation. Conclusion: Germination is temperature-dependent with a clear optimum."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-08-F3",
+      "id": "AR-36-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student measures the pH of solutions A, B and C and finds values of 3, 7 and 11. Interpret these results and explain what they indicate about each solution.",
+      "prompt": "Data shows that the number of antibiotic-resistant bacteria increases after each generation exposed to sub-lethal antibiotic doses. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Solution A (pH 3) is acidic, containing excess H+ ions. Solution B (pH 7) is neutral, with equal H+ and OH- concentrations. Solution C (pH 11) is alkaline, containing excess OH- ions. The pH scale is logarithmic, so each unit represents a tenfold change in H+ concentration."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-09-F3",
+      "id": "AR-37-F3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A graph shows population of predators and prey oscillating over time, with predator peaks following prey peaks. Analyse this data and explain the relationship.",
+      "prompt": "A student measures the current through a resistor at different voltages and plots a straight line through the origin. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The data shows classic predator-prey oscillation. When prey is abundant, predator population grows. Increased predation reduces prey numbers, which then causes predator decline due to food shortage. Reduced predation allows prey recovery, restarting the cycle. This demonstrates interdependence in ecosystems."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

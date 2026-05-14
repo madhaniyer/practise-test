@@ -969,304 +969,304 @@ export const fullTest7: PracticeTest = {
       "explanation": "Correct answer: 0°C and 1 atm"
     },
     {
-      "id": "IC-19-F7",
+      "id": "IC-82-F7",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write about the scientific and ethical considerations of gene editing in humans.",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "CRISPR-Cas9 enables precise gene editing with potential to eliminate hereditary diseases. Somatic gene therapy affects only the individual; germline editing affects all descendants, raising profound ethical questions about consent, equity of access, and the risk of unintended off-target effects."
-    },
-    {
-      "id": "IC-20-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how photosynthesis and respiration are complementary processes.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of terminology",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Photosynthesis converts CO2 and water into glucose and oxygen using light energy. Respiration converts glucose and oxygen back into CO2, water and ATP energy. The products of each process are the reactants of the other, creating a complementary cycle that underpins energy flow in ecosystems."
-    },
-    {
-      "id": "IC-21-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Describe the evidence that supports the theory of plate tectonics.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Evidence includes matching coastlines of continents, identical fossil species on separated landmasses, mid-ocean ridges with symmetric magnetic striping, and the distribution of earthquakes and volcanoes along plate boundaries. Seafloor spreading measurements directly confirm plate movement."
-    },
-    {
-      "id": "IC-01-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain why renewable energy is essential for future generations. Use scientific reasoning and examples.",
+      "prompt": "Describe the differences between plant and animal cells.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Renewable energy provides a sustainable alternative to fossil fuels, which are finite and release greenhouse gases. Solar, wind and hydroelectric power generate electricity with far fewer emissions, reducing climate change. Investment in renewables drives innovation and creates jobs, ensuring future generations inherit a cleaner planet."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-02-F7",
+      "id": "IC-83-F7",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write for a general audience explaining how biodiversity supports human life.",
+      "prompt": "Write about how scientists measure and monitor air quality.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Biodiversity underpins human survival through pollination, clean water, soil fertility and natural pest control. Over 75% of food crops rely on wild pollinators. Greater biodiversity improves ecosystem resilience, meaning natural systems recover more effectively from drought or disease."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-03-F7",
+      "id": "IC-84-F7",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Discuss whether genetic engineering of crops should be a scientific priority.",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Genetic engineering offers solutions to food insecurity and climate adaptation via CRISPR-enabled drought tolerance. However, ecological risks including gene flow to wild species and reduced genetic diversity must be weighed carefully through rigorous safety testing and transparent regulation."
-    },
-    {
-      "id": "IC-04-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Describe how a student scientist could explain the importance of vaccination to a sceptical audience.",
-      "rubric": [
-        "Scientific accuracy",
-        "Communication strategy",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Vaccines introduce harmless antigens that train the immune system before serious illness develops. Historical evidence is compelling: smallpox was eradicated entirely through vaccination. Herd immunity frames vaccination as a community responsibility, protecting those who cannot be vaccinated."
-    },
-    {
-      "id": "IC-05-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Evaluate the statement: 'Space exploration benefits life on Earth more than it costs.'",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Space exploration has produced GPS, weather forecasting and materials science advances. The financial cost is significant but the return in knowledge and technology is difficult to overstate. Long-term scientific dividends suggest the investment is justified when evaluated across decades."
-    },
-    {
-      "id": "IC-06-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how the human immune system responds to a bacterial infection.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of terminology",
-        "Quality of expression"
-      ],
-      "modelAnswer": "The innate immune response acts immediately: phagocytes engulf bacteria while inflammation recruits more immune cells. The adaptive response then activates: B lymphocytes produce specific antibodies and T lymphocytes coordinate the response. Memory cells allow faster response on re-exposure."
-    },
-    {
-      "id": "IC-07-F7",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Write for a general audience about why reducing plastic waste is a scientific and social priority.",
+      "prompt": "Explain what causes the phases of the Moon.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Plastics persist for hundreds of years, breaking into microplastics that enter food chains and contaminate water. Marine ecosystems are severely affected. Solutions require both individual behaviour change and systemic approaches including biodegradable alternatives and extended producer responsibility."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-19-F7",
+      "id": "IC-85-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe how the endocrine system uses negative feedback to regulate hormones.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-86-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Write about the role of meiosis in generating genetic diversity.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-87-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain how a catalyst speeds up a chemical reaction without being consumed.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-88-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe the structure of the atom and how our understanding of it has changed over time.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-89-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Write about the ethical considerations of cloning animals.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-90-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain how the carbon cycle maintains atmospheric CO2 levels.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-91-F7",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe how the human respiratory system is adapted for efficient gas exchange.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-68-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data from a survey shows a positive correlation between screen time and reported sleep problems in teenagers. Analyse this data critically.",
+      "prompt": "Data shows that the population of a species of moth changed from mostly light-coloured to mostly dark-coloured after industrialisation. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The positive correlation suggests increased screen time is associated with more sleep problems. Possible mechanisms include blue light suppressing melatonin production and mental stimulation delaying sleep onset. However, correlation does not establish causation; reverse causation (poor sleepers use screens more) and confounding variables must be considered."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-20-F7",
+      "id": "AR-69-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An experiment measures the rate of photosynthesis at different CO2 concentrations. Results show rate increases then plateaus. Analyse and explain.",
+      "prompt": "A student investigates the effect of exercise duration on lactic acid concentration in blood. Results show lactic acid increases with duration. Write a scientific report.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of CO2 concentration on photosynthesis rate. Observation: Rate increased with CO2 then plateaued. Explanation: At low CO2, carbon dioxide is the limiting factor for the Calvin cycle. At the plateau, another factor such as light intensity or temperature becomes limiting. Conclusion: CO2 promotes photosynthesis only until another factor limits the rate."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-21-F7",
+      "id": "AR-70-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student drops objects of different masses from the same height and measures fall time. Results show all objects fall in approximately the same time. Analyse and explain.",
+      "prompt": "Results show that the rate of a chemical reaction doubles for every 10°C rise in temperature. Analyse and explain using collision theory.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of mass on free-fall time. Observation: All objects fell in approximately equal time regardless of mass. Explanation: In free fall, gravitational acceleration g acts equally on all masses (9.8 m/s²). Air resistance differences for similar-shaped objects are negligible. Conclusion: Mass does not affect free-fall time, consistent with Galileo's principle."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-01-F7",
+      "id": "AR-71-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Enzyme activity increases with temperature until an optimum, then falls sharply. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student measures the current in a series circuit with different numbers of resistors. Results show current decreases as more resistors are added. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on enzyme activity. Observation: Activity increased to an optimum then fell sharply. Explanation: Rising temperature increases collision frequency; above optimum the active site denatures permanently. Conclusion: Enzyme activity peaks at optimum temperature and falls due to denaturation."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-02-F7",
+      "id": "AR-72-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Plant growth increases with light intensity before reaching a plateau. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Data shows that the number of individuals in a population follows a logistic growth curve. Analyse and explain the shape of this curve.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of light intensity on plant growth. Observation: Growth increased then plateaued. Explanation: At low intensity light limits photosynthesis; at the plateau another factor such as CO2 becomes limiting. Conclusion: Light promotes growth only until another factor becomes limiting."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-03-F7",
+      "id": "AR-73-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Reaction rate increases as reactant concentration increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student investigates how the mass of a ball affects the depth of the crater it makes when dropped into sand. Results show deeper craters with heavier balls. Write a scientific report.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of concentration on reaction rate. Observation: Rate increased consistently with concentration. Explanation: Higher concentration increases collision frequency and probability of successful collisions. Conclusion: Concentration has a direct positive effect on reaction rate, consistent with collision theory."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-04-F7",
+      "id": "AR-74-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Dissolved oxygen in water decreases as water temperature rises. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Results show that the rate of enzyme activity decreases when an inhibitor is added. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate relationship between water temperature and dissolved oxygen. Observation: Dissolved oxygen decreased as temperature increased. Explanation: Higher temperature gives gas molecules energy to escape solution. Conclusion: Temperature and dissolved oxygen are inversely related, with ecological implications for aquatic life."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-05-F7",
+      "id": "AR-75-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A bulb becomes dimmer as more bulbs are added in series. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student measures the wavelength of light using a diffraction grating. Describe how the results can be used to calculate wavelength.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of series bulbs on brightness. Observation: Each bulb became progressively dimmer. Explanation: Series circuits share current; more bulbs increase resistance, reducing current by Ohm's law. Conclusion: Adding series bulbs reduces brightness as resistance increases and current decreases."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-06-F7",
+      "id": "AR-76-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Sound intensity decreases as distance from the source increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Data shows that the average beak size of a bird population increased during a drought when only large seeds were available. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate how sound intensity changes with distance. Observation: Intensity decreased with distance, less steeply at greater distances. Explanation: Sound energy spreads over increasing area following inverse square law. Conclusion: Sound intensity decreases with distance as energy spreads over larger area."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-07-F7",
+      "id": "AR-77-F7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Seed germination rate is highest at moderate temperature and lower at extremes. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student investigates the effect of substrate concentration on the rate of catalase activity. Results show rate increases then levels off. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on germination rate. Observation: Highest rate at moderate temperature, lower at extremes. Explanation: Germination requires enzyme-controlled reactions; extremes reduce activity or cause denaturation. Conclusion: Germination is temperature-dependent with a clear optimum."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

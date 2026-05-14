@@ -969,304 +969,304 @@ export const fullTest4: PracticeTest = {
       "explanation": "Correct answer: cold to hot for heating"
     },
     {
-      "id": "IC-10-F4",
+      "id": "IC-52-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain how antibiotic resistance develops and what can be done to slow it.",
+      "prompt": "Describe how the theory of evolution has changed since Darwin first proposed it.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Antibiotic resistance develops through natural selection: bacteria with resistance mutations survive treatment and reproduce. Overuse and incomplete courses accelerate this. Slowing resistance requires completing prescribed courses, reducing agricultural antibiotic use, and investing in new antibiotic development."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-11-F4",
+      "id": "IC-53-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write about the role of stem cells in medicine and the ethical considerations involved.",
-      "rubric": [
-        "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
-        "Quality of expression"
-      ],
-      "modelAnswer": "Stem cells can differentiate into specialised cells, offering treatments for conditions like Parkinson's and diabetes. Embryonic stem cells raise ethical concerns about embryo destruction. Adult and induced pluripotent stem cells offer alternatives, though with different limitations in potency and availability."
-    },
-    {
-      "id": "IC-12-F4",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how DNA fingerprinting works and give two applications.",
+      "prompt": "Write about the scientific principles behind MRI scanning.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "DNA fingerprinting analyses variable number tandem repeats (VNTRs) unique to each individual. Gel electrophoresis separates DNA fragments by size, creating a unique banding pattern. Applications include forensic crime scene analysis and paternity testing."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-13-F4",
+      "id": "IC-54-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Describe the water cycle and explain how human activity is affecting it.",
+      "prompt": "Explain how predator-prey relationships maintain balance in ecosystems.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "The water cycle involves evaporation, condensation, precipitation and transpiration. Human activities including deforestation, urbanisation and climate change are altering precipitation patterns, increasing flood and drought frequency, and reducing groundwater recharge rates."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-14-F4",
+      "id": "IC-55-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain why scientists use models and what their limitations are.",
+      "prompt": "Describe what happens at a subduction zone and the geological consequences.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Models simplify complex systems to make predictions and test hypotheses. Climate models, atomic models and food web diagrams are examples. Limitations include oversimplification, reliance on assumptions, and inability to capture all variables — meaning models must be continually refined as new data emerges."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-15-F4",
+      "id": "IC-56-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write about the importance of biodiversity in maintaining ecosystem stability.",
+      "prompt": "Write about how the development of antibiotics changed medicine.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Biodiversity increases ecosystem resilience by providing functional redundancy — if one species is lost, others can fulfil similar roles. Diverse ecosystems are more resistant to disease, climate fluctuation and invasive species. Loss of biodiversity reduces this resilience and can trigger cascade extinctions."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-16-F4",
+      "id": "IC-57-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Explain the difference between a hypothesis, a theory and a scientific law.",
+      "prompt": "Explain the difference between renewable and non-renewable energy sources with examples.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "A hypothesis is a testable prediction. A theory is a well-tested explanation supported by substantial evidence, such as the theory of evolution. A scientific law describes what happens under certain conditions, such as the law of conservation of mass, without necessarily explaining why."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-17-F4",
+      "id": "IC-58-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Describe how the nervous system and endocrine system work together to maintain homeostasis.",
-      "rubric": [
-        "Scientific accuracy",
-        "Clarity and structure",
-        "Use of terminology",
-        "Quality of expression"
-      ],
-      "modelAnswer": "The nervous system provides rapid electrical responses via neurons, while the endocrine system uses hormones for slower, longer-lasting regulation. Together they maintain homeostasis: for example, blood glucose is regulated by insulin and glucagon from the pancreas, triggered by nervous and hormonal signals."
-    },
-    {
-      "id": "IC-18-F4",
-      "section": "Science Interest & Communication",
-      "topic": "Science Communication",
-      "difficulty": "Medium",
-      "type": "written",
-      "prompt": "Explain how natural selection leads to evolution over time.",
+      "prompt": "Describe how the eye focuses light to form an image on the retina.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Natural selection acts on heritable variation within populations. Individuals with traits better suited to their environment survive and reproduce more successfully, passing advantageous alleles to offspring. Over generations, allele frequencies shift, leading to adaptation and eventually speciation."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-19-F4",
+      "id": "IC-59-F4",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write about the scientific and ethical considerations of gene editing in humans.",
+      "prompt": "Write about the role of the liver in maintaining homeostasis.",
       "rubric": [
         "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
+        "Clarity and structure",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "CRISPR-Cas9 enables precise gene editing with potential to eliminate hereditary diseases. Somatic gene therapy affects only the individual; germline editing affects all descendants, raising profound ethical questions about consent, equity of access, and the risk of unintended off-target effects."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-10-F4",
+      "id": "IC-60-F4",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Explain how radioactive decay is used in carbon dating.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "IC-61-F4",
+      "section": "Science Interest & Communication",
+      "topic": "Science Communication",
+      "difficulty": "Medium",
+      "type": "written",
+      "prompt": "Describe the structure and function of the cell membrane.",
+      "rubric": [
+        "Scientific accuracy",
+        "Clarity and structure",
+        "Use of examples",
+        "Quality of expression"
+      ],
+      "modelAnswer": "See marking guide."
+    },
+    {
+      "id": "AR-38-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An experiment shows that adding fertiliser increases crop yield up to a point, after which yield declines. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Results show that increasing temperature increases the rate of diffusion of a dye in water. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of fertiliser concentration on crop yield. Observation: Yield increased to a maximum then declined at high concentrations. Explanation: Moderate fertiliser supplies limiting nutrients; excess causes osmotic stress, drawing water out of roots. Conclusion: Optimal fertiliser concentration exists beyond which yield is reduced."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-11-F4",
+      "id": "AR-39-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data shows that countries with higher vaccination rates have lower rates of the target disease. Analyse this data and discuss what conclusions can be drawn.",
+      "prompt": "A student investigates the effect of wind speed on transpiration rate in plants. Results show transpiration increases with wind speed. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The negative correlation between vaccination rate and disease incidence supports vaccine effectiveness. High vaccination rates create herd immunity, protecting unvaccinated individuals. However, correlation does not prove causation; confounding factors such as healthcare quality must be considered. The pattern is consistent across multiple independent datasets."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-12-F4",
+      "id": "AR-40-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student investigates how the mass of a pendulum affects its period. Results show no significant change in period with mass. Analyse and explain.",
+      "prompt": "Data shows that coral reef biodiversity has declined by 50% in regions where ocean temperature has increased by 2°C. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of pendulum mass on period. Observation: Period remained constant regardless of mass. Explanation: Pendulum period depends on length and gravitational acceleration (T=2π√(L/g)), not mass. Conclusion: Mass does not affect pendulum period, consistent with theoretical prediction."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-13-F4",
+      "id": "AR-41-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Experimental data shows that increasing salt concentration in soil reduces plant growth. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student investigates how the mass of a parachute affects its terminal velocity. Results show heavier parachutes reach higher terminal velocities. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of soil salt concentration on plant growth. Observation: Growth decreased as salt concentration increased. Explanation: High salt concentration lowers soil water potential below that of root cells, reversing osmosis and causing water loss from roots. Conclusion: Excess soil salinity inhibits plant growth through osmotic stress."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-14-F4",
+      "id": "AR-42-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A cooling curve shows a substance cooling from liquid to solid with a flat section at 45°C. Interpret this graph and explain the flat section.",
+      "prompt": "Results show that the rate of decay of a radioactive substance follows an exponential curve. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The flat section at 45°C represents the freezing point of the substance. During this phase change, the substance releases latent heat of fusion at a constant temperature as liquid converts to solid. Temperature only continues to fall once all liquid has solidified."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-15-F4",
+      "id": "AR-43-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data shows that areas with higher deforestation rates have higher atmospheric CO2 levels. Analyse this relationship and discuss implications.",
+      "prompt": "A student measures the force needed to pull an object up a ramp at different angles. Results show force increases with angle. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Deforestation increases atmospheric CO2 by removing trees that absorb CO2 through photosynthesis and by releasing stored carbon when trees decompose or burn. The positive correlation in the data is consistent with this mechanism. Implications include accelerated climate change and reduced biodiversity in deforested regions."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-16-F4",
+      "id": "AR-44-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "An investigation shows that white light passing through a prism produces a spectrum. Analyse this observation and explain the physics involved.",
+      "prompt": "Data shows that children who receive more sleep perform better on memory tests. Analyse this data critically and discuss limitations.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "White light is composed of all visible wavelengths. When entering the prism, each wavelength refracts by a different amount due to its different speed in glass (dispersion). Violet light refracts most, red least, separating the colours into a continuous spectrum from red to violet."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-17-F4",
+      "id": "AR-45-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Results show that a metal rod expands measurably when heated. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A student investigates the effect of substrate concentration on enzyme activity. Results show rate increases then plateaus. Write a scientific report.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate thermal expansion of a metal rod. Observation: Rod length increased measurably with temperature. Explanation: Heating increases kinetic energy of metal atoms, causing them to vibrate more and occupy more space. Conclusion: Metals expand when heated due to increased atomic vibration, consistent with thermal expansion theory."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-18-F4",
+      "id": "AR-46-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "A student tests five unknown substances with litmus and universal indicator. Interpret the results to classify each substance.",
+      "prompt": "Results show that the period of a pendulum increases with its length. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Litmus turns red in acid and blue in alkali; universal indicator gives a colour corresponding to pH. Substances turning litmus red and universal indicator orange/red are acidic. Blue litmus and green/blue universal indicator indicates neutral to alkaline. Combining both results allows classification as strongly acidic, weakly acidic, neutral, weakly alkaline or strongly alkaline."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-19-F4",
+      "id": "AR-47-F4",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data from a survey shows a positive correlation between screen time and reported sleep problems in teenagers. Analyse this data critically.",
+      "prompt": "A student measures the speed of a trolley at the bottom of a ramp for different heights. Results show speed increases with height. Analyse and explain.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The positive correlation suggests increased screen time is associated with more sleep problems. Possible mechanisms include blue light suppressing melatonin production and mental stimulation delaying sleep onset. However, correlation does not establish causation; reverse causation (poor sleepers use screens more) and confounding variables must be considered."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

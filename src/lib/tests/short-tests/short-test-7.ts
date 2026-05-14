@@ -337,11 +337,11 @@ export const shortTest7: PracticeTest = {
       "prompt": "Write about the scientific and ethical considerations of gene editing in humans.",
       "rubric": [
         "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
+        "Clarity and structure",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "CRISPR-Cas9 enables precise gene editing with potential to eliminate hereditary diseases. Somatic gene therapy affects only the individual; germline editing affects all descendants, raising profound ethical questions about consent, equity of access, and the risk of unintended off-target effects."
+      "modelAnswer": "See marking guide."
     },
     {
       "id": "IC-20-S7",
@@ -353,25 +353,25 @@ export const shortTest7: PracticeTest = {
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
-        "Use of terminology",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Photosynthesis converts CO2 and water into glucose and oxygen using light energy. Respiration converts glucose and oxygen back into CO2, water and ATP energy. The products of each process are the reactants of the other, creating a complementary cycle that underpins energy flow in ecosystems."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-19-S7",
+      "id": "AR-7-S7",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Data from a survey shows a positive correlation between screen time and reported sleep problems in teenagers. Analyse this data critically.",
+      "prompt": "Seed germination rate is highest at moderate temperature and lower at extremes. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "The positive correlation suggests increased screen time is associated with more sleep problems. Possible mechanisms include blue light suppressing melatonin production and mental stimulation delaying sleep onset. However, correlation does not establish causation; reverse causation (poor sleepers use screens more) and confounding variables must be considered."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

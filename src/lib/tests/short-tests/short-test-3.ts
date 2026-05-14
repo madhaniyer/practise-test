@@ -329,22 +329,22 @@ export const shortTest3: PracticeTest = {
       "explanation": "Correct answer: unchanged"
     },
     {
-      "id": "IC-07-S3",
+      "id": "IC-7-S3",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Write for a general audience about why reducing plastic waste is a scientific and social priority.",
+      "prompt": "Write about why reducing plastic waste is a scientific and social priority.",
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Plastics persist for hundreds of years, breaking into microplastics that enter food chains and contaminate water. Marine ecosystems are severely affected. Solutions require both individual behaviour change and systemic approaches including biodegradable alternatives and extended producer responsibility."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-08-S3",
+      "id": "IC-8-S3",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
@@ -353,25 +353,25 @@ export const shortTest3: PracticeTest = {
       "rubric": [
         "Scientific accuracy",
         "Clarity and structure",
-        "Use of evidence",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Greenhouse gases trap infrared radiation, raising global temperatures. Evidence comes from ice cores, satellite data, ocean temperature records and atmospheric CO2 measurements. The convergence of multiple independent data sources makes the scientific consensus on human-caused climate change extremely robust."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-07-S3",
+      "id": "AR-3-S3",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Seed germination rate is highest at moderate temperature and lower at extremes. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Reaction rate increases as reactant concentration increases. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on germination rate. Observation: Highest rate at moderate temperature, lower at extremes. Explanation: Germination requires enzyme-controlled reactions; extremes reduce activity or cause denaturation. Conclusion: Germination is temperature-dependent with a clear optimum."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

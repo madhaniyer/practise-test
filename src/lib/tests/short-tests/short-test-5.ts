@@ -341,7 +341,7 @@ export const shortTest5: PracticeTest = {
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "The water cycle involves evaporation, condensation, precipitation and transpiration. Human activities including deforestation, urbanisation and climate change are altering precipitation patterns, increasing flood and drought frequency, and reducing groundwater recharge rates."
+      "modelAnswer": "See marking guide."
     },
     {
       "id": "IC-14-S5",
@@ -356,22 +356,22 @@ export const shortTest5: PracticeTest = {
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Models simplify complex systems to make predictions and test hypotheses. Climate models, atomic models and food web diagrams are examples. Limitations include oversimplification, reliance on assumptions, and inability to capture all variables — meaning models must be continually refined as new data emerges."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-13-S5",
+      "id": "AR-5-S5",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Experimental data shows that increasing salt concentration in soil reduces plant growth. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "A bulb becomes dimmer as more bulbs are added in series. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of soil salt concentration on plant growth. Observation: Growth decreased as salt concentration increased. Explanation: High salt concentration lowers soil water potential below that of root cells, reversing osmosis and causing water loss from roots. Conclusion: Excess soil salinity inhibits plant growth through osmotic stress."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

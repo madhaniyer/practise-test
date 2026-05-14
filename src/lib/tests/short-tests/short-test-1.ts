@@ -329,7 +329,7 @@ export const shortTest1: PracticeTest = {
       "explanation": "Correct answer: oxygen"
     },
     {
-      "id": "IC-01-S1",
+      "id": "IC-1-S1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
@@ -341,10 +341,10 @@ export const shortTest1: PracticeTest = {
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Renewable energy provides a sustainable alternative to fossil fuels, which are finite and release greenhouse gases. Solar, wind and hydroelectric power generate electricity with far fewer emissions, reducing climate change. Investment in renewables drives innovation and creates jobs, ensuring future generations inherit a cleaner planet."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-02-S1",
+      "id": "IC-2-S1",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
@@ -356,10 +356,10 @@ export const shortTest1: PracticeTest = {
         "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Biodiversity underpins human survival through pollination, clean water, soil fertility and natural pest control. Over 75% of food crops rely on wild pollinators. Greater biodiversity improves ecosystem resilience, meaning natural systems recover more effectively from drought or disease."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-01-S1",
+      "id": "AR-1-S1",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
@@ -371,7 +371,7 @@ export const shortTest1: PracticeTest = {
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate effect of temperature on enzyme activity. Observation: Activity increased to an optimum then fell sharply. Explanation: Rising temperature increases collision frequency; above optimum the active site denatures permanently. Conclusion: Enzyme activity peaks at optimum temperature and falls due to denaturation."
+      "modelAnswer": "See marking guide."
     }
   ]
 };

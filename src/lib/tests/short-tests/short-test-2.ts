@@ -329,7 +329,7 @@ export const shortTest2: PracticeTest = {
       "explanation": "Correct answer: common ancestry"
     },
     {
-      "id": "IC-04-S2",
+      "id": "IC-4-S2",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
@@ -337,14 +337,14 @@ export const shortTest2: PracticeTest = {
       "prompt": "Describe how a student scientist could explain the importance of vaccination to a sceptical audience.",
       "rubric": [
         "Scientific accuracy",
-        "Communication strategy",
-        "Use of evidence",
+        "Clarity and structure",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Vaccines introduce harmless antigens that train the immune system before serious illness develops. Historical evidence is compelling: smallpox was eradicated entirely through vaccination. Herd immunity frames vaccination as a community responsibility, protecting those who cannot be vaccinated."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "IC-05-S2",
+      "id": "IC-5-S2",
       "section": "Science Interest & Communication",
       "topic": "Science Communication",
       "difficulty": "Medium",
@@ -352,26 +352,26 @@ export const shortTest2: PracticeTest = {
       "prompt": "Evaluate the statement: 'Space exploration benefits life on Earth more than it costs.'",
       "rubric": [
         "Scientific accuracy",
-        "Balanced argument",
-        "Use of evidence",
+        "Clarity and structure",
+        "Use of examples",
         "Quality of expression"
       ],
-      "modelAnswer": "Space exploration has produced GPS, weather forecasting and materials science advances. The financial cost is significant but the return in knowledge and technology is difficult to overstate. Long-term scientific dividends suggest the investment is justified when evaluated across decades."
+      "modelAnswer": "See marking guide."
     },
     {
-      "id": "AR-04-S2",
+      "id": "AR-2-S2",
       "section": "Science Analysis & Reporting",
       "topic": "Scientific Analysis",
       "difficulty": "Medium",
       "type": "written",
-      "prompt": "Dissolved oxygen in water decreases as water temperature rises. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
+      "prompt": "Plant growth increases with light intensity before reaching a plateau. Write a scientific report: Aim, Observation, Explanation, Conclusion.",
       "rubric": [
         "Interpretation of evidence",
         "Scientific reasoning",
         "Structure",
         "Scientific terminology"
       ],
-      "modelAnswer": "Aim: Investigate relationship between water temperature and dissolved oxygen. Observation: Dissolved oxygen decreased as temperature increased. Explanation: Higher temperature gives gas molecules energy to escape solution. Conclusion: Temperature and dissolved oxygen are inversely related, with ecological implications for aquatic life."
+      "modelAnswer": "See marking guide."
     }
   ]
 };
