@@ -42,6 +42,26 @@
   - `question/batches/batch_1.md` through `batch_7.md`
 
 ---
+Good. Now I have a clear picture. Let me research the actual JMSS exam format before writing anything.
+
+The real JMSS entrance exam structure is:
+Section A : 60 MCQs (Science Reasoning) — 60 min
+
+Section B : 10 written short-answer questions (Science Interest & Communication) — 40 min
+
+Section C : 10 written data/report questions (Science Analysis & Reporting) — 50 min
+
+Total : 80 questions, 150 min
+
+So full test proportions: 75% MCQ, 12.5% Interest/Communication, 12.5% Analysis/Reporting
+
+For short tests (45 min, scaled): 20 MCQ + 2 Interest/Communication + 1 Analysis/Reporting = 23 questions
+
+Now I'll rewrite curated-test-packs.ts cleanly with one file per test, proper topic mixing, zero intra-test repeats, and all tests released.
+
+Progress: [▓░░░░░░░░░] Writing written question banks...
+
+Create a dedicated written questions bank with 21 unique interest/communication and 21 unique analysis/reporting questions (3 per test × 7 tests each)
 
 ## 2. React / Next.js Exam Simulator Idea
 
