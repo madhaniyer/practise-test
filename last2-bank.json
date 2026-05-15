@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MCQ-LAST2-Y910-001",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of bile salts on fat digestion. Adding bile salts increases the rate of lipase activity. Which of the following correctly explains this?",
+    "options": [
+      "Bile salts are enzymes",
+      "Bile salts emulsify fat globules into smaller droplets, greatly increasing the surface area available for lipase to act on",
+      "Bile salts increase lipase concentration",
+      "Bile salts change the pH optimum of lipase"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bile salts are amphipathic molecules that reduce surface tension between fat and water, breaking large fat globules into tiny droplets (emulsification). This dramatically increases the surface area exposed to lipase, accelerating fat digestion without bile salts being enzymes themselves."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-002",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of exercise on stroke volume (volume of blood per heartbeat). Stroke volume increases during moderate exercise. Which of the following correctly explains this?",
+    "options": [
+      "The heart beats more slowly during exercise",
+      "Increased venous return during exercise stretches the ventricles; by Starling's law, greater stretch produces a more forceful contraction and larger stroke volume",
+      "The heart muscle weakens during exercise",
+      "Blood pressure decreases during exercise"
+    ],
+    "answerIndex": 1,
+    "explanation": "Frank-Starling law: increased venous return (from muscle pumping action during exercise) stretches the ventricular walls. Greater stretch increases the force of contraction, ejecting more blood per beat (increased stroke volume). This is an intrinsic cardiac mechanism."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-003",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of dehydration on kidney function. Urine becomes more concentrated. Which of the following correctly explains the hormonal mechanism?",
+    "options": [
+      "Insulin increases urine concentration",
+      "Dehydration is detected by osmoreceptors in the hypothalamus; ADH (antidiuretic hormone) is released from the posterior pituitary, increasing water reabsorption in the collecting duct",
+      "Adrenaline increases urine concentration",
+      "Glucagon controls urine concentration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Dehydration raises blood osmolarity, detected by hypothalamic osmoreceptors. This triggers ADH release from the posterior pituitary. ADH increases the permeability of the collecting duct to water by inserting aquaporin channels, increasing water reabsorption and producing concentrated urine."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-004",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of statins (drugs that inhibit cholesterol synthesis) on LDL cholesterol levels. LDL decreases. Which of the following correctly explains the mechanism?",
+    "options": [
+      "Statins destroy LDL directly",
+      "Statins inhibit HMG-CoA reductase, reducing liver cholesterol synthesis; liver cells upregulate LDL receptors to obtain cholesterol from blood, reducing circulating LDL",
+      "Statins increase HDL production",
+      "Statins reduce fat absorption"
+    ],
+    "answerIndex": 1,
+    "explanation": "Statins competitively inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis. With less intracellular cholesterol, liver cells upregulate LDL receptor expression, increasing uptake of LDL from blood. This reduces circulating LDL cholesterol levels."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-005",
+    "domain": "Biology",
+    "topic": "Plants and Photosynthesis",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of DCMU (a herbicide that blocks electron transport in photosystem II) on photosynthesis. Which of the following would be most directly affected?",
+    "options": [
+      "Carbon fixation in the Calvin cycle",
+      "The light-dependent reactions — DCMU blocks electron flow from PSII, stopping ATP and NADPH production and therefore all photosynthesis",
+      "Transpiration rate",
+      "Stomatal opening"
+    ],
+    "answerIndex": 1,
+    "explanation": "DCMU blocks plastoquinone binding in photosystem II, preventing electron transfer from PSII to the electron transport chain. This stops the light-dependent reactions — no ATP or NADPH is produced. Without these, the Calvin cycle cannot proceed, halting all photosynthesis."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-006",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of increasing temperature on the Km of an enzyme. Km increases above the optimum temperature. Which of the following correctly explains this?",
+    "options": [
+      "Higher temperature increases substrate concentration",
+      "Above the optimum, thermal disruption of the active site reduces enzyme-substrate complementarity, requiring higher substrate concentration to achieve half-maximum velocity",
+      "Higher temperature always decreases Km",
+      "Km is independent of temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Km reflects enzyme-substrate affinity. Above the optimum temperature, thermal energy disrupts the precise shape of the active site (partial denaturation). The enzyme-substrate fit is less complementary, reducing affinity and requiring higher substrate concentration to achieve Vmax/2 — hence higher Km."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-007",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates the synthesis of ATP in chloroplasts. Which of the following correctly describes the chemiosmotic mechanism?",
+    "options": [
+      "ATP is synthesised directly by photosystem I",
+      "H⁺ ions accumulate in the thylakoid lumen during the light-dependent reactions; their flow down the concentration gradient through ATP synthase drives ATP synthesis (photophosphorylation)",
+      "ATP is synthesised in the stroma without a proton gradient",
+      "ATP synthase uses NADPH directly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Chemiosmosis in chloroplasts: the light-dependent reactions pump H⁺ into the thylakoid lumen, creating a proton gradient. H⁺ flows back through ATP synthase (CF0-CF1 complex) down the gradient, driving conformational changes that synthesise ATP from ADP + Pi — photophosphorylation."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-008",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of a frameshift mutation on protein structure. A single base insertion near the start of a gene causes a non-functional protein. Which of the following correctly explains this?",
+    "options": [
+      "One extra base has no effect",
+      "A frameshift mutation shifts the reading frame for all subsequent codons, changing every amino acid from the insertion point onward and likely introducing a premature stop codon",
+      "Only the inserted codon is affected",
+      "Frameshift mutations only affect introns"
+    ],
+    "answerIndex": 1,
+    "explanation": "The genetic code is read in triplets (codons). Inserting one base shifts the reading frame for all downstream codons. Every amino acid from the insertion point onward is changed, producing a completely different (usually non-functional) protein. A premature stop codon often terminates translation early."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-009",
+    "domain": "Biology",
+    "topic": "Microbiology and Disease",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of increasing NaCl concentration on the activity of a halophilic (salt-loving) bacterium versus a non-halophilic bacterium. Halophiles grow optimally at high salt; non-halophiles are inhibited. Which of the following correctly explains the difference?",
+    "options": [
+      "Halophiles have no cell membrane",
+      "Halophiles have evolved enzymes and membrane components adapted to function at high ionic strength; non-halophile enzymes denature at high salt concentrations",
+      "Halophiles produce more ATP",
+      "Non-halophiles have thicker cell walls"
+    ],
+    "answerIndex": 1,
+    "explanation": "Halophilic bacteria have evolved molecular adaptations: their enzymes have acidic surface residues that maintain stability at high ionic strength; their membranes contain ether-linked lipids resistant to salt. Non-halophile enzymes and membranes are disrupted by high salt concentrations."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-010",
+    "domain": "Biology",
+    "topic": "Plants and Photosynthesis",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of CO2 concentration on the rate of the Calvin cycle. Rate increases with CO2 up to a plateau. Which enzyme is directly responsible for CO2 fixation?",
+    "options": [
+      "ATP synthase",
+      "RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase) — it catalyses the carboxylation of RuBP with CO2",
+      "Photosystem II",
+      "NADP reductase"
+    ],
+    "answerIndex": 1,
+    "explanation": "RuBisCO catalyses the first step of the Calvin cycle: CO2 + RuBP → 2 × 3-phosphoglycerate. It is the most abundant enzyme on Earth and the primary enzyme responsible for carbon fixation. Its activity directly determines the rate of CO2 incorporation into organic molecules."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-011",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction of chlorine water with sodium bromide solution. The solution turns orange-brown. Which of the following correctly explains this?",
+    "options": [
+      "Sodium is oxidised",
+      "Chlorine oxidises bromide ions to bromine (Br2), which gives the orange-brown colour: Cl2 + 2Br⁻ → 2Cl⁻ + Br2",
+      "Sodium chloride is formed only",
+      "Bromine is reduced to bromide"
+    ],
+    "answerIndex": 1,
+    "explanation": "Chlorine is a stronger oxidising agent than bromine (higher electronegativity, higher reduction potential). It oxidises Br⁻ to Br2: Cl2 + 2Br⁻ → 2Cl⁻ + Br2. Bromine gives the characteristic orange-brown colour. This is a halogen displacement reaction."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-012",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of adding a common ion on the solubility of a sparingly soluble salt. Adding NaCl to a saturated AgCl solution reduces AgCl solubility. Which of the following correctly explains this?",
+    "options": [
+      "NaCl reacts with AgCl",
+      "The common ion effect: added Cl⁻ from NaCl shifts the dissolution equilibrium AgCl ⇌ Ag⁺ + Cl⁻ to the left, reducing AgCl solubility",
+      "NaCl increases ionic strength only",
+      "AgCl becomes more soluble with added NaCl"
+    ],
+    "answerIndex": 1,
+    "explanation": "The common ion effect: AgCl ⇌ Ag⁺ + Cl⁻. Adding Cl⁻ (from NaCl) increases [Cl⁻], making Q > Ksp. The equilibrium shifts left (Le Chatelier's principle), causing more AgCl to precipitate and reducing its solubility."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-013",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of temperature on the viscosity of a polymer solution. Viscosity decreases with temperature. Which of the following correctly explains this?",
+    "options": [
+      "Polymer chains break at higher temperatures",
+      "Higher temperature increases the kinetic energy of polymer chains and solvent molecules, reducing intermolecular interactions and allowing chains to move past each other more easily",
+      "Higher temperature increases polymer concentration",
+      "Viscosity is independent of temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Viscosity reflects resistance to flow — the difficulty of molecules moving past each other. Higher temperature increases kinetic energy, overcoming intermolecular forces (van der Waals, hydrogen bonds) between polymer chains and solvent. Chains move more freely, reducing viscosity."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-014",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of pressure on the equilibrium: CO(g) + 3H2(g) ⇌ CH4(g) + H2O(g). Increasing pressure shifts equilibrium to the right. Which of the following correctly explains this?",
+    "options": [
+      "Pressure always shifts equilibrium right",
+      "Left side has 4 moles of gas; right side has 2 moles. Increasing pressure favours the side with fewer moles of gas (right), reducing pressure",
+      "Pressure has no effect on gas equilibria",
+      "Right side has more moles of gas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le Chatelier's principle: increasing pressure favours the side with fewer moles of gas. Left: 1 + 3 = 4 mol gas. Right: 1 + 1 = 2 mol gas. Equilibrium shifts right toward fewer moles, reducing the pressure increase."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-015",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of a Lewis acid catalyst on an organic reaction. Which of the following correctly describes a Lewis acid?",
+    "options": [
+      "A proton donor",
+      "An electron pair acceptor — it accepts a lone pair from a Lewis base to form a coordinate bond",
+      "A proton acceptor",
+      "An electron pair donor"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lewis acid-base theory: a Lewis acid accepts an electron pair; a Lewis base donates an electron pair. This is broader than Brønsted-Lowry theory (which only considers proton transfer). Examples of Lewis acids: BF3, AlCl3, Fe³⁺ — all have empty orbitals that accept electron pairs."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-016",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of increasing the number of turns in a solenoid on its inductance. Inductance increases with turns². Which of the following correctly explains this?",
+    "options": [
+      "More turns increase resistance",
+      "Each turn contributes to the magnetic flux; more turns both increase the flux produced per unit current and the number of turns linking that flux — inductance L ∝ N²",
+      "More turns decrease the magnetic field",
+      "Inductance is independent of turn number"
+    ],
+    "answerIndex": 1,
+    "explanation": "Inductance L = μ₀μᵣN²A/l. Inductance is proportional to N² because: (1) more turns produce more magnetic flux per unit current; (2) more turns link more of that flux. Both effects scale with N, giving an N² dependence."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-017",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of temperature on the resistance of a semiconductor. Resistance decreases with temperature. Which of the following correctly explains this?",
+    "options": [
+      "Semiconductors behave like metals",
+      "In semiconductors, higher temperature promotes more electrons across the band gap into the conduction band, increasing charge carrier density and reducing resistance",
+      "Semiconductors have no band gap",
+      "Higher temperature reduces electron mobility only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Semiconductors have a band gap between valence and conduction bands. At higher temperatures, more electrons gain sufficient thermal energy to cross the band gap, increasing the number of charge carriers (electrons and holes). The increase in carrier density outweighs reduced mobility, so resistance decreases."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-018",
+    "domain": "Physics",
+    "topic": "Space and Astronomy",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of a gravitational slingshot manoeuvre on a spacecraft. The spacecraft gains kinetic energy. Which of the following correctly explains this?",
+    "options": [
+      "Energy is created during the manoeuvre",
+      "The spacecraft transfers momentum from the planet during a close flyby; in the planet's reference frame the spacecraft's speed is unchanged, but in the Sun's frame it gains speed from the planet's orbital motion",
+      "The planet loses no energy",
+      "Gravity does work on the spacecraft directly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Gravitational slingshot (gravity assist): the spacecraft approaches a moving planet, curves around it and departs. In the planet's frame, speed is conserved. But in the Sun's frame, the spacecraft gains momentum from the planet's orbital motion. The planet loses an imperceptibly small amount of orbital energy."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-019",
+    "domain": "Physics",
+    "topic": "Space and Astronomy",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of solar wind on Earth's magnetosphere. During a solar storm, auroras are visible at lower latitudes. Which of the following correctly explains this?",
+    "options": [
+      "Solar wind cools the atmosphere",
+      "Intense solar wind compresses the magnetosphere and injects energetic particles along magnetic field lines; these excite atmospheric gases at lower latitudes, producing auroras",
+      "Solar wind increases Earth's rotation",
+      "Auroras are caused by lightning"
+    ],
+    "answerIndex": 1,
+    "explanation": "The magnetosphere deflects most solar wind. During solar storms, intense solar wind compresses the magnetosphere and energetic particles penetrate deeper along field lines toward lower latitudes. Collisions with atmospheric gases (O, N) produce characteristic light emissions — auroras visible further from the poles."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-020",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of increasing atmospheric aerosols (from volcanic eruptions) on global temperature. Temperature decreases after major eruptions. Which of the following correctly explains this?",
+    "options": [
+      "Aerosols absorb infrared radiation",
+      "Volcanic aerosols (sulfate particles) reflect incoming solar radiation back to space, reducing the amount reaching Earth's surface and causing temporary cooling",
+      "Aerosols increase greenhouse effect",
+      "Volcanic eruptions release CO2 only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Volcanic aerosols (mainly sulfate particles from SO2 oxidation) scatter and reflect incoming solar radiation, reducing solar irradiance at Earth's surface. This causes temporary global cooling — the 'volcanic winter' effect. The 1991 Pinatubo eruption cooled global temperatures by ~0.5°C for 1-2 years."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-021",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of ocean stratification on marine productivity. Strongly stratified oceans have lower productivity. Which of the following correctly explains this?",
+    "options": [
+      "Stratified oceans are warmer",
+      "Stratification prevents mixing of nutrient-rich deep water with the sunlit surface layer; phytoplankton in the surface layer deplete nutrients and cannot be replenished, limiting productivity",
+      "Stratified oceans have more light",
+      "Stratification increases CO2 availability"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ocean productivity depends on nutrient availability in the photic zone. Stratification (warm, less dense surface water over cold, dense deep water) prevents vertical mixing. Phytoplankton deplete surface nutrients; without mixing to replenish them from nutrient-rich deep water, productivity declines."
+  },
+  {
+    "id": "MCQ-LAST2-Y910-022",
+    "domain": "Earth Science",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of rewilding (reintroducing wolves) on a degraded ecosystem. Plant diversity increases after wolf reintroduction. Which of the following correctly explains this?",
+    "options": [
+      "Wolves eat plants directly",
+      "Wolves reduce deer grazing pressure through direct predation and fear effects; reduced grazing allows plant communities to recover and diversify — a trophic cascade",
+      "Wolves improve soil quality",
+      "Wolves compete with plants for water"
+    ],
+    "answerIndex": 1,
+    "explanation": "Trophic cascade: wolves prey on deer and alter their behaviour (deer avoid open areas). Reduced grazing pressure allows vegetation recovery. Diverse plant communities establish, improving habitat structure and supporting more species — demonstrating how apex predators can restore ecosystem function."
+  }
+]

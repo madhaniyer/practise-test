@@ -1,0 +1,332 @@
+[
+  {
+    "id": "MCQ-Z-Y910-001",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates osmosis in potato cylinders placed in solutions of different sucrose concentrations. At 0.3 mol/L the cylinder neither gains nor loses mass. Which of the following correctly describes the water potential of the potato cells?",
+    "options": [
+      "Higher than 0.3 mol/L sucrose solution",
+      "Equal to the water potential of 0.3 mol/L sucrose solution",
+      "Lower than 0.3 mol/L sucrose solution",
+      "Zero"
+    ],
+    "answerIndex": 1,
+    "explanation": "At the isotonic point, there is no net movement of water — the water potential of the cell contents equals the water potential of the external solution. The potato cell water potential equals that of 0.3 mol/L sucrose."
+  },
+  {
+    "id": "MCQ-Z-Y910-002",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student compares the rate of diffusion of glucose and oxygen across a cell membrane. Oxygen diffuses faster. Which of the following correctly explains this?",
+    "options": [
+      "Glucose is charged",
+      "Oxygen is a small non-polar molecule that dissolves in the lipid bilayer and diffuses freely; glucose is large and polar, requiring protein carriers (facilitated diffusion)",
+      "Glucose has a higher concentration gradient",
+      "Oxygen requires active transport"
+    ],
+    "answerIndex": 1,
+    "explanation": "Simple diffusion through the lipid bilayer is fastest for small, non-polar, uncharged molecules like O2 and CO2. Glucose is large and polar — it cannot dissolve in the hydrophobic core of the bilayer and requires specific carrier proteins for facilitated diffusion."
+  },
+  {
+    "id": "MCQ-Z-Y910-003",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of temperature on membrane fluidity using a fluorescence recovery experiment. Fluidity increases with temperature. Which of the following correctly explains the consequence for membrane function?",
+    "options": [
+      "Higher fluidity always improves membrane function",
+      "Optimal fluidity is required for membrane protein function; too fluid (high temperature) or too rigid (low temperature) impairs protein conformation and transport function",
+      "Higher fluidity reduces permeability",
+      "Lower fluidity increases transport rates"
+    ],
+    "answerIndex": 1,
+    "explanation": "Membrane proteins (channels, carriers, receptors) require optimal fluidity to maintain their functional conformation and mobility. Extremes of temperature — too fluid or too rigid — disrupt protein structure and function, impairing transport, signalling and enzyme activity."
+  },
+  {
+    "id": "MCQ-Z-Y910-004",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student investigates the cell cycle using a drug that blocks DNA replication. Cells accumulate in which phase?",
+    "options": [
+      "G1",
+      "S phase — DNA replication is blocked, preventing progression to G2 and mitosis",
+      "G2",
+      "M phase"
+    ],
+    "answerIndex": 1,
+    "explanation": "DNA replication occurs in S phase. A drug blocking replication causes cells to arrest in S phase — they cannot complete DNA synthesis and therefore cannot progress to G2 or enter mitosis. This is the basis of some chemotherapy drugs."
+  },
+  {
+    "id": "MCQ-Z-Y910-005",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student compares the ATP yield of aerobic respiration of glucose versus fatty acids. Fatty acids yield more ATP per gram. Which of the following correctly explains this?",
+    "options": [
+      "Fatty acids contain nitrogen",
+      "Fatty acids have more C-H bonds per carbon atom than glucose; complete oxidation releases more energy per gram",
+      "Fatty acids are smaller molecules",
+      "Glucose contains more oxygen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fatty acids are more reduced than carbohydrates — they have a higher proportion of C-H bonds and fewer C-O bonds. C-H bonds release more energy when oxidised. Per gram, fatty acids yield approximately twice the ATP of glucose."
+  },
+  {
+    "id": "MCQ-Z-Y910-006",
+    "domain": "Biology",
+    "topic": "Plants and Photosynthesis",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of gibberellin on stem elongation in dwarf pea plants. Gibberellin treatment causes dwarf plants to grow to normal height. Which of the following correctly explains the mechanism?",
+    "options": [
+      "Gibberellin increases photosynthesis",
+      "Gibberellin promotes cell elongation by stimulating the loosening of cell walls and increasing water uptake, allowing cells to expand",
+      "Gibberellin increases cell division only",
+      "Gibberellin increases chlorophyll production"
+    ],
+    "answerIndex": 1,
+    "explanation": "Gibberellins promote stem elongation by stimulating cell elongation (not just division). They activate enzymes that loosen cell wall cross-links, reducing wall rigidity. Increased turgor pressure then drives cell expansion. Dwarf plants lack functional gibberellin signalling."
+  },
+  {
+    "id": "MCQ-Z-Y910-007",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student investigates the inheritance of a trait controlled by two genes on the same chromosome. The observed ratio deviates from the expected 9:3:3:1. Which of the following correctly explains this deviation?",
+    "options": [
+      "The genes show incomplete dominance",
+      "The genes are linked — they tend to be inherited together rather than assorting independently, causing deviation from Mendelian ratios",
+      "The genes are on different chromosomes",
+      "One gene is dominant over the other"
+    ],
+    "answerIndex": 1,
+    "explanation": "Linked genes (on the same chromosome) violate Mendel's law of independent assortment. They tend to be inherited together, producing offspring ratios that deviate from the expected 9:3:3:1 dihybrid ratio. Crossing over can partially separate linked genes."
+  },
+  {
+    "id": "MCQ-Z-Y910-008",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student analyses the karyotype of a cell and finds 45 chromosomes with only one X chromosome (45,X). Which condition does this represent?",
+    "options": [
+      "Down syndrome",
+      "Klinefelter syndrome",
+      "Turner syndrome — monosomy X, caused by non-disjunction",
+      "Patau syndrome"
+    ],
+    "answerIndex": 2,
+    "explanation": "Turner syndrome (45,X) results from non-disjunction during meiosis, producing an egg or sperm lacking a sex chromosome. The resulting individual has only one X chromosome. Features include short stature, infertility and heart defects."
+  },
+  {
+    "id": "MCQ-Z-Y910-009",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of a non-competitive inhibitor on enzyme activity. Unlike competitive inhibition, adding more substrate does not restore activity. Which of the following correctly explains this?",
+    "options": [
+      "Non-competitive inhibitors bind to the active site",
+      "Non-competitive inhibitors bind to an allosteric site, changing the shape of the active site permanently — substrate cannot overcome this by competing for the active site",
+      "Non-competitive inhibitors increase activation energy",
+      "Non-competitive inhibitors are irreversible only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Non-competitive inhibitors bind to an allosteric site (not the active site), causing a conformational change that distorts the active site. Since the inhibitor does not compete with substrate for the active site, increasing substrate concentration cannot overcome the inhibition."
+  },
+  {
+    "id": "MCQ-Z-Y910-010",
+    "domain": "Biology",
+    "topic": "Plants and Photosynthesis",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of light intensity on net photosynthesis. Below the compensation point, net CO2 uptake is negative. Which of the following correctly explains this?",
+    "options": [
+      "Photosynthesis stops below the compensation point",
+      "Below the compensation point, respiration rate exceeds photosynthesis rate — the plant releases more CO2 than it fixes, resulting in net CO2 release",
+      "The plant produces no CO2 below the compensation point",
+      "Respiration stops below the compensation point"
+    ],
+    "answerIndex": 1,
+    "explanation": "Net photosynthesis = gross photosynthesis − respiration. Below the light compensation point, gross photosynthesis < respiration rate. The plant is a net CO2 producer — it releases more CO2 through respiration than it fixes through photosynthesis."
+  },
+  {
+    "id": "MCQ-Z-Y910-011",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction of Period 2 elements with oxygen. Lithium forms Li2O; sodium forms Na2O2; potassium forms KO2. Which of the following correctly explains why different oxides form?",
+    "options": [
+      "All alkali metals form the same oxide",
+      "Larger alkali metal atoms with more diffuse electron clouds stabilise larger, more polarisable oxide ions (O2²⁻ peroxide, O2⁻ superoxide) that would destabilise smaller, more charge-dense Li⁺",
+      "The reactions occur at different temperatures",
+      "Oxygen reacts differently with each metal"
+    ],
+    "answerIndex": 1,
+    "explanation": "The type of oxide formed depends on the size and charge density of the metal cation. Li⁺ is small and highly charge-dense, stabilising the simple O²⁻ oxide. Larger Na⁺ stabilises the peroxide O2²⁻. Even larger K⁺ stabilises the superoxide O2⁻."
+  },
+  {
+    "id": "MCQ-Z-Y910-012",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A student investigates the reaction between ethanol and acidified potassium dichromate. The orange dichromate turns green. Which of the following correctly explains this observation?",
+    "options": [
+      "Ethanol is reduced",
+      "Ethanol is oxidised to ethanal/ethanoic acid; dichromate (Cr2O7²⁻, orange) is reduced to Cr³⁺ (green) — a redox reaction",
+      "Ethanol reacts with water",
+      "Dichromate is oxidised"
+    ],
+    "answerIndex": 1,
+    "explanation": "Acidified potassium dichromate is an oxidising agent. It oxidises primary alcohols (ethanol → ethanal → ethanoic acid). The Cr2O7²⁻ ion (orange) is reduced to Cr³⁺ (green). The colour change from orange to green confirms oxidation of the alcohol."
+  },
+  {
+    "id": "MCQ-Z-Y910-013",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student investigates the properties of nylon (a polyamide). Nylon is formed by condensation polymerisation between a diamine and a dicarboxylic acid. Which of the following correctly describes the bond formed between monomers?",
+    "options": [
+      "Ester bond",
+      "Peptide (amide) bond — formed between the amine group (-NH2) of one monomer and the carboxylic acid group (-COOH) of another, releasing water",
+      "Carbon-carbon double bond",
+      "Ionic bond"
+    ],
+    "answerIndex": 1,
+    "explanation": "Polyamides (nylons) form when the -NH2 group of a diamine reacts with the -COOH group of a dicarboxylic acid, forming an amide (peptide) bond (-CO-NH-) and releasing water. This is condensation polymerisation — the same bond type as in proteins."
+  },
+  {
+    "id": "MCQ-Z-Y910-014",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of chain length on the viscosity of alkanes. Longer chains have higher viscosity. Which of the following correctly explains this?",
+    "options": [
+      "Longer chains have more C-H bonds that react with oxygen",
+      "Longer chains have greater surface area, increasing van der Waals forces between molecules, making them harder to flow past each other",
+      "Longer chains have lower boiling points",
+      "Shorter chains have stronger intermolecular forces"
+    ],
+    "answerIndex": 1,
+    "explanation": "Viscosity reflects resistance to flow — how easily molecules slide past each other. Longer alkane chains have greater surface area contact between molecules, increasing van der Waals (London dispersion) forces. Stronger intermolecular forces make longer-chain alkanes more viscous."
+  },
+  {
+    "id": "MCQ-Z-Y910-015",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction of halogens with aqueous sodium halide solutions. Chlorine displaces bromide and iodide; bromine displaces iodide only; iodine displaces neither. Which of the following correctly explains this?",
+    "options": [
+      "Iodine is the most reactive halogen",
+      "Reactivity decreases down Group 17 — chlorine is most reactive and can displace less reactive halogens from their salts; iodine is least reactive and cannot displace any",
+      "Chlorine is the largest halogen",
+      "Bromine has the highest electronegativity"
+    ],
+    "answerIndex": 1,
+    "explanation": "Halogen reactivity decreases down Group 17 as atomic radius increases and the ability to attract electrons (electronegativity) decreases. More reactive halogens can oxidise (displace) the ions of less reactive halogens. Cl2 > Br2 > I2 in reactivity."
+  },
+  {
+    "id": "MCQ-Z-Y910-016",
+    "domain": "Physics",
+    "topic": "Space and Astronomy",
+    "difficulty": "Hard",
+    "question": "A student investigates the motion of a satellite in circular orbit. Which of the following correctly describes the energy changes as the satellite moves to a lower orbit?",
+    "options": [
+      "Kinetic energy decreases; potential energy increases",
+      "Kinetic energy increases; gravitational potential energy decreases; total mechanical energy decreases (energy lost to atmosphere)",
+      "Both kinetic and potential energy increase",
+      "Total mechanical energy is conserved in all orbits"
+    ],
+    "answerIndex": 1,
+    "explanation": "Moving to a lower orbit: gravitational PE decreases (lower altitude). By the virial theorem, KE increases (faster orbital speed). However, total mechanical energy decreases because energy is lost to atmospheric drag. The satellite speeds up but loses total energy."
+  },
+  {
+    "id": "MCQ-Z-Y910-017",
+    "domain": "Physics",
+    "topic": "Space and Astronomy",
+    "difficulty": "Medium",
+    "question": "A student investigates the relationship between orbital radius and orbital speed for planets. As orbital radius increases, orbital speed decreases. Which of the following correctly explains this?",
+    "options": [
+      "Larger orbits have more friction",
+      "Gravitational force decreases with distance (inverse square law); less centripetal force is needed for a larger orbit, so orbital speed is lower (v = √(GM/r))",
+      "Larger planets move faster",
+      "Orbital speed is independent of radius"
+    ],
+    "answerIndex": 1,
+    "explanation": "Orbital speed v = √(GM/r). As orbital radius r increases, v decreases (inversely proportional to √r). Planets further from the Sun move more slowly — consistent with Kepler's third law (T² ∝ r³)."
+  },
+  {
+    "id": "MCQ-Z-Y910-018",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of a magnetic field on a beam of electrons. The beam curves. Which of the following correctly explains this?",
+    "options": [
+      "Electrons are neutral and should not be affected",
+      "Electrons are negatively charged; the magnetic force (F = qvB) acts perpendicular to both velocity and field, causing circular motion",
+      "Electrons are attracted to the magnetic poles",
+      "The magnetic field accelerates electrons along the field lines"
+    ],
+    "answerIndex": 1,
+    "explanation": "Moving charged particles experience a magnetic force F = qvB perpendicular to both their velocity and the magnetic field (Fleming's left-hand rule for negative charges). This perpendicular force causes circular motion without doing work (speed unchanged, direction changes)."
+  },
+  {
+    "id": "MCQ-Z-Y910-019",
+    "domain": "Physics",
+    "topic": "Nuclear and Space",
+    "difficulty": "Medium",
+    "question": "A student investigates nuclear decay. A nucleus emits a beta-minus particle. Which of the following correctly describes what happens to the nucleus?",
+    "options": [
+      "Atomic number decreases by 1; mass number unchanged",
+      "Atomic number increases by 1; mass number unchanged — a neutron converts to a proton and an electron (beta particle)",
+      "Atomic number decreases by 2; mass number decreases by 4",
+      "Atomic number unchanged; mass number decreases by 1"
+    ],
+    "answerIndex": 1,
+    "explanation": "Beta-minus decay: a neutron in the nucleus converts to a proton, emitting an electron (beta particle) and an antineutrino. Atomic number increases by 1 (one more proton); mass number is unchanged (same total nucleons)."
+  },
+  {
+    "id": "MCQ-Z-Y910-020",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of increasing the number of solar panels on a house's energy output. Output increases linearly with number of panels. Which of the following correctly explains why the relationship eventually becomes non-linear?",
+    "options": [
+      "More panels produce less electricity",
+      "At high panel numbers, shading between panels, inverter capacity limits and roof space constraints reduce the marginal output of additional panels",
+      "Solar panels become less efficient over time",
+      "The grid cannot accept more electricity"
+    ],
+    "answerIndex": 1,
+    "explanation": "Initially, each additional panel adds the same output (linear). Eventually, practical constraints limit output: panels shade each other (reducing irradiance), the inverter reaches maximum capacity, or available roof space runs out. These factors cause the relationship to become non-linear (diminishing returns)."
+  },
+  {
+    "id": "MCQ-Z-Y910-021",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of urbanisation on local biodiversity. Urban areas have lower native species diversity but higher non-native species diversity. Which of the following correctly explains this pattern?",
+    "options": [
+      "Urban areas have more food",
+      "Urban environments favour generalist and non-native species adapted to disturbed habitats; native specialist species are displaced by habitat loss, pollution, light and noise",
+      "Urban areas have no predators",
+      "Native species prefer urban environments"
+    ],
+    "answerIndex": 1,
+    "explanation": "Urbanisation creates novel, disturbed habitats with altered temperature, light, noise and pollution levels. Generalist species and non-native species (often introduced accidentally) thrive in these conditions. Native specialist species requiring specific habitat conditions are displaced, reducing native biodiversity."
+  },
+  {
+    "id": "MCQ-Z-Y910-022",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of ocean acidification on the calcification rate of coral. Rate decreases as pH decreases. Which of the following correctly explains the mechanism at the molecular level?",
+    "options": [
+      "Lower pH increases calcium availability",
+      "Lower pH reduces carbonate ion (CO3²⁻) concentration; coral use carbonate to precipitate calcium carbonate (CaCO3) for skeleton formation — less carbonate means slower calcification",
+      "Lower pH increases coral metabolism",
+      "Lower pH increases water temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Calcification: Ca²⁺ + CO3²⁻ → CaCO3. Ocean acidification increases H⁺ concentration, which reacts with CO3²⁻ to form HCO3⁻, reducing carbonate ion availability. With less CO3²⁻, coral cannot maintain calcification rates, producing weaker skeletons and slower growth."
+  }
+]

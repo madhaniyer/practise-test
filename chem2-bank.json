@@ -1,0 +1,317 @@
+[
+  {
+    "id": "MCQ-CHEM2-Y910-001",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction between sodium thiosulfate and hydrochloric acid. As concentration of sodium thiosulfate increases, the time for the solution to turn cloudy decreases. Which of the following correctly explains this?",
+    "options": [
+      "Higher concentration lowers activation energy",
+      "Higher concentration increases the frequency of successful collisions between reactant particles",
+      "Higher concentration increases temperature",
+      "Higher concentration changes the products"
+    ],
+    "answerIndex": 1,
+    "explanation": "Collision theory: higher concentration means more particles per unit volume, increasing collision frequency. More collisions per second means more successful collisions (those exceeding activation energy), increasing reaction rate."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-002",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student measures the enthalpy change of a neutralisation reaction using a polystyrene cup calorimeter. The temperature rises by 6.8°C when 50 mL of 1 mol/L HCl reacts with 50 mL of 1 mol/L NaOH. Using Q = mcΔT (c = 4.18 J/g°C, assume density = 1 g/mL), what is the heat released?",
+    "options": [
+      "284 J",
+      "2843 J",
+      "568 J",
+      "142 J"
+    ],
+    "answerIndex": 1,
+    "explanation": "Q = mcΔT = 100 g × 4.18 J/g°C × 6.8°C = 2842.4 J ≈ 2843 J. The total mass is 100 mL × 1 g/mL = 100 g."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-003",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student compares the activation energy of a catalysed and uncatalysed reaction on an energy profile diagram. Which of the following correctly describes the effect of the catalyst?",
+    "options": [
+      "The catalyst raises the activation energy",
+      "The catalyst lowers the activation energy by providing an alternative reaction pathway",
+      "The catalyst changes the energy of the reactants",
+      "The catalyst changes the energy of the products"
+    ],
+    "answerIndex": 1,
+    "explanation": "A catalyst provides an alternative reaction pathway with lower activation energy. The energies of reactants and products are unchanged — only the energy barrier (activation energy) is reduced, allowing more collisions to be successful."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-004",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the decomposition of hydrogen peroxide: 2H₂O₂ → 2H₂O + O₂. Adding manganese dioxide speeds up the reaction. After the reaction, the manganese dioxide is recovered unchanged. Which of the following correctly describes manganese dioxide in this reaction?",
+    "options": [
+      "A reactant",
+      "A product",
+      "A catalyst",
+      "An inhibitor"
+    ],
+    "answerIndex": 2,
+    "explanation": "Manganese dioxide is a catalyst — it speeds up the reaction but is not consumed. It is recovered unchanged at the end, confirming it provides an alternative pathway with lower activation energy without being incorporated into products."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-005",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "In the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the forward reaction is exothermic. A student increases the pressure. According to Le Chatelier's principle, which of the following will occur?",
+    "options": [
+      "Equilibrium shifts left, producing more N₂ and H₂",
+      "Equilibrium shifts right, producing more NH₃",
+      "Equilibrium position does not change with pressure",
+      "The reaction stops"
+    ],
+    "answerIndex": 1,
+    "explanation": "Increasing pressure favours the side with fewer moles of gas. Left side: 1 + 3 = 4 moles; right side: 2 moles. Equilibrium shifts right toward fewer moles (NH₃), reducing pressure."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-006",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of temperature on the equilibrium: A ⇌ B (exothermic forward reaction). Increasing temperature shifts equilibrium to the left. Which of the following correctly explains this?",
+    "options": [
+      "Increasing temperature always shifts equilibrium right",
+      "Le Chatelier's principle: increasing temperature favours the endothermic (reverse) reaction to absorb the added heat",
+      "Increasing temperature increases the concentration of A",
+      "Increasing temperature has no effect on equilibrium"
+    ],
+    "answerIndex": 1,
+    "explanation": "Le Chatelier's principle: a system at equilibrium responds to oppose changes. Adding heat (increasing temperature) shifts equilibrium toward the endothermic direction (reverse reaction) to absorb the excess heat, reducing the temperature increase."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-007",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student calculates the atom economy of a reaction: CH₄ + 2O₂ → CO₂ + 2H₂O. The desired product is CO₂ (Mr = 44). The total Mr of all products = 44 + 36 = 80. What is the atom economy?",
+    "options": [
+      "55%",
+      "45%",
+      "80%",
+      "44%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Atom economy = (Mr of desired product / total Mr of all products) × 100 = (44/80) × 100 = 55%."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-008",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "Which of the following correctly explains why a higher percentage yield does not necessarily mean a more sustainable process?",
+    "options": [
+      "Yield and sustainability are always related",
+      "A high yield reaction may still produce large amounts of toxic by-products or use non-renewable feedstocks — atom economy and green chemistry principles must also be considered",
+      "Sustainability only depends on energy use",
+      "Percentage yield only applies to industrial processes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Percentage yield measures how much of the theoretical product is obtained. Atom economy measures how efficiently atoms are incorporated into the desired product. A high-yield reaction with low atom economy wastes resources and produces unwanted by-products."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-009",
+    "domain": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "difficulty": "Medium",
+    "question": "A student reacts 6 g of carbon with excess oxygen: C + O₂ → CO₂. What mass of CO₂ is produced? (Ar: C=12, O=16)",
+    "options": [
+      "6 g",
+      "22 g",
+      "44 g",
+      "12 g"
+    ],
+    "answerIndex": 1,
+    "explanation": "Moles of C = 6/12 = 0.5 mol. From the equation, 1 mol C produces 1 mol CO₂. So 0.5 mol CO₂ is produced. Mass = 0.5 × 44 = 22 g."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-010",
+    "domain": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "difficulty": "Hard",
+    "question": "A student dissolves 5.85 g of NaCl (Mr = 58.5) in water to make 500 mL of solution. What is the concentration of the solution?",
+    "options": [
+      "0.1 mol/L",
+      "0.2 mol/L",
+      "1 mol/L",
+      "0.5 mol/L"
+    ],
+    "answerIndex": 1,
+    "explanation": "Moles NaCl = 5.85/58.5 = 0.1 mol. Volume = 500 mL = 0.5 L. Concentration = 0.1/0.5 = 0.2 mol/L."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-011",
+    "domain": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "difficulty": "Medium",
+    "question": "In a reaction, 4.0 g of calcium reacts with excess hydrochloric acid: Ca + 2HCl → CaCl₂ + H₂. What volume of hydrogen gas is produced at STP? (Ar: Ca=40; molar volume at STP = 22.4 L/mol)",
+    "options": [
+      "2.24 L",
+      "4.48 L",
+      "22.4 L",
+      "1.12 L"
+    ],
+    "answerIndex": 0,
+    "explanation": "Moles Ca = 4.0/40 = 0.1 mol. From equation, 1 mol Ca produces 1 mol H₂. So 0.1 mol H₂ produced. Volume = 0.1 × 22.4 = 2.24 L."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-012",
+    "domain": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "difficulty": "Hard",
+    "question": "A student analyses a compound and finds it contains 40% carbon, 6.67% hydrogen and 53.33% oxygen by mass. The molar mass is 60 g/mol. What is the molecular formula? (Ar: C=12, H=1, O=16)",
+    "options": [
+      "CH₂O",
+      "C₂H₄O₂",
+      "C₃H₆O₃",
+      "CHO"
+    ],
+    "answerIndex": 1,
+    "explanation": "Empirical formula: C=40/12=3.33, H=6.67/1=6.67, O=53.33/16=3.33. Ratio 1:2:1 → CH₂O (Mr=30). Molecular formula: 60/30=2, so C₂H₄O₂."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-013",
+    "domain": "Chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "A student electroplates a steel spoon with silver using silver nitrate solution. Which of the following correctly describes what happens at the cathode?",
+    "options": [
+      "Silver ions are oxidised and deposited",
+      "Silver ions are reduced and deposited as silver metal on the spoon",
+      "The spoon dissolves into solution",
+      "Oxygen gas is produced"
+    ],
+    "answerIndex": 1,
+    "explanation": "At the cathode (negative electrode), Ag⁺ ions from solution gain electrons (reduction) and are deposited as silver metal on the spoon surface: Ag⁺ + e⁻ → Ag."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-014",
+    "domain": "Chemistry",
+    "topic": "Materials",
+    "difficulty": "Hard",
+    "question": "A student compares the properties of a thermoplastic and a thermosetting polymer. Which of the following correctly describes the difference?",
+    "options": [
+      "Both can be remoulded when heated",
+      "Thermoplastics soften and can be remoulded when heated; thermosetting polymers form permanent cross-links and cannot be remoulded",
+      "Thermosetting polymers are always softer",
+      "Thermoplastics cannot be recycled"
+    ],
+    "answerIndex": 1,
+    "explanation": "Thermoplastics (e.g. polyethylene) have polymer chains held by weak intermolecular forces that break on heating, allowing remoulding. Thermosetting polymers (e.g. Bakelite) form covalent cross-links during curing, creating a rigid, permanent structure that cannot be remoulded."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-015",
+    "domain": "Chemistry",
+    "topic": "Corrosion",
+    "difficulty": "Medium",
+    "question": "A student investigates corrosion of iron. Iron rusts faster in salt water than in pure water. Which of the following correctly explains this?",
+    "options": [
+      "Salt water is more acidic",
+      "Salt water contains ions that increase electrical conductivity, accelerating the electrochemical corrosion process",
+      "Salt water contains more oxygen",
+      "Salt water is denser"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rusting is an electrochemical process. Salt water contains dissolved ions (Na⁺, Cl⁻) that increase electrical conductivity, allowing electrons to flow more easily between anodic and cathodic regions on the iron surface, accelerating the oxidation of iron."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-016",
+    "domain": "Chemistry",
+    "topic": "Corrosion",
+    "difficulty": "Hard",
+    "question": "Which of the following correctly explains why aluminium does not corrode as readily as iron despite being a more reactive metal?",
+    "options": [
+      "Aluminium is less reactive than iron",
+      "Aluminium forms a thin, adherent oxide layer (Al₂O₃) that protects the surface from further oxidation",
+      "Aluminium is coated with zinc",
+      "Aluminium does not react with oxygen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Aluminium reacts rapidly with oxygen to form a thin, dense, adherent layer of aluminium oxide (Al₂O₃). This layer is impermeable to oxygen and water, preventing further oxidation — unlike iron oxide (rust), which is porous and flaky."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-017",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student reacts ethene with bromine water. The bromine water is decolourised. Which type of reaction has occurred and what is the product?",
+    "options": [
+      "Substitution; dibromoethane",
+      "Addition; 1,2-dibromoethane",
+      "Elimination; bromoethene",
+      "Combustion; CO₂ and H₂O"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alkenes undergo addition reactions across the C=C double bond. Bromine adds across the double bond: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br (1,2-dibromoethane). The decolourisation of bromine water is the test for unsaturation."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-018",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A student compares the boiling points of ethanol (78°C) and dimethyl ether (−24°C), which are structural isomers (both C₂H₆O). Which of the following correctly explains the large difference?",
+    "options": [
+      "Ethanol has a higher molar mass",
+      "Ethanol molecules form hydrogen bonds through the –OH group; dimethyl ether cannot form hydrogen bonds as there is no O–H bond",
+      "Dimethyl ether has stronger van der Waals forces",
+      "Ethanol is more polar overall"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ethanol has an –OH group where the hydrogen is bonded directly to oxygen, enabling hydrogen bonding between molecules. Dimethyl ether (CH₃–O–CH₃) has no O–H bond, so it cannot form hydrogen bonds. Hydrogen bonds are much stronger than van der Waals forces, giving ethanol a much higher boiling point."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-019",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student investigates the hydrolysis of an ester using dilute acid. Which of the following correctly describes the products?",
+    "options": [
+      "An alkene and water",
+      "The original alcohol and carboxylic acid",
+      "A new ester and water",
+      "A polymer and water"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ester hydrolysis (the reverse of esterification) breaks the ester bond using water (with acid or base catalyst), regenerating the original alcohol and carboxylic acid. Acid hydrolysis is reversible; base hydrolysis (saponification) is irreversible."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-020",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "Which of the following correctly explains why long-chain saturated fats are solid at room temperature while short-chain unsaturated fats are liquid?",
+    "options": [
+      "Saturated fats have more oxygen",
+      "Longer saturated chains have greater van der Waals forces and pack closely together; unsaturated fats have C=C double bonds that create kinks, preventing close packing and reducing intermolecular forces",
+      "Unsaturated fats have higher molar masses",
+      "Saturated fats contain more hydrogen bonds"
+    ],
+    "answerIndex": 1,
+    "explanation": "Saturated fatty acid chains are straight and pack closely, maximising van der Waals forces — solid at room temperature. C=C double bonds in unsaturated fats create kinks that prevent close packing, reducing intermolecular forces — liquid at room temperature."
+  },
+  {
+    "id": "MCQ-CHEM2-Y910-021",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student tests an unknown organic compound with Fehling's solution and gets a brick-red precipitate. Which functional group is most likely present?",
+    "options": [
+      "Carboxylic acid (–COOH)",
+      "Aldehyde (–CHO)",
+      "Alcohol (–OH)",
+      "Ketone (C=O)"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fehling's solution is reduced by aldehydes (–CHO) to form a brick-red precipitate of copper(I) oxide. Ketones do not reduce Fehling's solution. This test distinguishes aldehydes from ketones."
+  }
+]

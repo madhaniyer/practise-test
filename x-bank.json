@@ -1,0 +1,467 @@
+[
+  {
+    "id": "MCQ-X-Y910-001",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of substrate concentration on enzyme activity using amylase and starch. At high substrate concentration the rate plateaus. Adding more enzyme at this point increases the rate. Which of the following correctly explains this?",
+    "options": [
+      "More enzyme increases substrate concentration",
+      "At the plateau all enzyme active sites are saturated; adding more enzyme provides more active sites, allowing more substrate to be processed simultaneously",
+      "More enzyme lowers activation energy",
+      "More enzyme changes the pH"
+    ],
+    "answerIndex": 1,
+    "explanation": "When enzyme is the limiting factor (all active sites occupied), adding more enzyme increases the total number of active sites available. More substrate molecules can be processed simultaneously, increasing the overall reaction rate."
+  },
+  {
+    "id": "MCQ-X-Y910-002",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student compares aerobic and anaerobic respiration in yeast. Aerobic respiration produces 36-38 ATP per glucose; anaerobic produces 2 ATP. Which of the following correctly explains the difference?",
+    "options": [
+      "Anaerobic respiration uses more glucose",
+      "Aerobic respiration fully oxidises glucose through glycolysis, the Krebs cycle and oxidative phosphorylation, extracting maximum energy; anaerobic only completes glycolysis",
+      "Anaerobic respiration is faster",
+      "Aerobic respiration uses less oxygen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Aerobic respiration extracts energy through three stages: glycolysis (2 ATP), Krebs cycle (2 ATP) and oxidative phosphorylation (~32-34 ATP via the electron transport chain). Anaerobic respiration only completes glycolysis, producing just 2 ATP per glucose."
+  },
+  {
+    "id": "MCQ-X-Y910-003",
+    "domain": "Biology",
+    "topic": "Plants and Photosynthesis",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of temperature on the rate of transpiration. Rate increases with temperature. Which of the following correctly explains this?",
+    "options": [
+      "Higher temperature closes stomata",
+      "Higher temperature increases the kinetic energy of water molecules, increasing evaporation from mesophyll cells and steepening the water vapour concentration gradient between leaf and air",
+      "Higher temperature reduces water uptake",
+      "Higher temperature increases root pressure"
+    ],
+    "answerIndex": 1,
+    "explanation": "Transpiration rate depends on evaporation from mesophyll cells and diffusion of water vapour through stomata. Higher temperature increases kinetic energy of water molecules (faster evaporation) and reduces relative humidity of air (steeper concentration gradient), both increasing transpiration rate."
+  },
+  {
+    "id": "MCQ-X-Y910-004",
+    "domain": "Biology",
+    "topic": "Plants and Photosynthesis",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of mineral deficiency on plant growth. Plants lacking nitrate ions show stunted growth and yellowing leaves. Which of the following correctly explains this?",
+    "options": [
+      "Nitrate ions are needed for photosynthesis directly",
+      "Nitrate ions are needed for synthesis of amino acids and proteins (including chlorophyll); deficiency limits protein synthesis and chlorophyll production",
+      "Nitrate ions are needed for water uptake",
+      "Nitrate ions are needed for cell wall synthesis"
+    ],
+    "answerIndex": 1,
+    "explanation": "Nitrate ions (NO₃⁻) provide nitrogen for amino acid synthesis. Without nitrogen, plants cannot make proteins (including enzymes) or chlorophyll. Stunted growth results from reduced protein synthesis; yellowing (chlorosis) results from reduced chlorophyll production."
+  },
+  {
+    "id": "MCQ-X-Y910-005",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student compares the immune response to a pathogen on first and second exposure. The second response is faster and stronger. Which of the following correctly explains this?",
+    "options": [
+      "The pathogen is weaker on second exposure",
+      "Memory B and T cells formed during the primary response persist and respond rapidly on re-exposure, producing a faster, larger antibody response",
+      "The immune system becomes less specific over time",
+      "The pathogen mutates to become less harmful"
+    ],
+    "answerIndex": 1,
+    "explanation": "During the primary immune response, some B and T cells differentiate into long-lived memory cells. On second exposure to the same antigen, memory cells rapidly proliferate and differentiate, producing a faster and larger secondary immune response that clears the infection before symptoms develop."
+  },
+  {
+    "id": "MCQ-X-Y910-006",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of pH on the activity of salivary amylase. Maximum activity occurs at pH 7. Which of the following correctly explains why amylase is inactive at pH 2?",
+    "options": [
+      "Starch denatures at pH 2",
+      "At pH 2, excess H⁺ ions protonate amino acid side chains in the active site, disrupting the ionic and hydrogen bonds that maintain the active site shape, preventing substrate binding",
+      "pH 2 increases substrate concentration",
+      "pH 2 increases temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Salivary amylase has an optimum pH of ~7 (matching the mouth). At pH 2 (stomach acid), the high H⁺ concentration disrupts the ionic interactions and hydrogen bonds maintaining the enzyme's tertiary structure, particularly in the active site, preventing effective substrate binding."
+  },
+  {
+    "id": "MCQ-X-Y910-007",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student investigates the inheritance of blood groups. A person with blood group AB has children with a person of blood group O. Which blood groups are possible in their children?",
+    "options": [
+      "AB and O only",
+      "A and B only",
+      "A, B, AB and O",
+      "AB only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Blood group AB has genotype I^A I^B; blood group O has genotype ii. Cross: I^A I^B × ii gives I^A i (blood group A) and I^B i (blood group B) only. AB and O are not possible from this cross."
+  },
+  {
+    "id": "MCQ-X-Y910-008",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student analyses a DNA sample using gel electrophoresis. Smaller DNA fragments travel further through the gel. Which of the following correctly explains this?",
+    "options": [
+      "Smaller fragments have more charge",
+      "Smaller fragments experience less resistance moving through the gel matrix and migrate further in the same time",
+      "Larger fragments are more negatively charged",
+      "Smaller fragments move toward the positive electrode only"
+    ],
+    "answerIndex": 1,
+    "explanation": "In gel electrophoresis, DNA fragments are negatively charged and migrate toward the positive electrode. Smaller fragments move more easily through the pores of the agarose gel matrix, experiencing less resistance and travelling further in a given time."
+  },
+  {
+    "id": "MCQ-X-Y910-009",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of increasing temperature on the rate of a chemical reaction. The rate doubles for every 10°C rise. Which of the following correctly explains this using collision theory?",
+    "options": [
+      "Higher temperature increases reactant concentration",
+      "Higher temperature increases the kinetic energy of particles; a greater proportion of collisions exceed the activation energy, and collision frequency also increases",
+      "Higher temperature lowers activation energy",
+      "Higher temperature changes the products"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Arrhenius equation describes how rate increases exponentially with temperature. Higher temperature: (1) increases collision frequency (particles move faster); (2) increases the proportion of collisions with energy ≥ activation energy. Together these approximately double the rate per 10°C rise."
+  },
+  {
+    "id": "MCQ-X-Y910-010",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the reaction of sodium with water: 2Na + 2H₂O → 2NaOH + H₂. Which of the following correctly identifies the oxidation state change of sodium?",
+    "options": [
+      "Sodium is reduced from 0 to +1",
+      "Sodium is oxidised from 0 to +1",
+      "Sodium is reduced from +1 to 0",
+      "Sodium does not change oxidation state"
+    ],
+    "answerIndex": 1,
+    "explanation": "In elemental sodium, oxidation state = 0. In NaOH, sodium has oxidation state +1. Sodium loses an electron (0 → +1) — this is oxidation. Water is reduced (hydrogen goes from +1 to 0 in H₂)."
+  },
+  {
+    "id": "MCQ-X-Y910-011",
+    "domain": "Chemistry",
+    "topic": "Electrochemistry",
+    "difficulty": "Medium",
+    "question": "A student investigates the electrolysis of molten lead bromide. Which of the following correctly describes the products?",
+    "options": [
+      "Lead at anode; bromine at cathode",
+      "Bromine at anode; lead at cathode",
+      "Hydrogen at cathode; oxygen at anode",
+      "Lead at both electrodes"
+    ],
+    "answerIndex": 1,
+    "explanation": "In molten PbBr₂: Pb²⁺ ions migrate to the cathode (negative) and are reduced to lead metal: Pb²⁺ + 2e⁻ → Pb. Br⁻ ions migrate to the anode (positive) and are oxidised to bromine gas: 2Br⁻ → Br₂ + 2e⁻."
+  },
+  {
+    "id": "MCQ-X-Y910-012",
+    "domain": "Chemistry",
+    "topic": "Quantitative Chemistry",
+    "difficulty": "Hard",
+    "question": "A student calculates the percentage composition by mass of carbon in ethanol (C₂H₅OH, Mr = 46). What is the percentage of carbon?",
+    "options": [
+      "26.1%",
+      "52.2%",
+      "13.0%",
+      "34.8%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mass of carbon in C₂H₅OH = 2 × 12 = 24 g/mol. Percentage = (24/46) × 100 = 52.2%."
+  },
+  {
+    "id": "MCQ-X-Y910-013",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction between iron and steam: 3Fe + 4H₂O → Fe₃O₄ + 4H₂. Which of the following correctly identifies the reducing agent?",
+    "options": [
+      "Water",
+      "Iron — it is oxidised (loses electrons), reducing water to hydrogen",
+      "Hydrogen",
+      "Iron oxide"
+    ],
+    "answerIndex": 1,
+    "explanation": "Iron is oxidised (Fe: 0 → +8/3 in Fe₃O₄) — it loses electrons. A reducing agent is the substance that gets oxidised (donates electrons). Iron reduces water to hydrogen gas, so iron is the reducing agent."
+  },
+  {
+    "id": "MCQ-X-Y910-014",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "A student investigates the properties of transition metals. Which of the following correctly describes a property that distinguishes transition metals from Group 1 metals?",
+    "options": [
+      "Transition metals have lower melting points",
+      "Transition metals can form ions with variable oxidation states and act as catalysts due to partially filled d-orbitals",
+      "Transition metals are more reactive than Group 1",
+      "Transition metals have lower densities"
+    ],
+    "answerIndex": 1,
+    "explanation": "Transition metals have partially filled d-orbitals, allowing them to form ions with multiple oxidation states (e.g. Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺) and act as catalysts. Group 1 metals have only one oxidation state (+1) and are not catalytically active."
+  },
+  {
+    "id": "MCQ-X-Y910-015",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of concentration on the rate of reaction between HCl and Na₂S₂O₃. They measure the time for a cross to disappear under the reaction mixture. Which of the following correctly identifies the dependent variable?",
+    "options": [
+      "Concentration of HCl",
+      "Temperature of the reaction",
+      "Time for the cross to disappear (inversely proportional to rate)",
+      "Volume of Na₂S₂O₃"
+    ],
+    "answerIndex": 2,
+    "explanation": "The dependent variable is what is measured. Here, the time for the cross to disappear is measured — it is inversely proportional to reaction rate (faster reaction = shorter time). Concentration is the independent variable being changed."
+  },
+  {
+    "id": "MCQ-X-Y910-016",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Hard",
+    "question": "A student investigates the motion of a ball thrown vertically upward. At the highest point, which of the following correctly describes the ball's velocity and acceleration?",
+    "options": [
+      "Velocity = 0; acceleration = 0",
+      "Velocity = 0; acceleration = 9.8 m/s² downward",
+      "Velocity = maximum; acceleration = 0",
+      "Velocity = 0; acceleration = 9.8 m/s² upward"
+    ],
+    "answerIndex": 1,
+    "explanation": "At the highest point, the ball momentarily stops (velocity = 0). However, gravity still acts — acceleration = g = 9.8 m/s² downward. Acceleration is not zero at the highest point; only velocity is zero."
+  },
+  {
+    "id": "MCQ-X-Y910-017",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Medium",
+    "question": "A student investigates the relationship between force and extension for a rubber band. The graph is not linear. Which of the following correctly describes this result?",
+    "options": [
+      "The rubber band obeys Hooke's law",
+      "The rubber band does not obey Hooke's law — extension is not proportional to force; rubber bands have a non-linear elastic response",
+      "The rubber band has no elastic limit",
+      "The rubber band is inelastic"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hooke's law states F = kx (linear relationship). A rubber band shows a non-linear force-extension graph — it does not obey Hooke's law. Rubber has a complex polymer structure that gives it a non-linear elastic response, unlike a metal spring."
+  },
+  {
+    "id": "MCQ-X-Y910-018",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Hard",
+    "question": "A student measures the gravitational field strength on the Moon as 1.6 N/kg. A 70 kg astronaut stands on the Moon. What is their weight on the Moon?",
+    "options": [
+      "70 N",
+      "112 N",
+      "686 N",
+      "44 N"
+    ],
+    "answerIndex": 1,
+    "explanation": "Weight = mass × gravitational field strength = 70 × 1.6 = 112 N. On Earth, the same astronaut would weigh 70 × 9.8 = 686 N. Mass is unchanged; weight depends on gravitational field strength."
+  },
+  {
+    "id": "MCQ-X-Y910-019",
+    "domain": "Physics",
+    "topic": "Thermodynamics",
+    "difficulty": "Medium",
+    "question": "A student investigates the efficiency of a heat engine. It absorbs 1000 J from a hot reservoir and does 400 J of useful work. What is its efficiency?",
+    "options": [
+      "60%",
+      "40%",
+      "25%",
+      "100%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Efficiency = useful output / total input × 100 = 400/1000 × 100 = 40%. The remaining 600 J is wasted as heat to the cold reservoir."
+  },
+  {
+    "id": "MCQ-X-Y910-020",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Hard",
+    "question": "A student investigates the relationship between current and magnetic force on a wire. Doubling the current doubles the force. Which law describes this?",
+    "options": [
+      "Faraday's law",
+      "Ampere's force law — force on a current-carrying conductor in a magnetic field is proportional to current (F = BIL)",
+      "Ohm's law",
+      "Lenz's law"
+    ],
+    "answerIndex": 1,
+    "explanation": "The force on a current-carrying conductor in a magnetic field: F = BIL (where B = magnetic flux density, I = current, L = length of conductor in field). Force is directly proportional to current — doubling current doubles force."
+  },
+  {
+    "id": "MCQ-X-Y910-021",
+    "domain": "Physics",
+    "topic": "Nuclear and Space",
+    "difficulty": "Medium",
+    "question": "A student investigates the decay of a radioactive isotope. After 3 half-lives, what percentage of the original sample remains?",
+    "options": [
+      "25%",
+      "12.5%",
+      "6.25%",
+      "50%"
+    ],
+    "answerIndex": 1,
+    "explanation": "After n half-lives, fraction remaining = (1/2)ⁿ. After 3 half-lives: (1/2)³ = 1/8 = 12.5%."
+  },
+  {
+    "id": "MCQ-X-Y910-022",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Hard",
+    "question": "A student analyses seismic data and finds that P-waves travel faster through the inner core than the outer core. Which of the following correctly explains this?",
+    "options": [
+      "The inner core is liquid",
+      "P-waves travel faster through solids than liquids; the inner core is solid iron-nickel under extreme pressure",
+      "The inner core is less dense",
+      "P-waves are absorbed by the outer core"
+    ],
+    "answerIndex": 1,
+    "explanation": "P-wave velocity depends on the rigidity and density of the medium. The inner core is solid (despite extreme temperature) due to immense pressure. P-waves travel faster through the rigid solid inner core than through the liquid outer core."
+  },
+  {
+    "id": "MCQ-X-Y910-023",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of increasing atmospheric CO2 on the rate of photosynthesis in aquatic plants. Rate increases with CO2. Which of the following correctly explains the ecological implication?",
+    "options": [
+      "More CO2 always benefits aquatic ecosystems",
+      "Increased CO2 may initially boost aquatic plant growth, but ocean acidification simultaneously harms calcifying organisms — the net ecological effect is complex and largely negative",
+      "CO2 has no effect on aquatic plants",
+      "Aquatic plants do not use CO2"
+    ],
+    "answerIndex": 1,
+    "explanation": "While elevated CO2 can increase photosynthesis in some aquatic plants, ocean acidification (from CO2 dissolving in water) harms coral, shellfish and other calcifying organisms. The net ecological impact of rising CO2 on aquatic ecosystems is predominantly negative."
+  },
+  {
+    "id": "MCQ-X-Y910-024",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of deforestation on local water cycles. Rainfall decreases after large-scale deforestation. Which of the following correctly explains this?",
+    "options": [
+      "Trees block rainfall",
+      "Trees release water vapour through transpiration, contributing to local humidity and rainfall; removing trees reduces transpiration, decreasing atmospheric moisture and local precipitation",
+      "Deforestation increases river flow",
+      "Trees absorb rainfall before it reaches the ground"
+    ],
+    "answerIndex": 1,
+    "explanation": "Forests contribute significantly to local water cycles through transpiration — releasing water vapour that contributes to cloud formation and precipitation. Large-scale deforestation reduces transpiration, lowering atmospheric humidity and reducing local rainfall, contributing to regional drying."
+  },
+  {
+    "id": "MCQ-X-Y910-025",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of ocean temperature on coral bleaching. Bleaching occurs when temperature exceeds 1°C above the seasonal maximum for 4+ weeks. Which of the following correctly explains the mechanism?",
+    "options": [
+      "Coral produces more pigment when warm",
+      "Thermal stress causes coral to expel their symbiotic algae (zooxanthellae); without algae, coral loses its colour and primary food source, leading to starvation and death if stress persists",
+      "Warm water increases coral growth",
+      "Coral bleaching is caused by pollution only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Coral bleaching: thermal stress disrupts the photosynthetic machinery of zooxanthellae (symbiotic algae living in coral tissue). The coral expels the algae as a stress response. Without zooxanthellae, coral loses its colour (bleaches) and its primary energy source. Prolonged bleaching leads to coral death."
+  },
+  {
+    "id": "MCQ-X-Y910-026",
+    "domain": "Earth Science",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student investigates the carbon footprint of different diets. A vegan diet has approximately 1.5 kg CO2e/day; an omnivore diet approximately 3.3 kg CO2e/day. Which of the following correctly explains the main reason for this difference?",
+    "options": [
+      "Vegans eat more food",
+      "Animal products (especially beef and dairy) require more land, water and energy to produce and generate more greenhouse gases (methane from livestock, N2O from fertilisers) than plant foods",
+      "Plant foods produce more CO2 during digestion",
+      "Vegan diets require more refrigeration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Animal agriculture generates greenhouse gases through: methane from livestock digestion (enteric fermentation); nitrous oxide from manure and fertilisers; CO2 from land use change (deforestation for pasture/feed crops). The inefficiency of trophic energy transfer means animal products require far more resources per calorie than plant foods."
+  },
+  {
+    "id": "MCQ-X-Y910-027",
+    "domain": "Scientific Method",
+    "topic": "Scientific Method",
+    "difficulty": "Medium",
+    "question": "A student designs an experiment to test whether a new insecticide reduces crop damage. They apply the insecticide to 10 plots and leave 10 plots untreated. After 8 weeks they measure crop yield. Which of the following correctly identifies a potential confounding variable?",
+    "options": [
+      "The number of plots used",
+      "Variation in soil quality between plots — if treated plots happen to have better soil, higher yield may be due to soil quality rather than the insecticide",
+      "The type of crop grown",
+      "The weather during the experiment"
+    ],
+    "answerIndex": 1,
+    "explanation": "A confounding variable is one that varies alongside the independent variable and could explain the results. If treated and untreated plots differ in soil quality, any yield difference could be due to soil rather than the insecticide. Randomisation of plot assignment helps control for this."
+  },
+  {
+    "id": "MCQ-X-Y910-028",
+    "domain": "Scientific Method",
+    "topic": "Scientific Method",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of sample size on the reliability of results. They repeat an experiment with 5, 10, 20 and 50 trials. The standard error of the mean decreases as sample size increases. Which of the following correctly explains this?",
+    "options": [
+      "Larger samples always give higher means",
+      "Larger samples better represent the true population; random variation averages out, reducing the standard error and increasing confidence in the mean",
+      "Larger samples increase systematic error",
+      "Standard error is unrelated to sample size"
+    ],
+    "answerIndex": 1,
+    "explanation": "Standard error of the mean = standard deviation / √n. As sample size (n) increases, standard error decreases. Larger samples reduce the influence of random variation, giving a more reliable estimate of the true population mean and narrower confidence intervals."
+  },
+  {
+    "id": "MCQ-X-Y910-029",
+    "domain": "Scientific Method",
+    "topic": "Scientific Method",
+    "difficulty": "Medium",
+    "question": "A student investigates whether two variables are correlated. They calculate Pearson's r = −0.92. Which of the following correctly interprets this value?",
+    "options": [
+      "Strong positive correlation",
+      "Weak negative correlation",
+      "Strong negative correlation — as one variable increases, the other decreases strongly",
+      "No correlation"
+    ],
+    "answerIndex": 2,
+    "explanation": "Pearson's r ranges from −1 to +1. r = −0.92 indicates a strong negative correlation — the two variables are strongly inversely related. Values close to −1 or +1 indicate strong correlations; values close to 0 indicate weak or no correlation."
+  },
+  {
+    "id": "MCQ-X-Y910-030",
+    "domain": "Scientific Method",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of exercise intensity on oxygen consumption. They plot a graph and find a linear relationship up to moderate intensity, then a steeper increase at high intensity. Which of the following correctly explains the steeper increase?",
+    "options": [
+      "Oxygen consumption decreases at high intensity",
+      "At high intensity, anaerobic respiration supplements aerobic respiration; the body also needs extra oxygen to repay the oxygen debt and process lactic acid after exercise",
+      "The heart stops pumping at high intensity",
+      "Oxygen is produced by muscles at high intensity"
+    ],
+    "answerIndex": 1,
+    "explanation": "At high exercise intensity, anaerobic respiration produces lactic acid. During and after exercise, extra oxygen is consumed to: oxidise lactic acid; replenish ATP and creatine phosphate stores; restore oxygen levels in blood and muscle. This excess post-exercise oxygen consumption (EPOC) explains the steeper increase."
+  },
+  {
+    "id": "MCQ-X-Y910-031",
+    "domain": "Science",
+    "topic": "Science",
+    "difficulty": "Medium",
+    "question": "A student investigates the relationship between biodiversity and ecosystem productivity. More diverse ecosystems tend to be more productive. Which of the following correctly explains this?",
+    "options": [
+      "Diverse ecosystems have fewer species competing",
+      "Greater species diversity means more complete use of available resources (niche complementarity) and greater functional redundancy, increasing overall productivity and stability",
+      "Diverse ecosystems have more predators",
+      "Productivity is unrelated to biodiversity"
+    ],
+    "answerIndex": 1,
+    "explanation": "Biodiversity-ecosystem function relationship: diverse communities use resources more completely (different species exploit different niches), reducing waste. Functional redundancy means ecosystem processes continue even if some species are lost. Together these increase productivity and resilience."
+  }
+]

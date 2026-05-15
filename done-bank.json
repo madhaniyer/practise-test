@@ -1,0 +1,407 @@
+[
+  {
+    "id": "MCQ-DONE-Y910-001",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student adds a respiratory inhibitor that blocks the electron transport chain. Which process is most directly affected?",
+    "options": [
+      "Diffusion of oxygen",
+      "ATP synthesis by oxidative phosphorylation",
+      "Osmosis of water",
+      "Transcription of DNA"
+    ],
+    "answerIndex": 1,
+    "explanation": "The electron transport chain drives ATP synthesis via oxidative phosphorylation. Blocking it stops the majority of ATP production (approximately 32 ATP per glucose), severely affecting all energy-requiring cellular processes."
+  },
+  {
+    "id": "MCQ-DONE-Y910-002",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student compares the rate of enzyme activity at pH 2 and pH 8 for pepsin (optimum pH 2) and trypsin (optimum pH 8). Which of the following correctly predicts the results?",
+    "options": [
+      "Both enzymes are most active at pH 5",
+      "Pepsin is most active at pH 2; trypsin is most active at pH 8 — each enzyme has evolved to function in its specific physiological environment",
+      "Both enzymes are equally active at all pH values",
+      "Trypsin is most active at pH 2"
+    ],
+    "answerIndex": 1,
+    "explanation": "Enzyme optimum pH reflects the environment where they function: pepsin works in the acidic stomach (pH 2); trypsin works in the alkaline small intestine (pH 8). At non-optimum pH, ionic and hydrogen bonds maintaining active site shape are disrupted."
+  },
+  {
+    "id": "MCQ-DONE-Y910-003",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of inhibitor concentration on enzyme activity. A competitive inhibitor reduces activity but adding more substrate restores it. Which of the following correctly explains this?",
+    "options": [
+      "Competitive inhibitors permanently block the active site",
+      "Competitive inhibitors bind reversibly to the active site; increasing substrate concentration outcompetes the inhibitor for active site binding",
+      "Competitive inhibitors change the shape of the active site permanently",
+      "Competitive inhibitors bind to an allosteric site"
+    ],
+    "answerIndex": 1,
+    "explanation": "Competitive inhibitors have a similar shape to the substrate and compete for the active site. The inhibition is reversible — increasing substrate concentration increases the probability of substrate (rather than inhibitor) binding to the active site, restoring activity."
+  },
+  {
+    "id": "MCQ-DONE-Y910-004",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student measures the oxygen consumption of germinating seeds at different temperatures. Consumption increases with temperature up to 35°C then falls. Which of the following correctly explains the fall above 35°C?",
+    "options": [
+      "Seeds run out of oxygen above 35°C",
+      "Respiratory enzymes denature above their optimum temperature, reducing the rate of aerobic respiration",
+      "Seeds stop germinating above 35°C",
+      "Oxygen becomes less soluble above 35°C"
+    ],
+    "answerIndex": 1,
+    "explanation": "Aerobic respiration is enzyme-controlled. Above the optimum temperature (~35°C for most plant enzymes), the tertiary structure of respiratory enzymes is disrupted (denaturation), reducing their catalytic activity and therefore oxygen consumption."
+  },
+  {
+    "id": "MCQ-DONE-Y910-005",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student compares the number of mitochondria in cardiac muscle cells and skin cells. Cardiac muscle has far more mitochondria. Which of the following correctly explains this?",
+    "options": [
+      "Cardiac muscle cells are larger",
+      "Cardiac muscle contracts continuously and requires large amounts of ATP; skin cells have low energy demands and require fewer mitochondria",
+      "Cardiac muscle cells divide more rapidly",
+      "Skin cells do not respire"
+    ],
+    "answerIndex": 1,
+    "explanation": "The number of mitochondria in a cell reflects its energy demands. Cardiac muscle contracts continuously (approximately 100 000 times per day) and requires a constant, large supply of ATP. Skin cells have relatively low metabolic activity and fewer mitochondria."
+  },
+  {
+    "id": "MCQ-DONE-Y910-006",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of light wavelength on the rate of photosynthesis. Which of the following correctly explains why green light produces the lowest rate?",
+    "options": [
+      "Green light has the highest energy",
+      "Chlorophyll reflects green light rather than absorbing it, so green light cannot drive the light-dependent reactions",
+      "Green light is absorbed by carotenoids only",
+      "Green light has the longest wavelength"
+    ],
+    "answerIndex": 1,
+    "explanation": "Chlorophyll absorbs red and blue light most strongly for photosynthesis. Green light (~550 nm) is mostly reflected — which is why plants appear green. Reflected light is not absorbed and cannot drive photosynthesis, resulting in the lowest photosynthesis rate."
+  },
+  {
+    "id": "MCQ-DONE-Y910-007",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of CO2 concentration on the rate of photosynthesis at two different light intensities. At high light intensity, increasing CO2 produces a higher plateau. Which of the following correctly explains this?",
+    "options": [
+      "High light intensity increases CO2 production",
+      "At high light intensity, the light-dependent reactions produce more ATP and NADPH, allowing the Calvin cycle to fix more CO2 before another factor becomes limiting",
+      "High light intensity reduces the need for CO2",
+      "CO2 concentration is unrelated to light intensity"
+    ],
+    "answerIndex": 1,
+    "explanation": "At high light intensity, more ATP and NADPH are produced by the light-dependent reactions. These drive the Calvin cycle faster, allowing more CO2 to be fixed before enzyme concentration or temperature becomes limiting — hence a higher plateau rate."
+  },
+  {
+    "id": "MCQ-DONE-Y910-008",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student analyses a family pedigree for a condition that appears in every generation and affects both males and females equally. Which pattern of inheritance is most consistent?",
+    "options": [
+      "Autosomal recessive",
+      "X-linked recessive",
+      "Autosomal dominant",
+      "Mitochondrial"
+    ],
+    "answerIndex": 2,
+    "explanation": "Autosomal dominant inheritance: one copy of the dominant allele is sufficient to cause the condition. It appears in every generation (no skipping), affects males and females equally (autosomal, not sex-linked), and affected individuals typically have at least one affected parent."
+  },
+  {
+    "id": "MCQ-DONE-Y910-009",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of UV radiation on the mutation rate in bacteria. UV exposure increases the frequency of mutations. Which of the following correctly explains the mechanism?",
+    "options": [
+      "UV radiation increases temperature",
+      "UV radiation causes thymine dimers — covalent bonds between adjacent thymine bases — that distort the DNA helix and cause errors during replication",
+      "UV radiation destroys ribosomes",
+      "UV radiation increases transcription rate"
+    ],
+    "answerIndex": 1,
+    "explanation": "UV radiation causes pyrimidine dimers (most commonly thymine dimers) by forming covalent bonds between adjacent thymine bases. These distort the DNA double helix, causing DNA polymerase to insert incorrect bases during replication, resulting in mutations."
+  },
+  {
+    "id": "MCQ-DONE-Y910-010",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student compares the genome sizes of different organisms. Humans have approximately 3 billion base pairs; a simple bacterium has approximately 4 million. Which of the following correctly explains why genome size does not directly correlate with organism complexity?",
+    "options": [
+      "Bacteria have more genes than humans",
+      "Much of the human genome consists of non-coding sequences (introns, regulatory regions, repetitive sequences); the number of protein-coding genes is a better indicator of complexity",
+      "Humans have fewer chromosomes than bacteria",
+      "Genome size determines intelligence"
+    ],
+    "answerIndex": 1,
+    "explanation": "The C-value paradox: genome size does not correlate with organism complexity. Much eukaryotic DNA is non-coding (introns, regulatory sequences, transposable elements, repetitive DNA). Humans have ~20 000 protein-coding genes — similar to many simpler organisms."
+  },
+  {
+    "id": "MCQ-DONE-Y910-011",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student investigates gene expression in differentiated cells. All cells in an organism contain the same DNA, yet liver cells and muscle cells have different proteins. Which of the following correctly explains this?",
+    "options": [
+      "Different cells have different DNA",
+      "Gene expression is regulated — different genes are switched on or off in different cell types through epigenetic mechanisms and transcription factors",
+      "Differentiation changes the DNA sequence",
+      "Muscle cells have more chromosomes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cell differentiation involves differential gene expression, not changes to DNA sequence. Transcription factors, epigenetic modifications (DNA methylation, histone modification) and regulatory RNA molecules control which genes are expressed in each cell type."
+  },
+  {
+    "id": "MCQ-DONE-Y910-012",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student investigates the inheritance of two traits in pea plants: seed colour (yellow Y dominant over green y) and seed shape (round R dominant over wrinkled r). A YyRr plant is crossed with a yyrr plant. What phenotypic ratio is expected?",
+    "options": [
+      "9:3:3:1",
+      "1:1:1:1",
+      "3:1",
+      "All yellow round"
+    ],
+    "answerIndex": 1,
+    "explanation": "YyRr × yyrr (test cross for two genes): gametes from YyRr are YR, Yr, yR, yr (equal frequency). Each combines with yr from yyrr. Offspring: YyRr (yellow round), Yyrr (yellow wrinkled), yyRr (green round), yyrr (green wrinkled) — ratio 1:1:1:1."
+  },
+  {
+    "id": "MCQ-DONE-Y910-013",
+    "domain": "Biology",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction of chlorine with methane in UV light. Which type of reaction occurs and what is the mechanism?",
+    "options": [
+      "Addition reaction; ionic mechanism",
+      "Free radical substitution; UV light generates chlorine radicals that substitute hydrogen atoms in methane",
+      "Elimination reaction; acid-base mechanism",
+      "Nucleophilic substitution; polar mechanism"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alkanes undergo free radical substitution with halogens in UV light. UV photons split Cl₂ into chlorine radicals (Cl•). These abstract H from CH₄, producing CH₃• which reacts with Cl₂ to give CH₃Cl and another Cl•, propagating the chain reaction."
+  },
+  {
+    "id": "MCQ-DONE-Y910-014",
+    "domain": "Biology",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A student compares the reactivity of primary, secondary and tertiary alcohols with acidified potassium dichromate. Primary alcohols oxidise to aldehydes then carboxylic acids; secondary to ketones; tertiary do not oxidise. Which of the following correctly explains why tertiary alcohols resist oxidation?",
+    "options": [
+      "Tertiary alcohols have no O-H bond",
+      "Tertiary alcohols have no hydrogen on the carbon bearing the -OH group; oxidation requires removal of this hydrogen",
+      "Tertiary alcohols are less soluble",
+      "Tertiary alcohols have higher boiling points"
+    ],
+    "answerIndex": 1,
+    "explanation": "Oxidation of alcohols involves removal of hydrogen from the carbon bearing the -OH group (C-H bond). Tertiary alcohols have no H on this carbon (three carbon groups attached instead), so oxidation cannot occur under normal conditions."
+  },
+  {
+    "id": "MCQ-DONE-Y910-015",
+    "domain": "Biology",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student investigates the polymerisation of propene (CH₃CH=CH₂). Which of the following correctly describes the product and type of polymerisation?",
+    "options": [
+      "Condensation polymerisation producing polypropene and water",
+      "Addition polymerisation producing polypropene — the C=C double bond opens and monomers link into a long chain",
+      "Substitution polymerisation producing polypropene",
+      "Elimination polymerisation producing polypropene and HCl"
+    ],
+    "answerIndex": 1,
+    "explanation": "Propene undergoes addition polymerisation. The C=C double bond opens, allowing monomers to link together. No atoms are lost — all atoms in the monomer are incorporated into the polymer chain. Product: polypropene (used in packaging, fibres, automotive parts)."
+  },
+  {
+    "id": "MCQ-DONE-Y910-016",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A student investigates the interference pattern produced by two coherent light sources. Bright fringes appear where path difference equals nλ. Which of the following correctly explains why dark fringes form?",
+    "options": [
+      "Dark fringes form where light is absorbed",
+      "Dark fringes form where path difference = (n + ½)λ — waves arrive exactly out of phase and destructively interfere, cancelling each other",
+      "Dark fringes form where light is reflected",
+      "Dark fringes form at the centre of the pattern"
+    ],
+    "answerIndex": 1,
+    "explanation": "Destructive interference occurs when waves from two coherent sources arrive exactly out of phase (path difference = half-integer multiples of wavelength). The crests of one wave coincide with the troughs of the other, resulting in zero amplitude — a dark fringe."
+  },
+  {
+    "id": "MCQ-DONE-Y910-017",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Medium",
+    "question": "A student measures the speed of light in glass using a semicircular block. The refractive index is 1.5. What is the speed of light in the glass? (c = 3 × 10⁸ m/s)",
+    "options": [
+      "4.5 × 10⁸ m/s",
+      "2 × 10⁸ m/s",
+      "1.5 × 10⁸ m/s",
+      "3 × 10⁸ m/s"
+    ],
+    "answerIndex": 1,
+    "explanation": "n = c/v → v = c/n = 3×10⁸/1.5 = 2×10⁸ m/s. The refractive index is the ratio of the speed of light in vacuum to the speed in the medium."
+  },
+  {
+    "id": "MCQ-DONE-Y910-018",
+    "domain": "Chemistry",
+    "topic": "Organic Chemistry",
+    "difficulty": "Hard",
+    "question": "A student investigates resonance in a closed pipe. The fundamental frequency has a quarter wavelength fitting the pipe length (L = λ/4). For a pipe 0.85 m long, what is the fundamental frequency? (speed of sound = 340 m/s)",
+    "options": [
+      "100 Hz",
+      "200 Hz",
+      "400 Hz",
+      "50 Hz"
+    ],
+    "answerIndex": 0,
+    "explanation": "λ = 4L = 4 × 0.85 = 3.4 m. f = v/λ = 340/3.4 = 100 Hz."
+  },
+  {
+    "id": "MCQ-DONE-Y910-019",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Medium",
+    "question": "A student investigates the Doppler effect. An ambulance siren emits 800 Hz. The ambulance moves toward a stationary observer at 34 m/s. What frequency does the observer hear? (speed of sound = 340 m/s)",
+    "options": [
+      "880 Hz",
+      "727 Hz",
+      "800 Hz",
+      "760 Hz"
+    ],
+    "answerIndex": 0,
+    "explanation": "f_observed = f_source × v/(v - v_source) = 800 × 340/(340-34) = 800 × 340/306 = 800 × 1.111 = 888.9 ≈ 880 Hz (approaching source increases observed frequency)."
+  },
+  {
+    "id": "MCQ-DONE-Y910-020",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student analyses data showing that Arctic sea ice extent has declined by 13% per decade since 1979. Which of the following correctly identifies this as a positive or negative feedback?",
+    "options": [
+      "Negative feedback — less ice stabilises temperature",
+      "Positive feedback — less ice reduces albedo, increasing heat absorption, causing further warming and more ice loss",
+      "Neutral — ice loss has no effect on temperature",
+      "Negative feedback — more water absorbs more CO2"
+    ],
+    "answerIndex": 1,
+    "explanation": "The ice-albedo feedback is a positive feedback: warming → ice melts → darker ocean exposed → lower albedo → more solar energy absorbed → further warming → more ice melts. Positive feedbacks amplify the initial change, accelerating Arctic warming."
+  },
+  {
+    "id": "MCQ-DONE-Y910-021",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of ocean warming on hurricane intensity. Warmer oceans provide more energy to developing hurricanes. Which of the following correctly explains the mechanism?",
+    "options": [
+      "Warm water cools hurricanes",
+      "Warm ocean water increases evaporation, adding more water vapour to the atmosphere; condensation of this vapour releases latent heat that powers the hurricane",
+      "Warm water reduces wind speed",
+      "Hurricanes form only over cold water"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hurricanes are heat engines powered by the latent heat released when water vapour condenses. Warmer oceans increase evaporation rates, providing more water vapour. As this vapour rises and condenses, it releases more latent heat, intensifying the hurricane's circulation."
+  },
+  {
+    "id": "MCQ-DONE-Y910-022",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student compares the carbon stored in permafrost with annual global CO2 emissions. Permafrost stores approximately 1500 Gt of carbon — twice the current atmospheric carbon. Which of the following correctly explains why permafrost thawing is a major climate concern?",
+    "options": [
+      "Permafrost thawing reduces methane emissions",
+      "Thawing permafrost releases stored carbon as CO2 and methane as frozen organic matter decomposes, creating a powerful positive feedback that could significantly accelerate climate change",
+      "Permafrost thawing increases albedo",
+      "Permafrost stores no significant carbon"
+    ],
+    "answerIndex": 1,
+    "explanation": "Permafrost contains vast amounts of frozen organic matter. As it thaws due to warming, microorganisms decompose this material, releasing CO2 and methane (a potent greenhouse gas). This creates a positive feedback — warming causes thawing, which releases greenhouse gases, causing further warming."
+  },
+  {
+    "id": "MCQ-DONE-Y910-023",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of exercise on heart rate recovery. They measure heart rate at 1, 3, 5 and 10 minutes after exercise. Which of the following correctly describes the type of data collected?",
+    "options": [
+      "Categoric data",
+      "Continuous quantitative data",
+      "Discrete qualitative data",
+      "Ordinal data"
+    ],
+    "answerIndex": 1,
+    "explanation": "Heart rate (beats per minute) is continuous quantitative data — it can take any numerical value within a range and is measured on a scale. Time is also continuous. This type of data is best displayed on a line graph."
+  },
+  {
+    "id": "MCQ-DONE-Y910-024",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Hard",
+    "question": "A student reports that their experiment supports their hypothesis. A peer reviewer points out that the sample size was only 5. Which of the following correctly describes the concern?",
+    "options": [
+      "Sample size does not affect conclusions",
+      "A sample size of 5 is too small to draw reliable conclusions — results may not be representative of the population and could be due to chance variation",
+      "The hypothesis must be wrong",
+      "Peer review is not necessary"
+    ],
+    "answerIndex": 1,
+    "explanation": "Small sample sizes increase the risk that results are due to random variation rather than a real effect. With only 5 data points, one anomalous result significantly affects the mean. Larger samples reduce the influence of random variation and increase statistical power."
+  },
+  {
+    "id": "MCQ-DONE-Y910-025",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student measures the length of a metal rod at different temperatures. They plot temperature (x-axis) against length (y-axis) and find a linear relationship. The gradient is 0.002 cm/°C. Which of the following correctly describes what the gradient represents?",
+    "options": [
+      "The y-intercept",
+      "The rate of thermal expansion — the increase in length per degree Celsius",
+      "The initial length of the rod",
+      "The maximum length"
+    ],
+    "answerIndex": 1,
+    "explanation": "The gradient of a length vs temperature graph represents the rate of change of length with temperature — the coefficient of linear thermal expansion (in cm/°C). It tells us how much the rod expands for each 1°C increase in temperature."
+  },
+  {
+    "id": "MCQ-DONE-Y910-026",
+    "domain": "Scientific Method",
+    "topic": "Scientific Method",
+    "difficulty": "Hard",
+    "question": "A student investigates whether caffeine affects reaction time. They test 10 participants before and after caffeine. Which of the following correctly identifies this as a paired or unpaired design and explains why?",
+    "options": [
+      "Unpaired — different participants are used for each condition",
+      "Paired — the same participants are tested under both conditions, controlling for individual differences in baseline reaction time",
+      "Paired — participants are matched by age",
+      "Unpaired — caffeine affects everyone differently"
+    ],
+    "answerIndex": 1,
+    "explanation": "A paired (within-subjects) design uses the same participants in both conditions. This controls for individual differences (e.g. some people naturally have faster reaction times). Comparing each person's before/after scores reduces variability and increases the sensitivity of the experiment."
+  },
+  {
+    "id": "MCQ-DONE-Y910-027",
+    "domain": "Scientific Method",
+    "topic": "Scientific Method",
+    "difficulty": "Medium",
+    "question": "A student calculates the mean, median and mode of a data set: 2, 3, 3, 4, 5, 5, 5, 20. Which measure of central tendency is most affected by the outlier (20)?",
+    "options": [
+      "Median",
+      "Mode",
+      "Mean",
+      "All are equally affected"
+    ],
+    "answerIndex": 2,
+    "explanation": "The mean is calculated using all values, so it is most sensitive to outliers. Mean = (2+3+3+4+5+5+5+20)/8 = 47/8 = 5.875. The median (4.5) and mode (5) are unaffected by the outlier value of 20."
+  }
+]

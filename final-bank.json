@@ -1,0 +1,572 @@
+[
+  {
+    "id": "MCQ-FINAL-Y910-001",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student measures blood glucose levels in a person with type 2 diabetes after a meal. Glucose remains elevated for longer than in a healthy person. Which of the following correctly explains this?",
+    "options": [
+      "The pancreas produces too much insulin",
+      "Body cells have reduced sensitivity to insulin, so glucose uptake is impaired despite insulin being present",
+      "The liver produces too much glycogen",
+      "The kidneys excrete too much glucose"
+    ],
+    "answerIndex": 1,
+    "explanation": "Type 2 diabetes involves insulin resistance — cells do not respond normally to insulin. Glucose cannot enter cells efficiently, so blood glucose remains elevated after meals despite insulin being secreted."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-002",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of exercise on tidal volume and breathing rate. Both increase during exercise. Which of the following correctly explains why CO2 levels in blood trigger this response?",
+    "options": [
+      "CO2 directly stimulates lung expansion",
+      "Rising CO2 lowers blood pH, detected by chemoreceptors in the medulla oblongata and aortic arch, which signal the diaphragm and intercostal muscles to increase rate and depth of breathing",
+      "CO2 stimulates the heart only",
+      "Rising O2 levels trigger increased breathing"
+    ],
+    "answerIndex": 1,
+    "explanation": "During exercise, CO2 production increases. CO2 dissolves in blood forming carbonic acid, lowering pH. Chemoreceptors detect this pH drop and signal the respiratory centre in the medulla oblongata to increase breathing rate and tidal volume."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-003",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student compares the structure of a capillary with an artery. Which of the following correctly describes a key structural difference that suits each vessel to its function?",
+    "options": [
+      "Capillaries have thick muscular walls; arteries have thin walls",
+      "Arteries have thick elastic muscular walls to withstand high pressure; capillaries are one cell thick to allow rapid diffusion of substances",
+      "Capillaries carry blood at high pressure",
+      "Arteries allow diffusion of oxygen into tissues"
+    ],
+    "answerIndex": 1,
+    "explanation": "Arteries carry blood at high pressure from the heart — thick elastic walls absorb and maintain pressure. Capillaries are the site of exchange — walls are one endothelial cell thick, minimising diffusion distance for O2, CO2, glucose and waste products."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-004",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of a high-fat diet on blood cholesterol levels. LDL cholesterol increases. Which of the following correctly explains the health risk?",
+    "options": [
+      "High LDL reduces blood pressure",
+      "High LDL cholesterol contributes to atherosclerosis — fatty plaques build up in artery walls, narrowing the lumen and increasing risk of heart attack and stroke",
+      "High LDL improves oxygen delivery",
+      "High LDL reduces clotting risk"
+    ],
+    "answerIndex": 1,
+    "explanation": "LDL (low-density lipoprotein) deposits cholesterol in artery walls, forming atherosclerotic plaques. These narrow the arterial lumen, reduce blood flow, increase blood pressure and can rupture, triggering clot formation — leading to heart attack or stroke."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-005",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student analyses data showing that people who sleep fewer than 6 hours per night have higher rates of obesity. Which of the following correctly explains a biological mechanism for this relationship?",
+    "options": [
+      "Sleep deprivation increases metabolic rate",
+      "Sleep deprivation disrupts hormones regulating appetite — ghrelin (hunger hormone) increases and leptin (satiety hormone) decreases, promoting overeating",
+      "Sleep deprivation reduces food absorption",
+      "Obese people need less sleep"
+    ],
+    "answerIndex": 1,
+    "explanation": "Sleep deprivation alters appetite-regulating hormones: ghrelin rises (increasing hunger) and leptin falls (reducing satiety signals). This promotes increased food intake. Combined with fatigue-related reduced physical activity, this contributes to weight gain."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-006",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of alcohol on reaction time. Reaction time increases significantly after alcohol consumption. Which of the following correctly explains this?",
+    "options": [
+      "Alcohol increases nerve conduction speed",
+      "Alcohol is a CNS depressant that slows synaptic transmission by enhancing inhibitory neurotransmitters and reducing excitatory ones",
+      "Alcohol increases blood glucose",
+      "Alcohol stimulates the sympathetic nervous system"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alcohol is a central nervous system depressant. It enhances GABA (inhibitory neurotransmitter) activity and inhibits glutamate (excitatory), slowing neural processing, impairing coordination and increasing reaction time."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-007",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student compares the oxygen dissociation curves of fetal and adult haemoglobin. Fetal haemoglobin has a higher affinity for oxygen at all partial pressures. Which of the following correctly explains the significance of this?",
+    "options": [
+      "Fetal haemoglobin carries less oxygen",
+      "Fetal haemoglobin can load oxygen from maternal blood across the placenta, where pO2 is relatively low, ensuring adequate oxygen supply to the fetus",
+      "Fetal haemoglobin releases oxygen more readily",
+      "Adult haemoglobin has higher affinity than fetal"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fetal haemoglobin (HbF) has higher O2 affinity than adult haemoglobin (HbA). At the placenta, where pO2 is intermediate, HbF loads O2 that HbA releases. This ensures efficient O2 transfer from mother to fetus."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-008",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of caffeine on the heart rate of Daphnia. Heart rate increases with caffeine concentration. Which of the following correctly explains the mechanism?",
+    "options": [
+      "Caffeine directly stimulates heart muscle",
+      "Caffeine inhibits phosphodiesterase, increasing cAMP levels, which enhances sympathetic nervous system effects and increases heart rate",
+      "Caffeine reduces blood viscosity",
+      "Caffeine stimulates the parasympathetic nervous system"
+    ],
+    "answerIndex": 1,
+    "explanation": "Caffeine inhibits phosphodiesterase (the enzyme that breaks down cAMP). Elevated cAMP amplifies sympathetic signalling, increasing heart rate and force of contraction — the same mechanism that makes caffeine a stimulant."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-009",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Medium",
+    "question": "A student analyses urine samples from a patient and finds glucose present. Which of the following correctly explains this finding?",
+    "options": [
+      "Glucose is always present in urine",
+      "Blood glucose is so high (hyperglycaemia) that it exceeds the renal threshold, and the kidney cannot reabsorb all filtered glucose",
+      "The kidneys are producing glucose",
+      "The patient has eaten no carbohydrates"
+    ],
+    "answerIndex": 1,
+    "explanation": "Normally, all filtered glucose is reabsorbed in the proximal convoluted tubule. When blood glucose exceeds the renal threshold (~10 mmol/L), the reabsorption transporters are saturated and excess glucose appears in urine — glycosuria, a sign of uncontrolled diabetes."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-010",
+    "domain": "Biology",
+    "topic": "Human Body",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of temperature on the rate of enzyme-catalysed reactions in the human body. Which of the following correctly explains why human enzymes have an optimum temperature of approximately 37°C?",
+    "options": [
+      "37°C is the temperature of the environment",
+      "Human enzymes have evolved to function optimally at core body temperature (37°C); above this, denaturation reduces activity; below this, reduced kinetic energy slows reaction rates",
+      "All enzymes have the same optimum temperature",
+      "37°C maximises substrate concentration"
+    ],
+    "answerIndex": 0,
+    "explanation": "Human enzymes have evolved over millions of years to function optimally at normal body temperature (37°C). This temperature balances maximum enzyme activity (high enough kinetic energy) with structural stability (below denaturation threshold)."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-011",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of light intensity on the distribution of plant species in a woodland. More shade-tolerant species are found under the canopy. Which of the following correctly explains this?",
+    "options": [
+      "Shade-tolerant plants do not need light",
+      "Shade-tolerant plants have adaptations (larger leaves, more chlorophyll) allowing efficient photosynthesis at low light intensities; they are outcompeted in high-light environments by faster-growing species",
+      "All plants grow equally well in shade",
+      "Light intensity has no effect on plant distribution"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shade-tolerant plants have adaptations for low-light environments: larger leaves increase light capture; higher chlorophyll concentration maximises photon absorption. In high-light environments, faster-growing sun-adapted species outcompete them."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-012",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student analyses data showing that the population of a prey species oscillates with a period of approximately 10 years, with predator populations peaking 1-2 years after prey peaks. Which of the following correctly explains the time lag?",
+    "options": [
+      "Predators respond instantly to prey changes",
+      "Predator population growth takes time — increased prey availability improves predator survival and reproduction, but population increase lags behind prey increase due to generation time",
+      "Prey populations control predator populations directly",
+      "The time lag is random"
+    ],
+    "answerIndex": 1,
+    "explanation": "Predator-prey cycles show a time lag because population responses are not instantaneous. When prey increases, predators have more food, improving survival and reproduction. But it takes time (generation time) for the predator population to grow, explaining the 1-2 year lag."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-013",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of introducing a non-native predator to an island ecosystem. Native prey species decline rapidly. Which of the following correctly explains why native prey are particularly vulnerable?",
+    "options": [
+      "Native prey are smaller than introduced predators",
+      "Native prey have not co-evolved with the introduced predator and lack effective anti-predator behaviours or adaptations",
+      "Introduced predators are always larger",
+      "Native prey reproduce more slowly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Co-evolution between predator and prey produces arms races — prey develop escape behaviours and defences; predators develop hunting strategies. Native prey that have never encountered a particular predator lack evolved defences, making them highly vulnerable to novel predators."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-014",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student measures the biomass at each trophic level in a grassland ecosystem: grass 10 000 kg/ha, grasshoppers 1000 kg/ha, frogs 100 kg/ha, snakes 10 kg/ha. Which of the following correctly describes this data?",
+    "options": [
+      "A pyramid of numbers",
+      "An inverted pyramid of biomass",
+      "A pyramid of biomass showing approximately 10% energy transfer between levels",
+      "A pyramid of energy showing 90% efficiency"
+    ],
+    "answerIndex": 2,
+    "explanation": "The data shows biomass decreasing by approximately 90% at each trophic level — consistent with the 10% rule of energy transfer. This forms a pyramid of biomass with the largest biomass at the producer level."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-015",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of removing all decomposers from a model ecosystem. Which of the following correctly predicts the long-term consequence?",
+    "options": [
+      "The ecosystem becomes more productive",
+      "Nutrients become locked in dead organic matter, unavailable to producers; plant growth declines and the ecosystem collapses",
+      "Decomposers are not important to ecosystems",
+      "Primary consumers increase without decomposers"
+    ],
+    "answerIndex": 1,
+    "explanation": "Decomposers (bacteria, fungi) break down dead organic matter, releasing inorganic nutrients (nitrates, phosphates) back into the soil for plant uptake. Without decomposers, nutrients accumulate in dead matter, become unavailable to producers, and the ecosystem's nutrient cycles break down."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-016",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student investigates the reaction between zinc and sulfuric acid. The rate of hydrogen gas production decreases over time. Which of the following correctly explains this?",
+    "options": [
+      "The temperature decreases over time",
+      "As the reaction proceeds, reactant concentration decreases, reducing collision frequency and reaction rate",
+      "The zinc becomes more reactive over time",
+      "The acid becomes more concentrated over time"
+    ],
+    "answerIndex": 1,
+    "explanation": "As zinc and sulfuric acid are consumed, their concentrations decrease. Lower concentration means fewer particles per unit volume, reducing collision frequency and the rate of successful collisions — reaction rate decreases over time."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-017",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Medium",
+    "question": "A student compares the energy released by burning 1 g of glucose versus 1 g of fat. Fat releases approximately twice as much energy. Which of the following correctly explains this?",
+    "options": [
+      "Fat molecules are larger",
+      "Fat molecules have a higher proportion of C-H bonds relative to C-O bonds; C-H bonds release more energy when oxidised than C-O bonds",
+      "Glucose contains nitrogen",
+      "Fat burns at a higher temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Carbohydrates are already partially oxidised (contain C-O bonds). Fats have a higher proportion of C-H bonds, which release more energy per bond when fully oxidised to CO2 and H2O. This gives fats approximately twice the energy density of carbohydrates."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-018",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of a catalyst on the activation energy of a reaction. Which of the following correctly describes how a catalyst is shown on an energy profile diagram?",
+    "options": [
+      "The catalyst raises the energy of reactants",
+      "The catalyst lowers the peak of the energy profile (activation energy) without changing the energy of reactants or products",
+      "The catalyst changes the energy of products",
+      "The catalyst eliminates the activation energy entirely"
+    ],
+    "answerIndex": 1,
+    "explanation": "A catalyst provides an alternative reaction pathway with lower activation energy. On an energy profile diagram, the catalysed pathway shows a lower peak (transition state) than the uncatalysed pathway. The energies of reactants and products are unchanged."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-019",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Medium",
+    "question": "A student titrates 25.0 cm³ of an unknown acid with 0.1 mol/L NaOH. The endpoint requires 30.0 cm³ of NaOH. Assuming a 1:1 mole ratio, what is the concentration of the acid?",
+    "options": [
+      "0.075 mol/L",
+      "0.12 mol/L",
+      "0.1 mol/L",
+      "0.3 mol/L"
+    ],
+    "answerIndex": 1,
+    "explanation": "Moles NaOH = 0.1 × 0.030 = 0.003 mol. 1:1 ratio → moles acid = 0.003 mol. Concentration = 0.003/0.025 = 0.12 mol/L."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-020",
+    "domain": "Biology",
+    "topic": "Ecology and Environment",
+    "difficulty": "Hard",
+    "question": "A student investigates the reaction of metals with dilute hydrochloric acid. Magnesium reacts vigorously; copper does not react. Which of the following correctly explains why copper does not react?",
+    "options": [
+      "Copper is too dense",
+      "Copper is below hydrogen in the reactivity series and cannot displace hydrogen ions from acid",
+      "Copper reacts with water instead",
+      "Copper requires concentrated acid"
+    ],
+    "answerIndex": 1,
+    "explanation": "In the reactivity series, metals above hydrogen can displace H⁺ ions from acids, producing hydrogen gas. Copper is below hydrogen in the reactivity series — it cannot displace hydrogen ions and therefore does not react with dilute hydrochloric acid."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-021",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the electrolysis of copper sulfate solution using inert (platinum) electrodes. Which of the following correctly describes the products at each electrode?",
+    "options": [
+      "Copper at anode; oxygen at cathode",
+      "Copper at cathode; oxygen at anode",
+      "Hydrogen at cathode; chlorine at anode",
+      "Oxygen at both electrodes"
+    ],
+    "answerIndex": 1,
+    "explanation": "At the cathode (negative), Cu²⁺ ions are reduced: Cu²⁺ + 2e⁻ → Cu (copper deposited). At the anode (positive), water is oxidised: 2H₂O → O₂ + 4H⁺ + 4e⁻ (oxygen gas produced). With inert electrodes, the anode cannot dissolve."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-022",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student calculates the theoretical yield of a reaction and finds the actual yield is 75%. Which of the following correctly explains why the actual yield is less than 100%?",
+    "options": [
+      "The law of conservation of mass is violated",
+      "Reactions may be incomplete, products may be lost during separation, or side reactions may occur",
+      "The molar mass calculations are incorrect",
+      "Catalysts always reduce yield"
+    ],
+    "answerIndex": 1,
+    "explanation": "Percentage yield < 100% because: reactions may not go to completion (reversible reactions); product is lost during filtration, evaporation or transfer; side reactions produce unwanted products. These are practical limitations, not violations of conservation of mass."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-023",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the reaction: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). The reaction is slow without a catalyst. Adding liver (containing catalase) produces rapid bubbling. Which of the following correctly identifies the type of catalyst?",
+    "options": [
+      "Inorganic catalyst",
+      "Biological catalyst (enzyme)",
+      "Homogeneous catalyst",
+      "Inhibitor"
+    ],
+    "answerIndex": 1,
+    "explanation": "Catalase is an enzyme — a biological catalyst. It dramatically increases the rate of hydrogen peroxide decomposition by providing an alternative pathway with lower activation energy. Enzymes are protein catalysts found in living organisms."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-024",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the diffraction of water waves through a gap. Maximum diffraction occurs when the gap width equals the wavelength. Which of the following correctly explains why diffraction is more noticeable for sound than light in everyday situations?",
+    "options": [
+      "Sound travels faster than light",
+      "Sound has wavelengths (cm to metres) comparable to everyday objects; light has wavelengths (~500 nm) much smaller than most gaps, so diffraction effects are negligible",
+      "Light cannot diffract",
+      "Sound has higher frequency than light"
+    ],
+    "answerIndex": 1,
+    "explanation": "Diffraction is most significant when wavelength ≈ gap size. Sound wavelengths (cm to metres) are comparable to doorways and buildings, producing noticeable diffraction. Light wavelengths (~500 nm) are far smaller than everyday gaps, so diffraction is negligible in most situations."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-025",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student measures the speed of a wave in a string by changing tension. Increasing tension increases wave speed. Which of the following correctly explains this?",
+    "options": [
+      "Higher tension reduces wavelength",
+      "Higher tension increases the restoring force on displaced string segments, allowing disturbances to propagate faster",
+      "Higher tension reduces frequency",
+      "Wave speed is independent of tension"
+    ],
+    "answerIndex": 1,
+    "explanation": "Wave speed in a string depends on tension (T) and linear mass density (μ): v = √(T/μ). Higher tension increases the restoring force that pulls displaced segments back, allowing the wave to propagate faster."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-026",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student investigates the Doppler effect using a sound source moving toward a stationary observer. The observed frequency is higher than the emitted frequency. Which of the following correctly explains this?",
+    "options": [
+      "The source emits more sound waves when moving",
+      "As the source moves toward the observer, successive wave fronts are compressed — the wavelength decreases and observed frequency increases",
+      "The observer moves toward the source",
+      "The speed of sound increases"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Doppler effect: as a source moves toward an observer, each successive wave is emitted from a position closer to the observer, compressing the wave fronts. Shorter wavelength means higher frequency (f = v/λ). The observer hears a higher pitch."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-027",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Medium",
+    "question": "A student investigates the absorption of gamma radiation by lead. The count rate halves for every 10 mm of lead. What thickness of lead reduces the count rate to 1/8 of its original value?",
+    "options": [
+      "10 mm",
+      "20 mm",
+      "30 mm",
+      "40 mm"
+    ],
+    "answerIndex": 2,
+    "explanation": "(1/2)ⁿ = 1/8 → n = 3 half-value layers. Thickness = 3 × 10 mm = 30 mm."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-028",
+    "domain": "Chemistry",
+    "topic": "Reactions and Energy",
+    "difficulty": "Hard",
+    "question": "A student compares the ionising radiation emitted by three sources using a Geiger counter and different absorbers. Source A is stopped by paper; source B is stopped by 3 mm aluminium; source C requires 10 cm lead to significantly reduce count rate. Which of the following correctly identifies the radiation types?",
+    "options": [
+      "A = gamma, B = beta, C = alpha",
+      "A = alpha, B = beta, C = gamma",
+      "A = beta, B = alpha, C = gamma",
+      "A = alpha, B = gamma, C = beta"
+    ],
+    "answerIndex": 1,
+    "explanation": "Alpha particles are stopped by paper (or a few cm of air). Beta particles are stopped by a few mm of aluminium. Gamma rays require thick lead or concrete to significantly attenuate. Source A = alpha, B = beta, C = gamma."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-029",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Medium",
+    "question": "A student analyses temperature records from 1880 to present. The global average temperature has increased by approximately 1.1°C. Which of the following correctly identifies the primary driver of this warming?",
+    "options": [
+      "Natural solar variability",
+      "Increased atmospheric CO2 and other greenhouse gases from human activities (fossil fuel combustion, deforestation, agriculture)",
+      "Volcanic activity",
+      "Changes in Earth's orbit"
+    ],
+    "answerIndex": 1,
+    "explanation": "The scientific consensus, supported by multiple independent lines of evidence, identifies increased greenhouse gas concentrations from human activities as the primary driver of observed warming since 1880. Natural factors (solar variability, volcanoes) cannot explain the observed trend."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-030",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student investigates the carbon cycle. Which of the following correctly identifies the process that transfers the most carbon from the atmosphere to the biosphere annually?",
+    "options": [
+      "Volcanic outgassing",
+      "Photosynthesis by terrestrial plants and marine phytoplankton",
+      "Weathering of rocks",
+      "Ocean evaporation"
+    ],
+    "answerIndex": 1,
+    "explanation": "Photosynthesis is the primary mechanism transferring carbon from atmospheric CO2 into organic molecules in living organisms. Terrestrial plants and marine phytoplankton together fix approximately 120 Gt of carbon per year from the atmosphere."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-031",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Medium",
+    "question": "A student compares the albedo of different surfaces: fresh snow (0.85), forest (0.15), ocean (0.06). Which of the following correctly explains the significance of deforestation for climate?",
+    "options": [
+      "Forests have higher albedo than cleared land",
+      "Replacing dark forest (low albedo) with lighter agricultural land (higher albedo) increases reflection, but loss of carbon storage and transpiration cooling have larger warming effects",
+      "Deforestation has no effect on albedo",
+      "Forests absorb more solar radiation than snow"
+    ],
+    "answerIndex": 1,
+    "explanation": "Deforestation has complex climate effects. While replacing dark forest with lighter crops slightly increases albedo (cooling effect), the dominant effects are: release of stored carbon (warming), reduced transpiration (less evaporative cooling), and reduced CO2 uptake — net result is warming."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-032",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of increasing atmospheric CO2 on ocean temperature and chemistry. Which of the following correctly describes the two main effects?",
+    "options": [
+      "Ocean becomes more alkaline and cools",
+      "Ocean absorbs CO2, forming carbonic acid (acidification), and absorbs heat (warming), both of which affect marine ecosystems",
+      "Ocean becomes less salty",
+      "Ocean produces more oxygen"
+    ],
+    "answerIndex": 1,
+    "explanation": "Increased atmospheric CO2 has two main ocean effects: (1) CO2 dissolves in seawater forming carbonic acid — ocean acidification (pH decrease); (2) the ocean absorbs excess heat from the atmosphere — ocean warming. Both threaten marine biodiversity, particularly coral reefs and shell-forming organisms."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-033",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Medium",
+    "question": "A student analyses data on global sea ice extent from 1979 to present. Arctic sea ice has declined by approximately 13% per decade. Which of the following correctly identifies the positive feedback mechanism this creates?",
+    "options": [
+      "Less ice means more reflection of solar energy",
+      "Less ice exposes darker ocean surface, which absorbs more solar energy, causing further warming and more ice loss — the ice-albedo feedback",
+      "Less ice increases ocean salinity",
+      "Less ice reduces evaporation"
+    ],
+    "answerIndex": 1,
+    "explanation": "The ice-albedo positive feedback: warming melts ice → darker ocean exposed → lower albedo → more solar energy absorbed → further warming → more ice melts. This self-amplifying cycle accelerates Arctic warming, which is occurring approximately 4 times faster than the global average."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-034",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student investigates the life cycle of a massive star (>8 solar masses). Which of the following correctly describes the sequence after the main sequence?",
+    "options": [
+      "Red giant → white dwarf → planetary nebula",
+      "Red supergiant → supernova → neutron star or black hole",
+      "Red giant → planetary nebula → white dwarf",
+      "Main sequence → white dwarf directly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Massive stars (>8 solar masses): after the main sequence, they expand to red supergiants. When nuclear fuel is exhausted, the core collapses catastrophically in a supernova explosion. The remnant is a neutron star (if core mass < ~3 solar masses) or a black hole (if greater)."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-035",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Medium",
+    "question": "A student uses Hubble's law (v = H₀d) to estimate the age of the universe. If H₀ = 70 km/s/Mpc, the age is approximately 1/H₀. Converting units gives approximately 14 billion years. Which of the following correctly interprets this calculation?",
+    "options": [
+      "The universe is 14 million years old",
+      "The age estimate assumes the universe has been expanding at a constant rate since the Big Bang; the actual age (~13.8 billion years) accounts for changes in expansion rate",
+      "The universe is contracting",
+      "Hubble's law cannot be used to estimate age"
+    ],
+    "answerIndex": 1,
+    "explanation": "1/H₀ gives a rough age estimate assuming constant expansion rate. The actual age (13.8 billion years) is determined by more sophisticated models accounting for the fact that expansion was decelerating early on (matter-dominated) and is now accelerating (dark energy-dominated)."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-036",
+    "domain": "Physics",
+    "topic": "Energy and Waves",
+    "difficulty": "Hard",
+    "question": "A student investigates the evidence for plate tectonics. Which of the following correctly identifies the strongest direct evidence for seafloor spreading?",
+    "options": [
+      "Matching coastlines of continents",
+      "Symmetric magnetic anomaly stripes on either side of mid-ocean ridges, combined with increasing age of seafloor with distance from the ridge",
+      "Distribution of earthquakes",
+      "Fossil evidence"
+    ],
+    "answerIndex": 1,
+    "explanation": "Magnetic anomaly stripes provide direct, quantitative evidence for seafloor spreading. New oceanic crust records Earth's magnetic field as it cools at mid-ocean ridges. Periodic geomagnetic reversals create symmetric stripes. Combined with radiometric dating showing increasing age with distance, this is compelling evidence."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-037",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Medium",
+    "question": "A student analyses data showing that the frequency of extreme weather events (heatwaves, heavy rainfall, droughts) has increased over the past 50 years. Which of the following correctly explains the link to climate change?",
+    "options": [
+      "Extreme weather events are unrelated to climate",
+      "Higher average temperatures increase atmospheric energy and water vapour content, intensifying the water cycle and making extreme events more frequent and severe",
+      "Extreme events are caused by ozone depletion",
+      "Weather patterns are random"
+    ],
+    "answerIndex": 1,
+    "explanation": "Climate change increases the energy in the climate system. Higher temperatures increase evaporation and atmospheric water vapour. More energy and moisture intensify precipitation events. Higher baseline temperatures make heatwaves more frequent and severe. The water cycle accelerates, increasing both flood and drought risk."
+  },
+  {
+    "id": "MCQ-FINAL-Y910-038",
+    "domain": "Earth Science",
+    "topic": "Earth and Climate",
+    "difficulty": "Hard",
+    "question": "A student compares the greenhouse warming potential of different gases. Water vapour is the most abundant greenhouse gas but is not the primary driver of current warming. Which of the following correctly explains why CO2 is considered the key driver?",
+    "options": [
+      "CO2 absorbs more infrared radiation than water vapour",
+      "CO2 concentration is controlled by human activities; increasing CO2 acts as a forcing that raises temperature, which then increases water vapour (a feedback) — CO2 is the control knob",
+      "Water vapour has no greenhouse effect",
+      "CO2 is more abundant than water vapour"
+    ],
+    "answerIndex": 1,
+    "explanation": "CO2 is the primary forcing agent because its atmospheric concentration is directly controlled by human emissions. Rising CO2 warms the atmosphere, which increases water vapour (a positive feedback amplifying the warming). Water vapour responds to temperature but does not initiate the warming — CO2 does."
+  }
+]

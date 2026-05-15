@@ -1,0 +1,632 @@
+[
+  {
+    "id": "MCQ-TOPUP-Y910-001",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student compares the rate of diffusion of oxygen across a cell membrane at different temperatures. Rate increases with temperature. Which of the following correctly explains this?",
+    "options": [
+      "Membranes become thicker at higher temperatures",
+      "Higher temperature increases the kinetic energy of oxygen molecules, increasing the rate of random movement and diffusion",
+      "Higher temperature decreases the concentration gradient",
+      "Membranes dissolve at higher temperatures"
+    ],
+    "answerIndex": 1,
+    "explanation": "Diffusion rate increases with temperature because molecules have greater kinetic energy and move faster, increasing the frequency of random collisions with the membrane and the rate of net movement down the concentration gradient."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-002",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of surface area to volume ratio on diffusion. Small cubes of agar (containing indicator) are placed in acid. Smaller cubes change colour throughout faster. Which of the following correctly explains this?",
+    "options": [
+      "Smaller cubes have less surface area",
+      "Smaller cubes have a higher surface area to volume ratio, so diffusion reaches the centre faster",
+      "Smaller cubes contain less indicator",
+      "Larger cubes have faster diffusion rates"
+    ],
+    "answerIndex": 1,
+    "explanation": "As cell size decreases, the surface area to volume ratio increases. A higher SA:V ratio means diffusion distances are shorter and the surface area available for exchange is proportionally greater, allowing faster exchange of substances."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-003",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student observes cells dividing under a microscope. In which phase of mitosis are chromosomes most clearly visible and aligned at the cell equator?",
+    "options": [
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "answerIndex": 1,
+    "explanation": "During metaphase, chromosomes are maximally condensed (most visible) and aligned at the metaphase plate (cell equator) by spindle fibres. This is the phase used for karyotyping."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-004",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of pH on the rate of enzyme-catalysed hydrolysis of starch by amylase. Maximum activity occurs at pH 7. Which of the following correctly explains why activity decreases at pH 4?",
+    "options": [
+      "Substrate concentration decreases at low pH",
+      "Acidic conditions alter the ionic and hydrogen bonds maintaining the enzyme's tertiary structure, changing the shape of the active site",
+      "Temperature increases at low pH",
+      "The substrate denatures at low pH"
+    ],
+    "answerIndex": 1,
+    "explanation": "Enzymes have an optimum pH at which their active site shape is complementary to the substrate. At pH 4, excess H⁺ ions disrupt ionic and hydrogen bonds in the enzyme's tertiary structure, altering the active site shape and reducing enzyme-substrate complementarity."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-005",
+    "domain": "Biology",
+    "topic": "Cell Biology",
+    "difficulty": "Medium",
+    "question": "A student compares the mitochondria content of liver cells and red blood cells. Liver cells have many mitochondria; mature red blood cells have none. Which of the following correctly explains this difference?",
+    "options": [
+      "Red blood cells are larger",
+      "Liver cells carry out many energy-requiring metabolic reactions; mature red blood cells have no nucleus and carry out no aerobic respiration — they rely on anaerobic glycolysis",
+      "Red blood cells photosynthesise",
+      "Liver cells are prokaryotic"
+    ],
+    "answerIndex": 1,
+    "explanation": "Liver cells are metabolically very active (detoxification, protein synthesis, glycogen storage) and require large amounts of ATP. Mature red blood cells lack a nucleus and mitochondria — they produce ATP only by anaerobic glycolysis, maximising space for haemoglobin."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-006",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student analyses a pedigree for an autosomal recessive condition. Two unaffected parents have an affected child. What is the probability that their next child will be affected?",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "75%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Both parents must be carriers (Aa). Aa × Aa gives 1 AA : 2 Aa : 1 aa. Probability of affected (aa) child = 25% for each pregnancy, regardless of previous children."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-007",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student investigates incomplete dominance in snapdragons. Red (RR) × White (WW) gives all pink (RW) offspring. What phenotypic ratio results from crossing two pink plants (RW × RW)?",
+    "options": [
+      "All pink",
+      "1 red : 2 pink : 1 white",
+      "3 pink : 1 white",
+      "1 red : 1 white"
+    ],
+    "answerIndex": 1,
+    "explanation": "RW × RW gives 1 RR (red) : 2 RW (pink) : 1 WW (white). In incomplete dominance, the heterozygote shows an intermediate phenotype, and the F2 ratio is 1:2:1 phenotypic (same as genotypic)."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-008",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student studies a gene with two alleles where both are expressed simultaneously in the heterozygote. A cow with genotype I^A I^B has both red and white hairs. Which term describes this inheritance pattern?",
+    "options": [
+      "Incomplete dominance",
+      "Codominance",
+      "Sex linkage",
+      "Epistasis"
+    ],
+    "answerIndex": 1,
+    "explanation": "Codominance: both alleles are fully expressed simultaneously in the heterozygote. The cow shows both red and white hairs (roan coat) — neither allele is dominant over the other."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-009",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student investigates the inheritance of two genes on different chromosomes. The observed ratio of phenotypes in the F2 generation is 9:3:3:1. Which of the following correctly describes this result?",
+    "options": [
+      "The genes are linked",
+      "The genes assort independently — this is the expected dihybrid ratio for two unlinked genes",
+      "One gene is dominant over the other",
+      "The genes show incomplete dominance"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 9:3:3:1 ratio is the expected result of a dihybrid cross (AaBb × AaBb) when the two genes are on different chromosomes and assort independently, as described by Mendel's law of independent assortment."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-010",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Hard",
+    "question": "A student analyses a karyotype and finds a cell with 47 chromosomes, with three copies of chromosome 21. Which condition does this represent and what is the cause?",
+    "options": [
+      "Turner syndrome; loss of a sex chromosome",
+      "Down syndrome (trisomy 21); non-disjunction during meiosis",
+      "Klinefelter syndrome; extra X chromosome",
+      "Cri du chat syndrome; deletion of chromosome 5"
+    ],
+    "answerIndex": 1,
+    "explanation": "Trisomy 21 (Down syndrome) results from non-disjunction during meiosis — chromosome 21 fails to separate, producing a gamete with two copies. After fertilisation, the zygote has three copies of chromosome 21."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-011",
+    "domain": "Biology",
+    "topic": "Genetics",
+    "difficulty": "Medium",
+    "question": "A student compares the reactivity of chlorine and iodine with hydrogen. Chlorine reacts explosively; iodine reacts slowly and reversibly. Which of the following correctly explains this trend?",
+    "options": [
+      "Iodine has more electrons than chlorine",
+      "Down Group 17, atomic radius increases and the outer shell is further from the nucleus, reducing the ability to attract a shared electron pair — bond formation becomes less favourable",
+      "Chlorine has a higher atomic mass",
+      "Iodine is a solid at room temperature"
+    ],
+    "answerIndex": 1,
+    "explanation": "Down Group 17, the outer shell electrons are further from the nucleus and more shielded. The ability to attract electrons (electronegativity) decreases, making bond formation with hydrogen less energetically favourable and reducing reactivity."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-012",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "A student investigates the flame test colours of Group 1 metals. Lithium gives crimson, sodium gives yellow, potassium gives lilac. Which of the following correctly explains why different metals give different colours?",
+    "options": [
+      "Different metals have different densities",
+      "Each metal has electrons in different energy levels; when excited, electrons emit photons of specific wavelengths (colours) as they return to lower energy levels",
+      "Different metals burn at different temperatures",
+      "The colours are caused by different oxides forming"
+    ],
+    "answerIndex": 1,
+    "explanation": "Flame tests work because heat excites electrons to higher energy levels. As electrons return to lower levels, they emit photons with energy equal to the difference between levels. Each element has unique energy level spacings, producing characteristic emission wavelengths (colours)."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-013",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Medium",
+    "question": "A student compares the melting points of Period 3 elements: Na (98°C), Mg (650°C), Al (660°C), Si (1414°C), P (44°C), S (119°C), Cl (−101°C), Ar (−189°C). Which of the following correctly explains why silicon has the highest melting point?",
+    "options": [
+      "Silicon has the most electrons",
+      "Silicon has a giant covalent structure with strong Si-Si covalent bonds throughout the lattice, requiring enormous energy to break",
+      "Silicon is a metal",
+      "Silicon has the highest atomic mass in Period 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "Silicon has a giant covalent (diamond-like) structure where each Si atom is bonded to four others by strong covalent bonds. Breaking this network requires very high energy. Metals (Na, Mg, Al) have lower melting points due to weaker metallic bonding; non-metals have molecular structures with weak intermolecular forces."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-014",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "A student investigates the reaction of Period 3 metals with water. Sodium reacts vigorously; magnesium reacts very slowly with cold water but faster with steam; aluminium does not react with water under normal conditions. Which of the following correctly explains this trend?",
+    "options": [
+      "Atomic mass increases across the period",
+      "Metallic character and reactivity decrease across Period 3 as nuclear charge increases, making it harder to lose outer electrons",
+      "Melting point increases across the period",
+      "The metals become less dense across the period"
+    ],
+    "answerIndex": 1,
+    "explanation": "Across Period 3, nuclear charge increases while shielding remains similar. This makes it progressively harder to remove outer electrons. Na (1 outer electron, low ionisation energy) is most reactive; Al (3 outer electrons, higher ionisation energy) is least reactive of the three metals."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-015",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Medium",
+    "question": "A student analyses the mass spectrum of a sample of chlorine gas. Two peaks appear at m/z = 35 and 37 in a ratio of approximately 3:1. Which of the following correctly interprets this data?",
+    "options": [
+      "Chlorine exists as two different elements",
+      "Chlorine has two isotopes: ³⁵Cl (75% abundance) and ³⁷Cl (25% abundance)",
+      "The peaks represent different molecules",
+      "Chlorine has two different charges"
+    ],
+    "answerIndex": 1,
+    "explanation": "Mass spectrometry separates ions by mass-to-charge ratio. The two peaks at 35 and 37 represent the two naturally occurring isotopes of chlorine. The 3:1 ratio reflects their relative abundances (75% ³⁵Cl, 25% ³⁷Cl), giving chlorine a relative atomic mass of approximately 35.5."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-016",
+    "domain": "Chemistry",
+    "topic": "Atomic Structure",
+    "difficulty": "Hard",
+    "question": "A student compares the electrical conductivity of molten sodium chloride and solid sodium chloride. Molten NaCl conducts; solid NaCl does not. Which of the following correctly explains this?",
+    "options": [
+      "Solid NaCl has no ions",
+      "In solid NaCl, ions are fixed in the lattice and cannot move; in molten NaCl, ions are free to move and carry charge",
+      "Molten NaCl has more electrons",
+      "Solid NaCl is a covalent compound"
+    ],
+    "answerIndex": 1,
+    "explanation": "Ionic compounds conduct electricity only when ions are free to move. In the solid state, ions are held in fixed positions in the lattice. Melting breaks the lattice, freeing ions to move and carry electrical charge."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-017",
+    "domain": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Medium",
+    "question": "A student investigates the properties of diamond and graphite. Diamond is hard and does not conduct electricity; graphite is soft and conducts electricity. Both are pure carbon. Which of the following correctly explains these differences?",
+    "options": [
+      "Diamond has ionic bonds; graphite has covalent bonds",
+      "In diamond, all four valence electrons form covalent bonds in a rigid 3D lattice; in graphite, three electrons form bonds in layers with one delocalised electron per atom between layers",
+      "Diamond is denser than graphite",
+      "Graphite has a higher melting point than diamond"
+    ],
+    "answerIndex": 1,
+    "explanation": "Diamond: each C forms 4 covalent bonds in a tetrahedral 3D network — very hard, no free electrons (insulator). Graphite: each C forms 3 bonds in hexagonal layers, leaving one delocalised electron per atom — soft (layers slide), good conductor."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-018",
+    "domain": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Hard",
+    "question": "A student compares the boiling points of noble gases: He (−269°C), Ne (−246°C), Ar (−186°C), Kr (−153°C), Xe (−108°C). Which of the following correctly explains the trend?",
+    "options": [
+      "Noble gases form stronger bonds down the group",
+      "Down the group, atomic size and electron count increase, strengthening van der Waals (London dispersion) forces between atoms",
+      "Noble gases become ionic down the group",
+      "The trend is due to increasing nuclear charge only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Van der Waals (London dispersion) forces arise from temporary dipoles caused by electron movement. Larger atoms with more electrons have stronger, more polarisable electron clouds, creating stronger temporary dipoles and greater intermolecular forces — hence higher boiling points."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-019",
+    "domain": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Medium",
+    "question": "A student drops a ball from a tall building and measures its velocity every second. Initially velocity increases by 9.8 m/s each second, but eventually velocity becomes constant. Which of the following correctly explains why velocity becomes constant?",
+    "options": [
+      "Gravity decreases with height",
+      "Air resistance increases with velocity until it equals the gravitational force; net force becomes zero and acceleration stops — terminal velocity is reached",
+      "The ball runs out of energy",
+      "Gravity reverses direction"
+    ],
+    "answerIndex": 1,
+    "explanation": "As velocity increases, air resistance (drag) increases. When drag equals the gravitational force (weight), net force = 0. By Newton's first law, the ball continues at constant velocity — terminal velocity."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-020",
+    "domain": "Chemistry",
+    "topic": "Chemical Bonding",
+    "difficulty": "Hard",
+    "question": "A student investigates the relationship between force and acceleration for a trolley on a frictionless track. Doubling the force doubles the acceleration. Which law does this demonstrate?",
+    "options": [
+      "Newton's first law",
+      "Newton's second law (F = ma): for constant mass, acceleration is directly proportional to net force",
+      "Newton's third law",
+      "Hooke's law"
+    ],
+    "answerIndex": 1,
+    "explanation": "Newton's second law: F = ma. For constant mass, a ∝ F. Doubling the force doubles the acceleration. The gradient of a force-acceleration graph equals the mass of the trolley."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-021",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Medium",
+    "question": "A student calculates the work done pushing a 500 N box 3 m along a horizontal surface against a friction force of 200 N. What is the net work done on the box?",
+    "options": [
+      "1500 J",
+      "900 J",
+      "600 J",
+      "300 J"
+    ],
+    "answerIndex": 2,
+    "explanation": "Net work = net force × distance = (500 - 200) × 3 = 300 × 3 = 900 J. Wait — if the applied force is 500 N and friction is 200 N, net force = 300 N. Net work = 300 × 3 = 900 J."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-022",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Hard",
+    "question": "A student investigates conservation of momentum using two trolleys on a frictionless track. Trolley A (2 kg, 3 m/s) collides with stationary trolley B (1 kg) and they stick together. What is their combined velocity after collision?",
+    "options": [
+      "3 m/s",
+      "2 m/s",
+      "1.5 m/s",
+      "6 m/s"
+    ],
+    "answerIndex": 1,
+    "explanation": "Conservation of momentum: p_before = p_after. 2 × 3 + 1 × 0 = (2+1) × v. 6 = 3v. v = 2 m/s."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-023",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Medium",
+    "question": "A student measures the gravitational potential energy of a 2 kg ball at 5 m height (g = 10 m/s²) and its kinetic energy at the bottom of a ramp. GPE = 100 J; KE = 80 J. Which of the following correctly explains the difference?",
+    "options": [
+      "Energy was created during the fall",
+      "20 J was lost to friction and air resistance (thermal energy)",
+      "The calculation is wrong",
+      "Kinetic energy cannot equal potential energy"
+    ],
+    "answerIndex": 1,
+    "explanation": "Conservation of energy: total energy is conserved but can change form. GPE (100 J) converts to KE + thermal energy. KE = 80 J means 20 J was dissipated as heat through friction and air resistance."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-024",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Hard",
+    "question": "A student investigates pressure in fluids using a U-tube manometer. Increasing the height of liquid on one side increases pressure at the bottom. Which of the following correctly describes the relationship?",
+    "options": [
+      "Pressure is independent of height",
+      "Pressure = ρgh, where ρ is fluid density, g is gravitational field strength and h is height of fluid",
+      "Pressure only depends on the volume of fluid",
+      "Pressure decreases with height of fluid"
+    ],
+    "answerIndex": 1,
+    "explanation": "Fluid pressure at depth h: P = ρgh. Pressure increases linearly with depth (height of fluid above). This explains why deep-sea pressure is enormous and why dams are thicker at the base."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-025",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Medium",
+    "question": "A student measures the I-V characteristic of a filament bulb. The graph is not a straight line — resistance increases at higher currents. Which of the following correctly explains this?",
+    "options": [
+      "The bulb obeys Ohm's law",
+      "As current increases, the filament temperature rises, increasing resistance — the bulb is a non-ohmic component",
+      "The voltage decreases at higher currents",
+      "The bulb has constant resistance"
+    ],
+    "answerIndex": 1,
+    "explanation": "A filament bulb is non-ohmic. As current increases, the tungsten filament heats up. Higher temperature increases the vibration of metal ions, impeding electron flow and increasing resistance. The I-V graph curves, showing resistance is not constant."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-026",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Hard",
+    "question": "A student connects a 9 V battery to two resistors in series: 3 Ω and 6 Ω. What is the voltage across the 6 Ω resistor?",
+    "options": [
+      "3 V",
+      "6 V",
+      "9 V",
+      "4.5 V"
+    ],
+    "answerIndex": 1,
+    "explanation": "Total resistance = 3 + 6 = 9 Ω. Current = V/R = 9/9 = 1 A. Voltage across 6 Ω = IR = 1 × 6 = 6 V. (Voltage divides in proportion to resistance in series.)"
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-027",
+    "domain": "Physics",
+    "topic": "Forces and Motion",
+    "difficulty": "Medium",
+    "question": "A student investigates the charging of a capacitor. The voltage across the capacitor increases rapidly at first then levels off. Which of the following correctly explains this behaviour?",
+    "options": [
+      "The capacitor has constant resistance",
+      "As the capacitor charges, the voltage across it increases, reducing the potential difference driving current flow — charging rate decreases exponentially",
+      "The battery voltage decreases",
+      "The capacitor converts charge to heat"
+    ],
+    "answerIndex": 1,
+    "explanation": "As a capacitor charges, the voltage across it increases. This opposes the battery voltage, reducing the current. As current decreases, the rate of charging slows. The voltage approaches the battery voltage asymptotically."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-028",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Hard",
+    "question": "A student investigates electromagnetic induction. Moving a magnet into a coil produces a current. Which of the following changes would increase the induced EMF?",
+    "options": [
+      "Moving the magnet more slowly",
+      "Using a weaker magnet",
+      "Increasing the number of turns in the coil",
+      "Decreasing the cross-sectional area of the coil"
+    ],
+    "answerIndex": 2,
+    "explanation": "By Faraday's law, induced EMF is proportional to the rate of change of magnetic flux. Increasing the number of turns multiplies the EMF (each turn contributes). Faster movement, stronger magnet and larger coil area also increase EMF."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-029",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Medium",
+    "question": "A student designs an experiment to test whether a new fertiliser increases plant growth. They use 30 plants — 15 with fertiliser, 15 without. All other conditions are identical. After 4 weeks, they measure height. Which of the following correctly identifies the control group?",
+    "options": [
+      "The 15 plants with fertiliser",
+      "The 15 plants without fertiliser",
+      "All 30 plants together",
+      "The measuring equipment"
+    ],
+    "answerIndex": 1,
+    "explanation": "The control group receives no treatment (no fertiliser). It provides a baseline against which the experimental group (with fertiliser) is compared. Any difference in height can then be attributed to the fertiliser."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-030",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Hard",
+    "question": "A student collects data on the relationship between hours of revision and exam score for 30 students. They find a strong positive correlation (r = 0.85). Which of the following is the most appropriate conclusion?",
+    "options": [
+      "More revision causes higher exam scores",
+      "There is a strong positive correlation between revision hours and exam score, but causation cannot be confirmed from correlation alone",
+      "Students who revise more are more intelligent",
+      "The relationship is perfect"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correlation (r = 0.85) indicates a strong positive relationship but does not establish causation. Confounding variables (e.g. student ability, quality of revision) may explain the relationship. Controlled experiments are needed to establish causation."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-031",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Medium",
+    "question": "A student measures the length of a pendulum five times: 49.8, 50.1, 50.0, 49.9 and 50.2 cm. The true length is 50.0 cm. Which of the following correctly describes the measurements?",
+    "options": [
+      "Precise but not accurate",
+      "Accurate but not precise",
+      "Both precise and accurate",
+      "Neither precise nor accurate"
+    ],
+    "answerIndex": 2,
+    "explanation": "The measurements are clustered closely (49.8–50.2 cm) — precise. Their mean = 50.0 cm, which equals the true value — accurate. These measurements are both precise and accurate."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-032",
+    "domain": "Physics",
+    "topic": "Electricity and Magnetism",
+    "difficulty": "Hard",
+    "question": "A student plots a graph of extension (y-axis) against force (x-axis) for a spring. The line of best fit passes through the origin with a gradient of 0.05 m/N. What does the gradient represent?",
+    "options": [
+      "The spring constant",
+      "The reciprocal of the spring constant (compliance)",
+      "The elastic limit",
+      "The maximum extension"
+    ],
+    "answerIndex": 1,
+    "explanation": "The gradient of extension vs force = Δx/ΔF = 1/k (where k is the spring constant). This is the compliance of the spring. Spring constant k = 1/0.05 = 20 N/m."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-033",
+    "domain": "Earth Science",
+    "topic": "Scientific Method",
+    "difficulty": "Medium",
+    "question": "A student investigates whether exercise affects resting heart rate over 8 weeks. They measure heart rate before and after an exercise programme. Which of the following correctly identifies a potential source of systematic error?",
+    "options": [
+      "Random variation between measurements",
+      "The heart rate monitor consistently reading 5 bpm too high due to a calibration error",
+      "The student measuring at different times of day",
+      "Natural variation in heart rate"
+    ],
+    "answerIndex": 1,
+    "explanation": "Systematic error affects all measurements in the same direction by the same amount (e.g. a miscalibrated instrument). A monitor consistently reading 5 bpm too high introduces systematic error — all values are shifted, but the trend is preserved. This differs from random error, which varies unpredictably."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-034",
+    "domain": "Earth Science",
+    "topic": "Scientific Method",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of microplastics on the feeding behaviour of zooplankton. Zooplankton ingest microplastics instead of food, reducing energy intake. Which of the following correctly predicts the ecological consequence?",
+    "options": [
+      "Zooplankton populations increase",
+      "Reduced energy intake decreases zooplankton reproduction and survival, reducing food availability for fish and propagating effects up the food chain",
+      "Microplastics increase zooplankton growth",
+      "Fish populations are unaffected"
+    ],
+    "answerIndex": 1,
+    "explanation": "Microplastics displace food in zooplankton guts, reducing energy intake and reproduction. Declining zooplankton populations reduce food availability for fish (primary consumers), which affects higher trophic levels — a trophic cascade driven by pollution."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-035",
+    "domain": "Earth Science",
+    "topic": "Scientific Method",
+    "difficulty": "Medium",
+    "question": "A student compares the energy efficiency of LED and incandescent bulbs. An LED uses 10 W to produce the same light as a 60 W incandescent. Which of the following correctly calculates the efficiency of the incandescent bulb if it produces 600 lm of useful light output equivalent to 10 W?",
+    "options": [
+      "100%",
+      "16.7%",
+      "60%",
+      "83.3%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Efficiency = useful output / total input × 100 = 10/60 × 100 = 16.7%. The incandescent bulb converts only 16.7% of electrical energy to light; the rest is wasted as heat."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-036",
+    "domain": "Earth Science",
+    "topic": "Scientific Method",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of temperature on the rate of decomposition of leaf litter. Rate increases with temperature up to 35°C then decreases. Which of the following correctly explains the decrease above 35°C?",
+    "options": [
+      "Decomposers run out of leaf litter",
+      "Decomposer enzymes denature above their optimum temperature, reducing metabolic activity",
+      "Temperature has no effect on decomposition",
+      "Leaf litter becomes more resistant at high temperatures"
+    ],
+    "answerIndex": 1,
+    "explanation": "Decomposition is carried out by microorganisms (bacteria, fungi) using enzyme-controlled reactions. Above the optimum temperature (~35°C for soil microorganisms), enzymes denature — their active sites change shape, reducing decomposition rate."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-037",
+    "domain": "Earth Science",
+    "topic": "Scientific Method",
+    "difficulty": "Medium",
+    "question": "A student analyses data showing that countries with higher GDP have lower rates of infectious disease. Which of the following is the most appropriate interpretation?",
+    "options": [
+      "Higher GDP directly prevents infection",
+      "There is a correlation between GDP and infectious disease rates; wealthier countries likely have better healthcare, sanitation and vaccination programmes, but GDP itself does not directly prevent infection",
+      "Poor countries have more pathogens",
+      "The relationship is coincidental"
+    ],
+    "answerIndex": 1,
+    "explanation": "This is a correlation, not direct causation. Higher GDP is associated with better healthcare infrastructure, clean water, sanitation and vaccination coverage — these are the actual mechanisms reducing infectious disease. GDP is a proxy for these factors."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-038",
+    "domain": "Earth Science",
+    "topic": "Interdisciplinary",
+    "difficulty": "Hard",
+    "question": "A student investigates the effect of ocean acidification on the shell thickness of marine snails over 10 years. Shell thickness decreases as pH decreases. Which of the following correctly explains the mechanism?",
+    "options": [
+      "Lower pH increases calcium availability",
+      "Lower pH reduces carbonate ion concentration, making it harder for snails to precipitate calcium carbonate (CaCO₃) for shell formation",
+      "Lower pH increases shell growth",
+      "Snails do not use calcium carbonate"
+    ],
+    "answerIndex": 1,
+    "explanation": "Shell formation requires calcium carbonate (CaCO₃). Ocean acidification reduces carbonate ion (CO₃²⁻) concentration. With less carbonate available, snails cannot maintain shell formation rates, producing thinner shells that are more vulnerable to dissolution and predation."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-039",
+    "domain": "Earth Science",
+    "topic": "Interdisciplinary",
+    "difficulty": "Medium",
+    "question": "A student investigates the relationship between body mass and metabolic rate across mammals. Smaller mammals have higher metabolic rates per unit mass. Which of the following correctly explains this?",
+    "options": [
+      "Smaller mammals eat less food",
+      "Smaller mammals have a higher surface area to volume ratio, losing heat faster and requiring a higher metabolic rate to maintain body temperature",
+      "Larger mammals are more active",
+      "Smaller mammals have fewer mitochondria"
+    ],
+    "answerIndex": 1,
+    "explanation": "Smaller mammals have a higher SA:V ratio, meaning they lose heat to the environment faster relative to their body mass. To maintain constant body temperature (endothermy), they must generate heat at a higher rate per unit mass — requiring a higher mass-specific metabolic rate."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-040",
+    "domain": "Earth Science",
+    "topic": "Interdisciplinary",
+    "difficulty": "Hard",
+    "question": "A student compares the carbon footprint of electricity generated by solar panels versus coal. Solar panels produce approximately 20 g CO₂/kWh over their lifetime; coal produces approximately 820 g CO₂/kWh. Which of the following correctly explains why solar panels have a lower carbon footprint?",
+    "options": [
+      "Solar panels produce no CO₂ at all",
+      "Solar panels produce CO₂ only during manufacture and installation; during operation they generate electricity from sunlight with no combustion and no direct CO₂ emissions",
+      "Coal produces less CO₂ than solar",
+      "Solar panels are less efficient than coal"
+    ],
+    "answerIndex": 1,
+    "explanation": "Solar panels have a lifecycle carbon footprint (manufacturing, transport, installation) but produce no CO₂ during operation. Coal combustion continuously releases CO₂. Over a 25-year lifespan, solar panels' manufacturing emissions are spread across enormous energy output, giving a very low per-kWh footprint."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-041",
+    "domain": "Earth Science",
+    "topic": "Interdisciplinary",
+    "difficulty": "Medium",
+    "question": "A student investigates the effect of nitrogen deposition on plant diversity in grasslands. High nitrogen deposition reduces species diversity. Which of the following correctly explains this?",
+    "options": [
+      "Nitrogen is toxic to all plants",
+      "Nitrogen fertilises fast-growing grasses that outcompete slower-growing wildflowers, reducing species diversity",
+      "Nitrogen reduces photosynthesis",
+      "High nitrogen increases soil pH"
+    ],
+    "answerIndex": 1,
+    "explanation": "Nitrogen deposition acts as a fertiliser, favouring fast-growing, competitive grass species. These grasses grow tall and dense, shading out slower-growing wildflowers and reducing light availability. The result is competitive exclusion of less competitive species, reducing overall plant diversity."
+  },
+  {
+    "id": "MCQ-TOPUP-Y910-042",
+    "domain": "Earth Science",
+    "topic": "Interdisciplinary",
+    "difficulty": "Hard",
+    "question": "A student analyses data from a long-term study showing that average egg-laying dates for a migratory bird have advanced by 10 days over 40 years, correlating with earlier spring temperatures. Which of the following correctly interprets this finding?",
+    "options": [
+      "Birds are laying eggs randomly",
+      "Climate change is causing earlier springs; birds are responding to temperature cues, laying eggs earlier — a phenological shift that may affect synchrony with peak insect food availability",
+      "Birds have evolved to lay fewer eggs",
+      "The data shows no trend"
+    ],
+    "answerIndex": 1,
+    "explanation": "Phenological shifts: many species time breeding to coincide with peak food availability (e.g. caterpillar emergence). As springs warm earlier, birds advance egg-laying. If insect emergence advances faster than bird breeding, a mismatch occurs, reducing chick survival — a key climate change impact on biodiversity."
+  }
+]
