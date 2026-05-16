@@ -1586,7 +1586,8 @@ export const mcqBank1400 = [
       "HIV only infects red blood cells"
     ],
     "answerIndex": 1,
-    "explanation": "HIV has a high mutation rate due to error-prone reverse transcriptase. Single-drug therapy quickly selects for resistant mutants. HAART (Highly Active Antiretroviral Therapy) uses multiple drugs targeting different viral proteins, making it much harder for resistance to develop."
+    "explanation": "HIV has a high mutation rate due to error-prone reverse transcriptase. Single-drug therapy quickly selects for resistant mutants. HAART (Highly Active Antiretroviral Therapy) uses multiple drugs targeting different viral proteins, making it much harder for resistance to develop.",
+    "topic": "General Science"
   },
   {
     "id": "MCQ-CHEM-Y910-001",
@@ -8183,9 +8184,7 @@ export const mcqBank1400 = [
       "The parachute reduces gravity",
       "The parachute greatly increases drag force, so terminal velocity (where drag = weight) is reached at much lower speed",
       "The parachute reduces the skydiver's mass",
-      "The parachute increases gravity",
-      1,
-      "Terminal velocity occurs when drag = weight. The parachute dramatically increases the cross-sectional area and drag coefficient, so drag equals weight at a much lower speed. The skydiver decelerates from 55 m/s to 5 m/s after deployment."
+      "The parachute increases gravity"
     ],
     "answerIndex": 1,
     "explanation": "Terminal velocity occurs when drag = weight. The parachute dramatically increases cross-sectional area and drag coefficient, so drag equals weight at a much lower speed."
