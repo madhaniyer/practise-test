@@ -47,6 +47,8 @@ export function TestRunner({ test }: TestRunnerProps) {
   const [aiLoading, setAiLoading] = useState<Record<string, boolean>>({});
   const [aiError, setAiError] = useState<Record<string, string>>({});
   const [flaggedQuestions, setFlaggedQuestions] = useState<Record<string, boolean>>({});
+  const [aiModelAnswers, setAiModelAnswers] = useState<Record<string, string>>({});
+  const [aiModelAnswerLoading, setAiModelAnswerLoading] = useState<Record<string, boolean>>({});
 
   function toggleFlag(questionId: string) {
     setFlaggedQuestions((prev) => ({ ...prev, [questionId]: !prev[questionId] }));
@@ -131,13 +133,40 @@ export function TestRunner({ test }: TestRunnerProps) {
     }
   }
 
+  const isFallbackModelAnswer = (ma: string | undefined) =>
+    !ma || ma.startsWith("AI-generated model answer:");
+
+  async function fetchAIModelAnswer(question: Question) {
+    if (aiModelAnswers[question.id] || aiModelAnswerLoading[question.id]) return;
+    setAiModelAnswerLoading((prev) => ({ ...prev, [question.id]: true }));
+    try {
+      const res = await fetch("/api/ai/model-answer", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ section: question.section, prompt: question.prompt, rubric: question.rubric }),
+      });
+      const data = await res.json();
+      if (res.ok && data.modelAnswer) {
+        setAiModelAnswers((prev) => ({ ...prev, [question.id]: data.modelAnswer }));
+      }
+    } catch {
+      // silently fall back to placeholder
+    } finally {
+      setAiModelAnswerLoading((prev) => ({ ...prev, [question.id]: false }));
+    }
+  }
+
   const handleCheckAnswer = (question: Question) => {
     setCheckedAnswers((prev) => ({ ...prev, [question.id]: true }));
 
-    if (question.type === "written" && runtimeConfig.feedbackMode === "ai") {
-      const studentAnswer = typeof answers[question.id] === "string" ? String(answers[question.id]) : "";
-      if (studentAnswer.trim()) {
-        fetchAIFeedback(question, studentAnswer);
+    if (question.type === "written") {
+      // If model answer is a fallback placeholder, fetch real one from AI
+      if (isFallbackModelAnswer(question.modelAnswer)) {
+        fetchAIModelAnswer(question);
+      }
+      if (runtimeConfig.feedbackMode === "ai") {
+        const studentAnswer = typeof answers[question.id] === "string" ? String(answers[question.id]) : "";
+        if (studentAnswer.trim()) fetchAIFeedback(question, studentAnswer);
       }
     }
   };
@@ -287,7 +316,14 @@ export function TestRunner({ test }: TestRunnerProps) {
                     </div>
                     <div className="rounded-2xl border border-sky-100 bg-sky-50 p-4">
                       <div className="mb-2 text-sm font-semibold text-sky-700">Top-band model answer</div>
-                      <p className="text-sm leading-7 text-slate-700 whitespace-pre-wrap">{question.modelAnswer}</p>
+                      {aiModelAnswerLoading[question.id] ? (
+                        <p className="text-sm text-slate-500 italic">Generating top-band model answer...</p>
+                      ) : (
+                        <p className="text-sm leading-7 text-slate-700 whitespace-pre-wrap">
+                          {aiModelAnswers[question.id] ||
+                            (isFallbackModelAnswer(question.modelAnswer) ? "" : question.modelAnswer)}
+                        </p>
+                      )}
                       {question.rubric?.length ? (
                         <div className="mt-4 flex flex-wrap gap-2">
                           {question.rubric.map((item) => (
