@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { mockAttempts, mockTests } from "@/lib/tests/mock-data";
+import { mockAttempts, mockStudents, mockTests } from "@/lib/tests/mock-data";
 import { HeaderShell } from "@/components/jmss/shared/header-shell";
 import { FeedbackModeCard } from "@/components/jmss/admin/feedback-mode-card";
 
@@ -13,9 +13,9 @@ export function AdminDashboard() {
       <div className="grid gap-4 md:grid-cols-4">
         {[
           { label: "Released Tests", value: mockTests.filter((t) => t.released).length },
+          { label: "Total Students", value: mockStudents.length },
           { label: "Total Attempts", value: mockAttempts.length },
-          { label: "Average Score", value: "72%" },
-          { label: "Attempt Inspector", value: "Live" },
+          { label: "Average Score", value: `${Math.round(mockAttempts.reduce((s,a)=>s+a.score,0)/Math.max(mockAttempts.length,1))}%` },
         ].map((item) => (
           <div key={item.label} className="card-shell p-5">
             <div className="text-sm text-slate-500">{item.label}</div>
@@ -25,6 +25,37 @@ export function AdminDashboard() {
       </div>
 
       <div className="grid gap-6 xl:grid-cols-[1fr_1fr]">
+        <section className="card-shell p-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-xl font-semibold text-slate-900">Student Performance</h2>
+              <p className="mt-1 text-sm text-slate-600">Search students, view score trends and per-student dashboards.</p>
+            </div>
+            <Link href={"/admin/students" as any} className="rounded-2xl bg-slate-900 px-4 py-2 text-sm font-medium text-white">View students</Link>
+          </div>
+          <div className="mt-4 space-y-3">
+            {mockStudents.map((s) => {
+              const attempts = mockAttempts.filter((a) => a.studentId === s.id);
+              const avg = attempts.length ? Math.round(attempts.reduce((sum, a) => sum + a.score, 0) / attempts.length) : null;
+              return (
+                <Link key={s.id} href={`/admin/students/${s.id}` as any} className="flex items-center justify-between rounded-3xl border border-slate-100 bg-slate-50/80 p-4 hover:border-slate-300 hover:bg-white">
+                  <div>
+                    <div className="font-semibold text-slate-900">{s.name}</div>
+                    <div className="text-xs text-slate-500">{attempts.length} attempt{attempts.length !== 1 ? "s" : ""}</div>
+                  </div>
+                  {avg !== null && (
+                    <span className={`rounded-full px-3 py-1 text-sm font-semibold ${
+                      avg >= 85 ? "bg-emerald-100 text-emerald-700" :
+                      avg >= 70 ? "bg-amber-100 text-amber-700" :
+                      "bg-rose-100 text-rose-700"
+                    }`}>{avg}%</span>
+                  )}
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+
         <section className="card-shell p-6">
           <div className="flex items-center justify-between">
             <div>
